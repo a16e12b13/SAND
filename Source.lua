@@ -19,7 +19,6 @@ local Whitelist = {
 local playerName = string.lower(LocalPlayer.Name)
 
 if not Whitelist[playerName] then
-	-- Ventana de "No tienes permiso"
 	local DenyGui = Instance.new("ScreenGui")
 	DenyGui.Name = "NoPermissionUI"
 	DenyGui.ResetOnSpawn = false
@@ -51,7 +50,7 @@ if not Whitelist[playerName] then
 	WarningText.TextWrapped = true
 	WarningText.Parent = BlackFrame
 
-	return -- Detiene el resto del script
+	return
 end
 -- =================================
 
@@ -77,7 +76,6 @@ PinkBlur.BackgroundTransparency = 0.82
 PinkBlur.BorderSizePixel = 0
 PinkBlur.Parent = KeyGui
 
--- Ventana KEY
 local KeyFrame = Instance.new("Frame")
 KeyFrame.Size = UDim2.new(0, 380, 0, 240)
 KeyFrame.Position = UDim2.new(0.5, -190, 0.5, -120)
@@ -128,7 +126,6 @@ KeyStatus.TextSize = 13
 KeyStatus.Font = Enum.Font.Gotham
 KeyStatus.Parent = KeyFrame
 
--- Botón Verificar más pequeño y rosa
 local SubmitBtn = Instance.new("TextButton")
 SubmitBtn.Size = UDim2.new(0, 90, 0, 24)
 SubmitBtn.Position = UDim2.new(0.5, -45, 1, -38)
@@ -184,44 +181,49 @@ local function loadMainMenu()
 		Color3.fromRGB(176, 224, 230), Color3.fromRGB(255, 192, 203),
 	}
 
-	-- ========== TRAIL COLOR SYSTEM (más de 20 colores) ==========
+	-- ========== TRAIL COLOR SYSTEM ==========
 	local TrailColors = {
-		Color3.fromRGB(255, 105, 180), -- Hot Pink
-		Color3.fromRGB(255, 20, 147),  -- Deep Pink
-		Color3.fromRGB(255, 182, 193), -- Light Pink
-		Color3.fromRGB(255, 0, 255),   -- Magenta
-		Color3.fromRGB(186, 85, 211),  -- Medium Orchid
-		Color3.fromRGB(138, 43, 226),  -- Blue Violet
-		Color3.fromRGB(75, 0, 130),    -- Indigo
-		Color3.fromRGB(0, 191, 255),   -- Deep Sky Blue
-		Color3.fromRGB(30, 144, 255),  -- Dodger Blue
-		Color3.fromRGB(0, 255, 255),   -- Cyan
-		Color3.fromRGB(64, 224, 208),  -- Turquoise
-		Color3.fromRGB(0, 255, 127),   -- Spring Green
-		Color3.fromRGB(50, 205, 50),   -- Lime Green
-		Color3.fromRGB(154, 205, 50),  -- Yellow Green
-		Color3.fromRGB(255, 255, 0),   -- Yellow
-		Color3.fromRGB(255, 215, 0),   -- Gold
-		Color3.fromRGB(255, 165, 0),   -- Orange
-		Color3.fromRGB(255, 140, 0),   -- Dark Orange
-		Color3.fromRGB(255, 69, 0),    -- Orange Red
-		Color3.fromRGB(255, 0, 0),     -- Red
-		Color3.fromRGB(220, 20, 60),   -- Crimson
-		Color3.fromRGB(255, 99, 71),   -- Tomato
-		Color3.fromRGB(240, 128, 128), -- Light Coral
-		Color3.fromRGB(255, 192, 203), -- Pink
-		Color3.fromRGB(255, 228, 225), -- Misty Rose
-		Color3.fromRGB(255, 250, 205), -- Lemon Chiffon
-		Color3.fromRGB(230, 230, 250), -- Lavender
-		Color3.fromRGB(176, 196, 222), -- Light Steel Blue
-		Color3.fromRGB(135, 206, 250), -- Light Sky Blue
-		Color3.fromRGB(127, 255, 212), -- Aquamarine
+		Color3.fromRGB(255, 105, 180), Color3.fromRGB(255, 20, 147),
+		Color3.fromRGB(255, 182, 193), Color3.fromRGB(255, 0, 255),
+		Color3.fromRGB(186, 85, 211), Color3.fromRGB(138, 43, 226),
+		Color3.fromRGB(75, 0, 130), Color3.fromRGB(0, 191, 255),
+		Color3.fromRGB(30, 144, 255), Color3.fromRGB(0, 255, 255),
+		Color3.fromRGB(64, 224, 208), Color3.fromRGB(0, 255, 127),
+		Color3.fromRGB(50, 205, 50), Color3.fromRGB(154, 205, 50),
+		Color3.fromRGB(255, 255, 0), Color3.fromRGB(255, 215, 0),
+		Color3.fromRGB(255, 165, 0), Color3.fromRGB(255, 140, 0),
+		Color3.fromRGB(255, 69, 0), Color3.fromRGB(255, 0, 0),
+		Color3.fromRGB(220, 20, 60), Color3.fromRGB(255, 99, 71),
+		Color3.fromRGB(240, 128, 128), Color3.fromRGB(255, 192, 203),
+		Color3.fromRGB(255, 228, 225), Color3.fromRGB(255, 250, 205),
+		Color3.fromRGB(230, 230, 250), Color3.fromRGB(176, 196, 222),
+		Color3.fromRGB(135, 206, 250), Color3.fromRGB(127, 255, 212),
 	}
 
 	local currentTrailColorIndex = 1
 	local currentTrailColor = TrailColors[1]
+	local trailEnabled = true
+
+	local function clearAllTrails()
+		local char = LocalPlayer.Character
+		if not char then return end
+		for _, tool in ipairs(char:GetChildren()) do
+			if tool:IsA("Tool") then
+				local handle = tool:FindFirstChild("Handle")
+				if handle then
+					local trail = handle:FindFirstChild("BrushTrail")
+					if trail then trail:Destroy() end
+					local att0 = handle:FindFirstChild("TrailAtt0")
+					if att0 then att0:Destroy() end
+					local att1 = handle:FindFirstChild("TrailAtt1")
+					if att1 then att1:Destroy() end
+				end
+			end
+		end
+	end
 
 	local function updateAllExistingTrails()
+		if not trailEnabled then return end
 		local char = LocalPlayer.Character
 		if not char then return end
 		for _, tool in ipairs(char:GetChildren()) do
@@ -238,11 +240,11 @@ local function loadMainMenu()
 	end
 
 	local function setupToolTrail(tool)
+		if not trailEnabled then return end
 		if not tool:IsA("Tool") then return end
 		local handle = tool:FindFirstChild("Handle")
 		if not handle then return end
 
-		-- Limpiar trail anterior
 		local oldTrail = handle:FindFirstChild("BrushTrail")
 		if oldTrail then oldTrail:Destroy() end
 		local oldAtt0 = handle:FindFirstChild("TrailAtt0")
@@ -282,14 +284,12 @@ local function loadMainMenu()
 	end
 
 	local function onCharacterAdded(char)
-		-- Tools que ya están
 		for _, child in ipairs(char:GetChildren()) do
 			if child:IsA("Tool") then
 				setupToolTrail(child)
 			end
 		end
 
-		-- Tools nuevas
 		char.ChildAdded:Connect(function(child)
 			if child:IsA("Tool") then
 				setupToolTrail(child)
@@ -304,24 +304,26 @@ local function loadMainMenu()
 		onCharacterAdded(LocalPlayer.Character)
 	end
 	LocalPlayer.CharacterAdded:Connect(onCharacterAdded)
-	-- ========================================================
+	-- ========================================
 
+	-- ========== BOTÓN FLOTANTE: CUADRADO CON BORDES REDONDEADOS + MARGEN DELGADA ==========
 	local ButtonHolder = Instance.new("Frame")
-	ButtonHolder.Size = UDim2.new(0, 66, 0, 66)
-	ButtonHolder.Position = UDim2.new(0, 16, 0.5, -33)
+	ButtonHolder.Size = UDim2.new(0, 44, 0, 44)              -- cuadrado y más delgado
+	ButtonHolder.Position = UDim2.new(0, 6, 0.5, -22)        -- pegado al borde
 	ButtonHolder.BackgroundColor3 = Color3.fromRGB(255, 182, 193)
 	ButtonHolder.BackgroundTransparency = 0
 	ButtonHolder.BorderSizePixel = 0
 	ButtonHolder.Parent = ScreenGui
-	Instance.new("UICorner", ButtonHolder).CornerRadius = UDim.new(0, 18)
+	Instance.new("UICorner", ButtonHolder).CornerRadius = UDim.new(0, 12) -- bordes redondeados (no circular)
 
 	local ToggleButton = Instance.new("ImageButton")
-	ToggleButton.Size = UDim2.new(0, 58, 0, 58)
-	ToggleButton.Position = UDim2.new(0.5, -29, 0.5, -29)
+	ToggleButton.Size = UDim2.new(0, 38, 0, 38)              -- margen más delgadita
+	ToggleButton.Position = UDim2.new(0.5, -19, 0.5, -19)
 	ToggleButton.BackgroundTransparency = 1
 	ToggleButton.Image = "rbxassetid://130606787845000"
 	ToggleButton.Parent = ButtonHolder
-	Instance.new("UICorner", ToggleButton).CornerRadius = UDim.new(0, 16)
+	Instance.new("UICorner", ToggleButton).CornerRadius = UDim.new(0, 12) -- mismo redondeado
+	-- =====================================================================================
 
 	local MainFrame = Instance.new("Frame")
 	MainFrame.Size = UDim2.new(0, 520, 0, 340)
@@ -385,7 +387,6 @@ local function loadMainMenu()
 		return btn
 	end
 
-	-- Botón especial Kay con texto debajo
 	local function createKayButton()
 		local container = Instance.new("Frame")
 		container.Size = UDim2.new(0, 240, 0, 48)
@@ -435,8 +436,9 @@ local function loadMainMenu()
 	local BtnAnimations = createButton("animations")
 	local BtnBombDevy = createButton("bomb devy")
 
-	-- Nuevas opciones
 	local BtnTrailColor = createButton("trail color")
+	local BtnRemoveTrail = createButton("remove trail")
+
 	local BtnOldQuality = createButton("Old quality 2023")
 	local BtnRecolorGun = createButton("recolor gun")
 	local BtnChiftPC = createButton("chift for PC")
@@ -500,10 +502,7 @@ local function loadMainMenu()
 	connectWithSound(BtnSpeed, function() loadstring(game:HttpGet("https://pastefy.app/Vae7BYnm/raw"))() end)
 	connectWithSound(BtnAntifling, function() loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-anti-fling-script-241540"))() end)
 	connectWithSound(BtnHeadless, function() loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Roblox-Headless-(NO-LAG)-229602"))() end)
-	
-	-- Korblox actualizado
 	connectWithSound(BtnKorblox, function() loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Pinokio-Hub-Korblox-Vis-No-key-239663"))() end)
-	
 	connectWithSound(BtnChift, function() loadstring(game:HttpGet("https://pastefy.app/MVCzsHvt/raw"))() end)
 	connectWithSound(BtnCarpet, function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Open-Source-227632"))() end)
 	connectWithSound(BtnNoReload, function() loadstring(game:HttpGet("https://pastefy.app/FjGMnobt/raw"))() end)
@@ -514,9 +513,9 @@ local function loadMainMenu()
 	connectWithSound(BtnAnimations, function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-GAE-SIMPLIFIED-27193"))() end)
 	connectWithSound(BtnBombDevy, function() loadstring(game:HttpGet("https://pastefy.app/IHNfoa6j/raw"))() end)
 
-	-- ===== NUEVAS OPCIONES =====
-	-- Trail Color (cicla color cada vez que se aprieta)
+	-- Trail Color
 	connectWithSound(BtnTrailColor, function()
+		trailEnabled = true
 		currentTrailColorIndex = currentTrailColorIndex + 1
 		if currentTrailColorIndex > #TrailColors then
 			currentTrailColorIndex = 1
@@ -524,12 +523,32 @@ local function loadMainMenu()
 		currentTrailColor = TrailColors[currentTrailColorIndex]
 		updateAllExistingTrails()
 
-		-- Feedback visual en el botón
+		local char = LocalPlayer.Character
+		if char then
+			for _, tool in ipairs(char:GetChildren()) do
+				if tool:IsA("Tool") then
+					setupToolTrail(tool)
+				end
+			end
+		end
+
 		BtnTrailColor.BackgroundColor3 = currentTrailColor
 		BtnTrailColor.Text = "trail color [" .. currentTrailColorIndex .. "]"
 		task.delay(1.2, function()
 			if BtnTrailColor and BtnTrailColor.Parent then
 				BtnTrailColor.Text = "trail color"
+			end
+		end)
+	end)
+
+	-- Remove Trail
+	connectWithSound(BtnRemoveTrail, function()
+		trailEnabled = false
+		clearAllTrails()
+		BtnRemoveTrail.Text = "removed!"
+		task.delay(1.1, function()
+			if BtnRemoveTrail and BtnRemoveTrail.Parent then
+				BtnRemoveTrail.Text = "remove trail"
 			end
 		end)
 	end)
