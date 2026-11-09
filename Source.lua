@@ -306,24 +306,24 @@ local function loadMainMenu()
 	LocalPlayer.CharacterAdded:Connect(onCharacterAdded)
 	-- ========================================
 
-	-- ========== BOTÓN FLOTANTE: CUADRADO CON BORDES REDONDEADOS + MARGEN DELGADA ==========
+	-- ========== BOTÓN FLOTANTE MÁS GRANDE (cuadrado + bordes redondeados + margen delgada) ==========
 	local ButtonHolder = Instance.new("Frame")
-	ButtonHolder.Size = UDim2.new(0, 44, 0, 44)              -- cuadrado y más delgado
-	ButtonHolder.Position = UDim2.new(0, 6, 0.5, -22)        -- pegado al borde
+	ButtonHolder.Size = UDim2.new(0, 58, 0, 58)              -- más grande
+	ButtonHolder.Position = UDim2.new(0, 6, 0.5, -29)
 	ButtonHolder.BackgroundColor3 = Color3.fromRGB(255, 182, 193)
 	ButtonHolder.BackgroundTransparency = 0
 	ButtonHolder.BorderSizePixel = 0
 	ButtonHolder.Parent = ScreenGui
-	Instance.new("UICorner", ButtonHolder).CornerRadius = UDim.new(0, 12) -- bordes redondeados (no circular)
+	Instance.new("UICorner", ButtonHolder).CornerRadius = UDim.new(0, 14) -- bordes redondeados
 
 	local ToggleButton = Instance.new("ImageButton")
-	ToggleButton.Size = UDim2.new(0, 38, 0, 38)              -- margen más delgadita
-	ToggleButton.Position = UDim2.new(0.5, -19, 0.5, -19)
+	ToggleButton.Size = UDim2.new(0, 50, 0, 50)              -- margen delgada
+	ToggleButton.Position = UDim2.new(0.5, -25, 0.5, -25)
 	ToggleButton.BackgroundTransparency = 1
 	ToggleButton.Image = "rbxassetid://130606787845000"
 	ToggleButton.Parent = ButtonHolder
-	Instance.new("UICorner", ToggleButton).CornerRadius = UDim.new(0, 12) -- mismo redondeado
-	-- =====================================================================================
+	Instance.new("UICorner", ToggleButton).CornerRadius = UDim.new(0, 14)
+	-- ==============================================================================================
 
 	local MainFrame = Instance.new("Frame")
 	MainFrame.Size = UDim2.new(0, 520, 0, 340)
@@ -443,6 +443,9 @@ local function loadMainMenu()
 	local BtnRecolorGun = createButton("recolor gun")
 	local BtnChiftPC = createButton("chift for PC")
 	local BtnKay = createKayButton()
+
+	-- Nueva opción
+	local BtnRecolorBomb = createButton("Recolor of the bomb")
 
 	local function applyPastelToAll()
 		for _, btn in ipairs(AllOptionButtons) do
@@ -568,6 +571,36 @@ local function loadMainMenu()
 	connectWithSound(BtnKay, function()
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/kaywxzstumblr/334ff80c087bf16b05e9485a13c8ce96/raw/d02ea328497c72dc896d56b4a90036cf1822be06/gistfile1.txt", true))()
 	end)
+
+	-- ========== RECOLOR OF THE BOMB (script de chiclao1) ==========
+	connectWithSound(BtnRecolorBomb, function()
+		-- BOMB COLOUR CHANGER BY CHICLAO1
+		local sg,lp,rl,cl,hl=Instance.new("ScreenGui",game.CoreGui),game.Players.LocalPlayer,nil,nil,0
+		local mf,tb,mi=Instance.new("Frame",sg),Instance.new("Frame"),Instance.new("TextButton",sg)
+		local function c(o,r)Instance.new("UICorner",o).CornerRadius=UDim.new(0,r)end
+		mf.Size,mf.Position,mf.BackgroundColor3=UDim2.new(0,500,0,300),UDim2.new(0.5,-250,0.5,-150),Color3.fromRGB(20,20,25)c(mf,10)
+		tb.Size,tb.BackgroundColor3,tb.Parent=UDim2.new(1,0,0,35),Color3.fromRGB(30,30,35),mf
+		local tl=Instance.new("TextLabel",tb)tl.Size,tl.Text,tl.TextColor3,tl.Font,tl.TextSize,tl.BackgroundTransparency=UDim2.new(1,-80,1,0),"=bomb colour changer by chiclao1=",Color3.new(1,1,1),"GothamBold",14,1
+		local d,s,p tb.InputBegan:Connect(function(i)if i.UserInputType==Enum.UserInputType.MouseButton1 then d,s,p=true,i.Position,mf.Position end end)
+		game:GetService("UserInputService").InputChanged:Connect(function(i)if d and i.UserInputType==Enum.UserInputType.MouseMovement then local o=i.Position-s mf.Position=UDim2.new(p.X.Scale,p.X.Offset+o.X,p.Y.Scale,p.Y.Offset+o.Y)end end)
+		game:GetService("UserInputService").InputEnded:Connect(function(i)if i.UserInputType==Enum.UserInputType.MouseButton1 then d=false end end)
+		local m,cBtn=Instance.new("TextButton",tb),Instance.new("TextButton",tb)
+		m.Size,m.Position,m.Text,m.TextColor3,m.BackgroundColor3=UDim2.new(0,22,0,22),UDim2.new(1,-55,0,6),"-",Color3.new(1,1,1),Color3.fromRGB(50,50,55)c(m,5)
+		cBtn.Size,cBtn.Position,cBtn.Text,cBtn.TextColor3,cBtn.BackgroundColor3=UDim2.new(0,22,0,22),UDim2.new(1,-27,0,6),"X",Color3.new(1,1,1),Color3.fromRGB(200,50,50)c(cBtn,5)
+		mi.Size,mi.Position,mi.BackgroundColor3,mi.Text,mi.TextColor3,mi.Font,mi.TextSize,mi.Visible=UDim2.new(0,160,0,45),UDim2.new(0,20,1,-65),Color3.fromRGB(128,0,128),"DELTA-XENO.",Color3.new(1,1,1),"GothamBlack",18,false c(mi,10)
+		cBtn.MouseButton1Click:Connect(function()sg:Destroy()end)m.MouseButton1Click:Connect(function()mf.Visible,mi.Visible=false,true end)mi.MouseButton1Click:Connect(function()mf.Visible,mi.Visible=true,false end)
+		local function sec(t,ps)local f=Instance.new("Frame",mf)f.Size,f.Position,f.BackgroundTransparency=UDim2.new(0.5,-15,1,-55),ps,1 local lbl=Instance.new("TextLabel",f)lbl.Size,lbl.Text,lbl.TextColor3,lbl.Font,lbl.TextSize,lbl.BackgroundTransparency=UDim2.new(1,0,0,20),t,Color3.fromRGB(200,200,200),"GothamBold",12,1 local scr=Instance.new("ScrollingFrame",f)scr.Size,scr.Position,scr.BackgroundTransparency,scr.CanvasSize,scr.ScrollBarThickness=UDim2.new(1,0,1,-25),UDim2.new(0,0,0,25),1,UDim2.new(0,0,0,300),2 Instance.new("UIGridLayout",scr)return scr end
+		local colS,effS=sec("BOMB COLOUR",UDim2.new(0,10,0,45)),sec("CHANGE EFFECTS",UDim2.new(0.5,5,0,45))colS.UIGridLayout.CellSize,colS.UIGridLayout.CellPadding=UDim2.new(0,65,0,30),UDim2.new(0,8,0,8)effS.UIGridLayout.CellSize=UDim2.new(1,-5,0,35)
+		local sC,sE local function up(x,v)if x:IsA("BasePart")then x.Color=v x.Material=Enum.Material.SmoothPlastic if x:IsA("MeshPart")then x.TextureID="" end elseif x:IsA("SpecialMesh")then x.TextureId="" end end
+		local function apply()for _,ui in pairs({lp:FindFirstChild("Backpack"),lp.Character})do if ui then for _,b in pairs(ui:GetChildren())do if b:IsA("Tool")and(b.Name:lower():find("bomb")or b.Name:lower():find("c4")or b.Name:lower():find("gold"))then
+		if sC then if cl then cl:Disconnect() end if sC=="RGB" then cl=game:GetService("RunService").Heartbeat:Connect(function()hl=(hl+0.01)%1 for _,x in pairs(b:GetDescendants())do up(x,Color3.fromHSV(hl,1,1))end end)else for _,x in pairs(b:GetDescendants())do up(x,sC)end end end
+		if sE then for _,e in pairs(b:GetDescendants())do if e.Name=="ChiclaoEff" then e:Destroy() end end local h=b:FindFirstChild("Handle")or b:FindFirstChildWhichIsA("BasePart")if h then local sp=Instance.new("Sparkles",h)sp.Name="ChiclaoEff" if sE=="Rainbow" then if rl then rl:Disconnect() end local eh=0 rl=game:GetService("RunService").Heartbeat:Connect(function()if sp and sp.Parent then eh=(eh+0.01)%1 sp.SparkleColor=Color3.fromHSV(eh,1,1)else rl:Disconnect() end end)else if rl then rl:Disconnect() end sp.SparkleColor=(sE=="Pink" and Color3.fromRGB(255,105,180))or(sE=="Blue" and Color3.fromRGB(0,191,255))or Color3.fromRGB(128,128,128)end end end end end end end end
+		local function lst(ch)if ch then ch.ChildAdded:Connect(function(t)if t:IsA("Tool")then task.wait(0.1)apply()end end)end end lp.CharacterAdded:Connect(lst)lst(lp.Character)lp:WaitForChild("Backpack").ChildAdded:Connect(function()task.wait(0.1)apply()end)
+		local rb=Instance.new("TextButton",colS)rb.Text,rb.TextColor3,rb.Font,rb.TextSize="RGB",Color3.new(1,1,1),"GothamBold",12 Instance.new("UIGradient",rb).Color=ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.new(1,0,0)),ColorSequenceKeypoint.new(0.5,Color3.new(0,1,0)),ColorSequenceKeypoint.new(1,Color3.new(0,0,1))}c(rb,4)rb.MouseButton1Click:Connect(function()sC="RGB" apply()end)
+		for _,v in pairs({{"Red",255,50,50},{"Orange",255,128,0},{"Yellow",255,220,50},{"Green",50,220,50},{"Blue",0,160,255},{"DarkBlue",0,35,160},{"Purple",140,50,255},{"Pink",255,105,180},{"Black",15,15,15},{"White",245,245,245}})do local b=Instance.new("TextButton",colS)b.BackgroundColor3,b.Text=Color3.fromRGB(v[2],v[3],v[4]),""c(b,4)b.MouseButton1Click:Connect(function()sC=b.BackgroundColor3 apply()end)end
+		for _,v in pairs({"Rainbow","Pink","Blue","Gray"})do local b=Instance.new("TextButton",effS)b.BackgroundColor3,b.Text,b.TextColor3,b.Font,b.TextSize=Color3.fromRGB(40,40,48),v.." Sparkling",Color3.new(0.9,0.9,0.9),"GothamMedium",12 c(b,5)b.MouseButton1Click:Connect(function()sE=v apply()end)end
+	end)
+	-- ================================================================
 
 	local isOpen, isAnimating = false, false
 
