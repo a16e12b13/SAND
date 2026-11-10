@@ -11,6 +11,7 @@ local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
 -- ========== LISTA BLANCA (insensible a mayúsculas) ==========
 local Whitelist = {
+	["a16e12b13"] = true,
 	["A16E12b13"] = true,
 	["cotercitoponytown"] = true,
 	["james12337936"] = true
