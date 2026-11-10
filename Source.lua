@@ -11,7 +11,7 @@ local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
 -- ========== LISTA BLANCA (insensible a mayúsculas) ==========
 local Whitelist = {
-	["juguemoos3"] = true,
+	["a16e12b13"] = true,
 	["cotercitoponytown"] = true,
 	["james12337936"] = true
 }
@@ -306,24 +306,24 @@ local function loadMainMenu()
 	LocalPlayer.CharacterAdded:Connect(onCharacterAdded)
 	-- ========================================
 
-	-- ========== BOTÓN FLOTANTE MÁS GRANDE (cuadrado + bordes redondeados + margen delgada) ==========
+	-- ========== BOTÓN FLOTANTE (más grandesito + margen bien delgada) ==========
 	local ButtonHolder = Instance.new("Frame")
-	ButtonHolder.Size = UDim2.new(0, 58, 0, 58)              -- más grande
-	ButtonHolder.Position = UDim2.new(0, 6, 0.5, -29)
+	ButtonHolder.Size = UDim2.new(0, 70, 0, 70)              -- más grandesito
+	ButtonHolder.Position = UDim2.new(0, 6, 0.5, -35)
 	ButtonHolder.BackgroundColor3 = Color3.fromRGB(255, 182, 193)
 	ButtonHolder.BackgroundTransparency = 0
 	ButtonHolder.BorderSizePixel = 0
 	ButtonHolder.Parent = ScreenGui
-	Instance.new("UICorner", ButtonHolder).CornerRadius = UDim.new(0, 14) -- bordes redondeados
+	Instance.new("UICorner", ButtonHolder).CornerRadius = UDim.new(0, 16)
 
 	local ToggleButton = Instance.new("ImageButton")
-	ToggleButton.Size = UDim2.new(0, 50, 0, 50)              -- margen delgada
-	ToggleButton.Position = UDim2.new(0.5, -25, 0.5, -25)
+	ToggleButton.Size = UDim2.new(0, 66, 0, 66)              -- margen muy delgada (2px)
+	ToggleButton.Position = UDim2.new(0.5, -33, 0.5, -33)
 	ToggleButton.BackgroundTransparency = 1
 	ToggleButton.Image = "rbxassetid://130606787845000"
 	ToggleButton.Parent = ButtonHolder
 	Instance.new("UICorner", ToggleButton).CornerRadius = UDim.new(0, 14)
-	-- ==============================================================================================
+	-- ==================================================================================
 
 	local MainFrame = Instance.new("Frame")
 	MainFrame.Size = UDim2.new(0, 520, 0, 340)
@@ -444,7 +444,6 @@ local function loadMainMenu()
 	local BtnChiftPC = createButton("chift for PC")
 	local BtnKay = createKayButton()
 
-	-- Nueva opción
 	local BtnRecolorBomb = createButton("Recolor of the bomb")
 
 	local function applyPastelToAll()
