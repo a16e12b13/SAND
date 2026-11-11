@@ -448,10 +448,7 @@ local function loadMainMenu()
 	local BtnKay = createKayButton()
 
 	local BtnRecolorBomb = createButton("Recolor of the bomb")
-
-	-- Backgrounds
-	local BtnHelloKitty1 = createButton("hello kitty 1")
-	local BtnHelloKitty2 = createButton("hello kitty 2")
+	local BtnFireHead = createButton("fire head")
 
 	local function applyPastelToAll()
 		for _, btn in ipairs(AllOptionButtons) do
@@ -603,15 +600,8 @@ local function loadMainMenu()
 		for _,v in pairs({"Rainbow","Pink","Blue","Gray"})do local b=Instance.new("TextButton",effS)b.BackgroundColor3,b.Text,b.TextColor3,b.Font,b.TextSize=Color3.fromRGB(40,40,48),v.." Sparkling",Color3.new(0.9,0.9,0.9),"GothamMedium",12 c(b,5)b.MouseButton1Click:Connect(function()sE=v apply()end)end
 	end)
 
-	-- Backgrounds
-	connectWithSound(BtnHelloKitty1, function()
-		Background.Image = "rbxassetid://79290891919211"
-		Background.ScaleType = Enum.ScaleType.Stretch
-	end)
-
-	connectWithSound(BtnHelloKitty2, function()
-		Background.Image = "rbxassetid://137509658941501"
-		Background.ScaleType = Enum.ScaleType.Stretch
+	connectWithSound(BtnFireHead, function()
+		loadstring(game:HttpGet("https://pastefy.app/IAWbLQ58/raw"))()
 	end)
 
 	local isOpen, isAnimating = false, false
