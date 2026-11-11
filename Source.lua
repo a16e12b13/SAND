@@ -11,8 +11,10 @@ local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
 -- ========== LISTA BLANCA (insensible a mayúsculas) ==========
 local Whitelist = {
-	["A92E08B"] = true,
+	["a16e12b13"] = true,
 	["A16E12b13"] = true,
+	["a92e08b"] = true,
+	["A92E08B"] = true,
 	["cotercitoponytown"] = true,
 	["james12337936"] = true
 }
@@ -309,7 +311,7 @@ local function loadMainMenu()
 
 	-- ========== BOTÓN FLOTANTE (más grandesito + margen bien delgada) ==========
 	local ButtonHolder = Instance.new("Frame")
-	ButtonHolder.Size = UDim2.new(0, 70, 0, 70)              -- más grandesito
+	ButtonHolder.Size = UDim2.new(0, 70, 0, 70)
 	ButtonHolder.Position = UDim2.new(0, 6, 0.5, -35)
 	ButtonHolder.BackgroundColor3 = Color3.fromRGB(255, 182, 193)
 	ButtonHolder.BackgroundTransparency = 0
@@ -318,7 +320,7 @@ local function loadMainMenu()
 	Instance.new("UICorner", ButtonHolder).CornerRadius = UDim.new(0, 16)
 
 	local ToggleButton = Instance.new("ImageButton")
-	ToggleButton.Size = UDim2.new(0, 66, 0, 66)              -- margen muy delgada (2px)
+	ToggleButton.Size = UDim2.new(0, 66, 0, 66)
 	ToggleButton.Position = UDim2.new(0.5, -33, 0.5, -33)
 	ToggleButton.BackgroundTransparency = 1
 	ToggleButton.Image = "rbxassetid://130606787845000"
