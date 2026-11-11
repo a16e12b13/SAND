@@ -309,7 +309,7 @@ local function loadMainMenu()
 	LocalPlayer.CharacterAdded:Connect(onCharacterAdded)
 	-- ========================================
 
-	-- ========== BOTÓN FLOTANTE (más grandesito + margen bien delgada) ==========
+	-- ========== BOTÓN FLOTANTE ==========
 	local ButtonHolder = Instance.new("Frame")
 	ButtonHolder.Size = UDim2.new(0, 70, 0, 70)
 	ButtonHolder.Position = UDim2.new(0, 6, 0.5, -35)
@@ -326,7 +326,7 @@ local function loadMainMenu()
 	ToggleButton.Image = "rbxassetid://130606787845000"
 	ToggleButton.Parent = ButtonHolder
 	Instance.new("UICorner", ToggleButton).CornerRadius = UDim.new(0, 14)
-	-- ==================================================================================
+	-- ===================================
 
 	local MainFrame = Instance.new("Frame")
 	MainFrame.Size = UDim2.new(0, 520, 0, 340)
@@ -449,7 +449,7 @@ local function loadMainMenu()
 
 	local BtnRecolorBomb = createButton("Recolor of the bomb")
 
-	-- Backgrounds section
+	-- Backgrounds
 	local BtnHelloKitty1 = createButton("hello kitty 1")
 	local BtnHelloKitty2 = createButton("hello kitty 2")
 
@@ -522,7 +522,6 @@ local function loadMainMenu()
 	connectWithSound(BtnAnimations, function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-GAE-SIMPLIFIED-27193"))() end)
 	connectWithSound(BtnBombDevy, function() loadstring(game:HttpGet("https://pastefy.app/IHNfoa6j/raw"))() end)
 
-	-- Trail Color
 	connectWithSound(BtnTrailColor, function()
 		trailEnabled = true
 		currentTrailColorIndex = currentTrailColorIndex + 1
@@ -550,7 +549,6 @@ local function loadMainMenu()
 		end)
 	end)
 
-	-- Remove Trail
 	connectWithSound(BtnRemoveTrail, function()
 		trailEnabled = false
 		clearAllTrails()
@@ -578,9 +576,7 @@ local function loadMainMenu()
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/kaywxzstumblr/334ff80c087bf16b05e9485a13c8ce96/raw/d02ea328497c72dc896d56b4a90036cf1822be06/gistfile1.txt", true))()
 	end)
 
-	-- ========== RECOLOR OF THE BOMB (script de chiclao1) ==========
 	connectWithSound(BtnRecolorBomb, function()
-		-- BOMB COLOUR CHANGER BY CHICLAO1
 		local sg,lp,rl,cl,hl=Instance.new("ScreenGui",game.CoreGui),game.Players.LocalPlayer,nil,nil,0
 		local mf,tb,mi=Instance.new("Frame",sg),Instance.new("Frame"),Instance.new("TextButton",sg)
 		local function c(o,r)Instance.new("UICorner",o).CornerRadius=UDim.new(0,r)end
@@ -606,16 +602,15 @@ local function loadMainMenu()
 		for _,v in pairs({{"Red",255,50,50},{"Orange",255,128,0},{"Yellow",255,220,50},{"Green",50,220,50},{"Blue",0,160,255},{"DarkBlue",0,35,160},{"Purple",140,50,255},{"Pink",255,105,180},{"Black",15,15,15},{"White",245,245,245}})do local b=Instance.new("TextButton",colS)b.BackgroundColor3,b.Text=Color3.fromRGB(v[2],v[3],v[4]),""c(b,4)b.MouseButton1Click:Connect(function()sC=b.BackgroundColor3 apply()end)end
 		for _,v in pairs({"Rainbow","Pink","Blue","Gray"})do local b=Instance.new("TextButton",effS)b.BackgroundColor3,b.Text,b.TextColor3,b.Font,b.TextSize=Color3.fromRGB(40,40,48),v.." Sparkling",Color3.new(0.9,0.9,0.9),"GothamMedium",12 c(b,5)b.MouseButton1Click:Connect(function()sE=v apply()end)end
 	end)
-	-- ================================================================
 
-	-- Backgrounds (fondos)
+	-- Backgrounds
 	connectWithSound(BtnHelloKitty1, function()
 		Background.Image = "rbxassetid://79290891919211"
 		Background.ScaleType = Enum.ScaleType.Stretch
 	end)
 
 	connectWithSound(BtnHelloKitty2, function()
-		Background.Image = "rbxassetid://102550394468866"
+		Background.Image = "rbxassetid://137509658941501"
 		Background.ScaleType = Enum.ScaleType.Stretch
 	end)
 
