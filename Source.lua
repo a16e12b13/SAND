@@ -449,6 +449,10 @@ local function loadMainMenu()
 
 	local BtnRecolorBomb = createButton("Recolor of the bomb")
 
+	-- Backgrounds section
+	local BtnHelloKitty1 = createButton("hello kitty 1")
+	local BtnHelloKitty2 = createButton("hello kitty 2")
+
 	local function applyPastelToAll()
 		for _, btn in ipairs(AllOptionButtons) do
 			TweenService:Create(btn, TweenInfo.new(0.2), {BackgroundColor3 = PastelColors[math.random(1, #PastelColors)]}):Play()
@@ -603,6 +607,17 @@ local function loadMainMenu()
 		for _,v in pairs({"Rainbow","Pink","Blue","Gray"})do local b=Instance.new("TextButton",effS)b.BackgroundColor3,b.Text,b.TextColor3,b.Font,b.TextSize=Color3.fromRGB(40,40,48),v.." Sparkling",Color3.new(0.9,0.9,0.9),"GothamMedium",12 c(b,5)b.MouseButton1Click:Connect(function()sE=v apply()end)end
 	end)
 	-- ================================================================
+
+	-- Backgrounds (fondos)
+	connectWithSound(BtnHelloKitty1, function()
+		Background.Image = "rbxassetid://79290891919211"
+		Background.ScaleType = Enum.ScaleType.Stretch
+	end)
+
+	connectWithSound(BtnHelloKitty2, function()
+		Background.Image = "rbxassetid://102550394468866"
+		Background.ScaleType = Enum.ScaleType.Stretch
+	end)
 
 	local isOpen, isAnimating = false, false
 
