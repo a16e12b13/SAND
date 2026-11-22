@@ -1,1 +1,2169 @@
---[[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local t={"tA2qZi`b@Q","tRWj2e","tcQtcpc#sm.3XQ!,N^^";"tQq1tBcT","tnD8Sl_D","t[mDJfQ!;X=5e,%2","tZH#-P3X_Os";"t*FrLoX)p^%9\'\"WKh&Qr4";"tt>)o1_?\'X3.ol>)Wc";"trmS0";"tYSXp>unUpX","t?@?pEQGXX";"tM+o!MOoV5R>oQ/rb/h(&Q*","t[lNp","t2\"-eFL*gkcH-:k[o<oG+","tQ_#,5\\.","tXEKS","t)lSF`3aF973@","tIN+/$@W5aX","t\\aqsTebMg9\"EuE+*NdDThd\\k\\0Y!","tD8e0<OP_+MutW$u0LE<6#\\SE7ni>","t*t]AC`n";"tXB/\"7&#bjuq1";"t<4mh%dbQ(;krL^ckAiJ+","tSpO<iF,_&okUMtflV","tkbq\\52-bd^C?k,t","tah*V@grC";"t()l.";"t?9#Nk(=j6","t&qR((&K_36C,c42S@)";"tQ-+X";"tcYlIE6Oshr";"t;`\'n5%/Hf;PS%\'Qrb","t\"m8ZLd\\n_Te6^fHF.]";"tSU","tXfc4;/))\'","t;hA6#";"tN[@`\'C6col\\XG<$pe6aXe\"1hWE[","tS77X9!2)";"tN!c62POOg1\"NS:U";"tO\"VdVNZ7";"tkW","t_@ZffR*","t4J";"tc=%k_am77%_Z^","t-j";"t8\\krj<,IS=JPNSXt:g","tE3fo2+Y","trS#G";"ts\\H#\'-dWf9Z[","t3;lA";"t0<dY!:*";"t<j<\":*;q\"d)+c0O,[J","tVk0\'tPL0B+kVU!N>&Qc7F2\\\'[O+C","t3G!<GB^;IrN=j:`8c","t\"\\#$0n\"";"t%e7DH+O[\"GM3,8R355","t!pDTt","tLYA?q`EIQd<cDB2_1NB","t!)_\\T]D";"t3.4dg@f(oVb?";"t3QZqQh8\\j4.>lX5)\".","t<YG4";"tKC7Md";"ta=me3j*r3M#JZ;SuJC\"[tV\"r#qo=m2B\\)(bC^peMfg;QANK58rC364dYgW+tX013=m%2(`<A+q@XFF5>.*^VVMS>";"tO;UqeS5L!/;GS4/0Q";"t16h2","t^LDH";"t:0FX";"tb$:A+r$,e/=W-S&aW","t2E:RJ7J)OFWK^#9/*","tPja!>*kG";"t#)+)Z62n:n","tct$i.3*XP4+g%/I\"@";"t^H3BSB<?qat7/k","t/T\'l","t#%:$<Mt@F\\ZF`\\)t;A","taNmfk";"t0#9MLm;kH?";"tW&OF","t7\'q$";"t#\"hcs7IW","t<>D[1cQP#0MO1:2";"t(%bjpo-#Z00Pe:QB.";"t\\[sXBR/q7";"tj+R-","tl>eu.o[@=";"t9t0OuP-Ln^","t$s?7j`AK","tc#U`e)DEdn+g5[k=T\"";"t#$\\5oQ)l","tCfEto%8K-TQ<skuNc","toaE(iVP&]jDj5K*>l)N";"t`krJW";"t@Ue:j%f$6t*,C","t6qB4QX9Wk4";"tOLaIi.=AB?hJ";"tGC5_E-\\GO=g(`","th`.BY7_CCD#H+LsM)";"tt:BS7PMn";"t7/q35\\D","tYVDj";"t4Q`Y3qT`(mb\">","tc\"+^8pHE","tj7a)%/IN","tlUG/)8Z>&lW?]";"tXE8kpQuo";"t92()b^/bY";"t6#Q5!Wke40JYE$f@1s4es`B_!6J6mjAON*,B*[o[+-eJd\"tH_40D","tMWdB","tN$-(9j#";"tX2C\'Y]f.`p\\[-";"tt7CEZ";"t\\MB*b@7T";"t0C\'@-H[T";"tT&9H*","t*D^Mo*eSO[\"@","tVZ(RI","t/:?7YYT1","t)0\\oX","tkhe%H","tj)0:RcYe<.V+";"t?eX\\$=)@48+j0Ol+`G","t<s1>#)J&F4","tZH#-=atmCD","t.Y%go1P7jP:*","teQmcn9e","tWl_o";"ta%1kh#2%ieGJ";"tNPD.X&E(bQT&nM.;+)";"to[LhJ","tsScO*ZF*&]p*ZF8([2dY?L$/LC0&1?)\")>o";"t1u\'P","t&q[\'s%\\e";"tI(=:","t%h^jq";"tbF4?.Ah16n*!","tY\"&3S*FHctl2gscQUme";"t2`*J^Ti5Z";"t+h,V/=)?S";"t5\\i#";"tT-7UF^-7a?08kk+";"t-q>MVGX";"t/-.AS,G!","tE%r<YX7Ms$q=K_@rb","tN_loA3_F<3Ni8^U","tQ>.]\\!faBm%&W`";"t0cY;^g!>f";"t]=md";"tfq\'cH?b26","t193t5";"t6rB^LFYGoN:BD>30Q","t<>jS/?i[&#QZI";"t$?8,[rbS","t,<>=e+?.C","t8c";"tfJ(O";"t08\'kJ^]fA","tB1_S6";"t4E_p<2\\?g","tt[dY*N[M8SQn)Fi339","t7KE\">obV","tQ0]U&qL2+E","t%`.M/b!APc4_W!-lA*0s:R1WDKTo!,hV>TtM1&A=:g=Y/Z>5?o>)4c","t8JM\\.kASma\\Ui*i5,n+:Mb`";"t%?QV","tr*.J]%lV","t\'oI\'ZrlS$\'fR5aptqZ","t82m$;\\!o?X";"t2GKY,2,l<`#\"";"tP3iH-L8g\"8kW";"t8dYd@tQFT36Qb_J4?Qk\'!\"9NBTG9";"tq?jZ)j91/4L)";"ttThsHF:#`:","ttP%-&","tXo\'GS*hhjj";"t_iK]CKGl.ZQDNJ7QD#66s6]k";"t*\\K7)>;_5F";"t;bjEO@7VOoS_UCaLmg$[","t<G@tOeDA^&CMrBE";"t)OInnm&+;B=)6sK36";"t*h_/1","t+XoJIQW=";"t]!,<W";"t8N,*&K7*_\"\'(;jV_SdWd&m4";"tNd8U";"t%W=B";"tFZAZ`8SQ_A`R\'(&qAIOiJ&3UCohk0sC:pF+sC","tN\\I*6g,OY,2ls!VP)1:1","t4$tKT.F(H)DMTbb^`]/<0k)dXp6Ra=ak^far(7e>!R@aI@K*<(R?%r^/2MtcjIh\"t<%=E%XKZuaB3?","t+WdMY(H1autX.IV<*";"tmia:kng(Nnc71","tS2=\\usanD1XBe-)^Y","tXgQI,2.[G";"t[WgKu<uD[/)u";"tCnd(OtNr5G?eq26\"Y","t_P$X^Ll\\X@ZU`F%p9)+tHY";"tBeSeG;3Er,","ttMr21","tYuW=JNWSqb*\"";"t9BJb8","t*bJe","tYL\"D6","t%Ei$[2U";"t/K@=Zs`X(U","tA<T#pRIY","t%HqeO\':$";"tHgPe","tt<m(h:=&(q";"tt[r:1=2<JePpgG8","t)1Lkl.(T%=u8>-`[1";"tEpRV?d?)=3=fIW%[K%d";"tIJn*RA.\"L^","trZ)(\\gDX[L\",.YNY<pj2OmY$Y)a&$=o/p3R","tH.\"_.^iO(!","tIeoQ8";"tVR>e]-j","t*>`O.kXE?..1*PX2bXg9","t`K0CX\\5U","t3#CefZ>5aWP`U?Nms;";"t%Y5Y]%Bsu4=P+uR=$A","t\"cbXM1o\'FDci;)&e(TeKS6";"t8!$@?";"t3:]p$N,*F;Q4Fbnc3@";"tV,.<a#gM";"taX0<m";"tu6hH1892da5C5E";"t).L)gNX\'d\\%D\\^X","tfUZEVg\"gJY";"t67hS`QZ.U","tG3&(>KM\'dcHES:)";"t?7\'&-MhkSYmjSZH","tp[tN";"tJH:V@";"t(es`\"!fL-RSY";"tH2Ju$6Z23dHXu","t]OB;","t=W4H=MaiNlQ\"jd>#<I","t)O)cBpmH","t1S7;;a[(u","t@]WH\\Kl-";"t+9V1@?6hm)Z2&_i";"t-d0:J<<@^&5i#I5JS?b";"t4%=P<98.";"t\"iMqrIC#p7","t&kA,GGn[P/!T","tn+YA7:dl";"te^/c$4bk","tM#:38ZP.ZVt[!e-","t)`b*93XGT","tSX8>SLo+";"t99`i[Cs0:tP(8.5oIt!CMT";"tJ*lACPOWl(fn,j:ON`8","t3<dP0#Tu.";"tIY\\i>X<8","t[M^;";"t?dr:<mJ=;";"tQb#8#+Xn^W)3f+It^T","ta^O7Jr:6.WMBh?ooQ`XOCHDNOq!UR","t>mKLUB#TNZ)T";"t\\RKWfLq-A6S=W";"tVKG$H(e<";"t9-b2[E?s";"t>e7+2d0Rh//*PkB!\'E4&dp$Z_PmSSu?b2C","t2Ym\"!4j";"t?2\\/Mm&d[I0Q";"t>2c%)","tt<d1cH!`G";"tg1J:n/Fq4S+IR`4T;OcJ;m","teX)]T0Yb!/=3&t5.,i\\@dr-TEB=:`1qt!E";"t[5jP";"tnI*T1-b&>(QI(tN.1";"trSqb5OhH5-V;aV<3\'O?:3F/9Nk;J","t*C2##:`WB]SU";"t#<NJ,<snnMPhF+7";"t?i]a.c*?s","t]ch0,kq","ta`M/N+PK[";"tAXbe";"t\'+ef";"t<+JHlJXtuqGX";"t_YSU9P?YF&R90\\";"t0b>9g","t9(\"&&4(+uIH2T7?G[Bk8";"t9*@B","tW__jEq.3IT(u*";"tG3NHM/p\"j9";"t;9;DC*BUGC";"tbl_O<hfh^NW[\"h<44S:Dg`jSe";"tK\'![_";"t0N7V/,\\(foc-F";"tamcc_+af2m;jPf<\"6";"tnHPP0:jZnDr7aa","tN.CkEC7cg","trQ^S+a1IfiQ#","tgkM^gO>","tFiHr@1$c!]";"tN;Z,+1?&-WgqW;-L.\"6rc`I";"t;P=3NbNGj*","tk&UX";"t2p==oSXj","t9uXRNVbO";"t)O@3(t^M","tAoq2Jt7$+@WTtLaPm","tcQ.E<PM[6fa/O/[rn";"t\'_SG","t@a\\iS8q)7U[L/2f\"`JnP";"t]hU_";"tFt;^<8\'S&!F^op";"t>]su`2NT\"Y";"t\"q_.p&_:nW-\\1-+Ao]51","tW&+h]","t\\O/JB#TZM","tX5eJ2k[%0uJ19iD*V";"tM&\\=eQO>","tQKApQ","t:?-)(9fl\"3","tfoJk(^ip4n";"tuA9j+@n&$9","t5MV\'","t\\cHfn";"t%QLh\"=Gso^3NWJ9c)";"t\"\'0_","tEU?KX<SM27Q!D1Mn)kk%^+E@";"t&lr","tm?Faf.33","tQW30NcT","tTmhP]1@","tbpPo.>DQAK";"t3+R[,","tt-0$\"a3O[Dt^n$hr>";"tCN\'ilg0p9.NXmUgkEF_";"tHFXlZKH=Z-P\\`M","tCO0P1dT","t4eKTH3AY%","tY:icm5I2LKB.7";"tom+p3rSP:cYN?f3#\'-AV","t\\?;!>:^=`\\Ij\"3TfWmDQ";"t8uN%DjZ0D/Vr/";"tuir1PYebs","t08K&\'QO","t+:PD)3XWt","tLHBJ=","thFISX-m*M4qF^nes%:\"YR+,c";"tD`\\7j";"t:*Y";"tJidW,\"=XT-9R?","tF6Pbs?q73%a*3F0pMj?E\\6VjO[jtI[NlOI&","t8T%6F";"t,J%*","ta>:XW[]A>\'On","tYRW1#l0E)","ton*OuoJb","tt!gna%\'695c5L[QP\"[","tlgKo[C\'","te*g5TYKoCmcO*1L(D";"t(cY<b&+9kM,$.j";"t-/db3,1[ui","t;8^;8";"tPV8n*","tu,chn,Zc","t),V^p";"tM\'Jm)";"t`kF]G#66lm";"t,^;(s!/P!Hu`EkZ*\"V-!","tnl\'i";"t>;iue\\D%(8";"t]X(%\"Icc&mb\">";"tSd@#Xg%7mHT9f9";"tkpHhkEMI","tSY";"td`iYYo5-%5CZ3PnaY9[,%lSpWG6=","t/`_g\\j!Mi9S>T)","t#4kd$fa]_-q2S","tuQ:UU";"t%88T>m]I)hQ!s-hmc","to&je*7<";"tWd[b.L/,";"tm_,EaHlnnoC&9B@","tNMJ1","tqYcdB","tN\\MOH8)XZ";"t-<TA(]fXoe\\hRtDDl";"t@biN#Z=]t";"t0[>4UE!8Ii1F/?","t3\\4(RT1HA";"tC2m0`2t\'V8","tQ\'+i01=UEG>\'(0(%q";"tkn`mKa&EYlff0GA\';+;GLA:%gNY8R%tbDN:";"t@JnKu.j=Ul\\Q","t5jbi.R0OZNoQql\';]71d:O";"t!\'6k++0:","tT7$`jc6O";"t\"DaPU^r!BK!5pa5VlIiI2PK[.";"tMb,in;i.r","t\\Ae%","tlI5C#2`E";"t?.ds%Z1V\";L2peP#!";"t9Wuec7i.";"t?7\'mo#PB\"\")c5?Mb>","tI<N[cXBJ";"tbR_-";"tkA3$";"tb$FtjRrY4%&%QJoQaMp)","tr9SPd";"tD1A:@H3P:T","tm&\"kKcc=PJaenm.";"t7qT>*@1B(4";"to)@1&P*D","toI?!UoV","t7KLotd0G=K*\"","ttV%!JcT","tr>YIg:)0Er<*";"tuQ;&";"t;@6sa","tXAV+KG\"Zr#Ep/Ga";"t(&Br","tHO@LFM&#n7HU";"tQ3cE";"t;kGh\"%!Lu","t<WM\'Y";"t&!lR!?SB","tfcJFir2.Ju91T\"!";"tCng6S?Y]tG=)6sK36";"tN@RF<f:Ek;shT,d#0i[T9>*dLPLc","t!R.X7aq";"tfb>-";"t!`qoe)VO";"t%=?1;<F(pWZT!W&;[s","t!uP@mS=iE";"t7I2BS","tNq:@#LL","tX?Suf","tfs+A\"HY";"tF6]DI/:i";"tHhcs@4/;a(*79<";"t-eIb,K802bYn","t_Tg\"eFE/","tL-[:Cnh\\moo@X3";"tC!5&+<Y+8Y+!JHC-n^O3","t!?#D.","tt=U954jG";"t15+0+<*";"t-,Fu","t*O;c3*1/23q1","t^WqidW$`.@o[ED]\"R0]";"tC?O<V35=1Wr7&Pq\"AU","tk(+l";"tDit(lS!\\,c/-94\'SiCXq&fN)t1S`CefY)Xf";"t\'hK$";"t\'`p5):BgS#3`0";"t:l;GoHnLGX&OR","t3^lV+l#NNg:r","tsb_/","tZ(Oh96pLU9!u7Y%*_:";"tVa9?M","t7k5IR7.!K\\n*dhLY_\"cf^XK_^a@m";"t;VR-elT=cU";"t?@?-@c\'?,^a9O#YQf?WEcOW#Aa<","t<WGJ","t;1-Hp],n\'","tg+$j","tn^+(","tgn=6?1RE2h";"t+X>H$";"ttOAjmtAdY<)mgTP=2>";"t>_]P","t6K2)Pg27go";"tIT6E>","tSF:+sE%<#O0V(D0q(Bcaa$#2*-j";"tVI2J[=E=","tf+9*8VOq:I<#J)$","tOi5N_lV";"t3AA,k";"t*B=gJ","t<+HU";"t\"]<1?=qb@*;O(_-a9P";"t*AR#34``Vi";"t[/:4=B7\"Z`(4++WD,h=b+7=>N9CusD]-YY","tP0BXqr?\"JFcKCC/","t&m]\'bX4T","t\"RhLgD8+4$S?K@","tp42!t";"tDd-Np@CRL[:p>)/","tS5%s]","t%0VRFWD[";"t8Vq5q1@";"t?_\'5cRXG","t?fZm(","t@O=f/J(,";"tFr","ta:pLBq\'";"tTR6e\'[XWjT@s4","tqt.$/ZdP2";"t=R0dD=$\\LV%Y%Iq3Y","tPTI/I(W>Q\\>k&nt+e_","t,X<)W";"tI\'12=B<9";"teLXu_f,_@)[A/tk#)B";"t%q";"t)JohtpV&L$";"t\"DDK!N>Q<7)l\"FjJ\'^%oFq-;L_VEk\\/@@H","tC&/l]%e\"h]Qbn8<+6","t\"*E<$","t$ksV.4?(","tT_le";"t:\\@f\'+@S=";"tSOT4","tK975T","tImMck\"I/[:@@app3:q","tcD[(XP[tS??U%^]?@)";"tBb(>";"t4nu=uTm(","tV9,^,\\WF6Fh6XV","t@,=eQ014Eb89I:Tq3:","tQ#?\'(4,C7";"tCHr3";"t#90fk8X9N()%9$`c^Q%[o%4L";"tBHLnFp&t[c","tAW$Rpf!\'sE","t[eG_icHC";"t]1@87";"t)c+7a3jc$KMljF1Q#";"th&C\"&H5&=QC6Kb\\fb";"t6<oqGb4s>g!^Aauf>","t9$b7^:S-?hn!","tbiDo";"ttX%PpmMA.j3--GN","tR_[A^#8q0ue-@ON8G)05*V";"t:Z7K*";"tOhX6:Q[(\'Rm+kPJ.9p>R]5?Q:-$_<QgB?Ybb;.0kq4Kim,h@tlJ)h-NVBB[!\"OuV:R=5<kknrtO[?Z";"tSq>n)Y>","ta5;0rh%gJ_?Ckl_t9J$..1","tusto4,35_","tMj/)6G[";"tBO6?","t*f3MjN&EM3;4WbZ\'T";"topd_;b0X";"to#i$C;MpPc7;<dAK@,<qW6(U.kh,aX)n!HZ:\\)nbN@cO2\'FT2O:So5`Re/N5e^^UE.h;\'M?`^b2^!D3Bc!tj)dFtDo*V`QZ=:\'\'6b^OfP=[tf^?IQtV5AY\\B,+dn>mCWQ8/E;doAKZ9]HIA9bI\"f)#HikL&EPB.26jIfgm*5C=1cU-J";"tr[g/","tP;Et!\"JYc&?TQ+jP-f";"tGHb,QSct","tDD;ZO8t1F";"tn2;@t2>.","t?@?-@c\'?,^a9O#YQ#";"tK*lE";"t0q7RrEJ";"t7,=Z";"tcVE/bX-K_F";"te\\I3=(%HN";"tQ(qPO1,(";"tL*Em#;]W@%H^H.F4>A>V0i4ldQ6*","t^:^X(","tcOg4K:O";"tKL^(A1u9_L","tuo<8";"tZ/m1Pft\'","tc5\'Vu3XY","tZ(g5.%>jF(-S1/7OC\'shAc^SVrTtA9J!6$A";"tLokcEAOV<";"tC\"hU0=n=HAZqcuZPrV","t4k<g";"tnfV#DZ;!l,4oE[K","tY_jmEHY","t%P-pHa]g1IbZAT+";"tZ>e=8c5(9B)dg)+=X";"tmb/-";"t=.`[3";"t0c2s","t3/.i","tDQ[B";"tZTMN-","te$jRk0RCRFRtG";"t7n\"!U","tM8^,Tc#L-Ga1Ii:","t?6Gm>3XO","tLu";"tT<Z;#F5n","teUMEYH+XT3_dC[O";"t4qng","tQK1dh","tca]0u?I:co;0$ou";"tQokj:rG7";"tIfnV%)M\'2_";"tKg_$","tdSb^Jj8>-","t%%21.","tcBH=E!AS";"thR\\:s8CM","tZ2n5!Z2n45a=N9\\t^l%G?I_;fcu","t=+j7UN:*?U\"NuHI)9M","t<>jS/Z+*\\GQZI","tGX\"n.lk!4ZMu";"t5iLb";"ta`QM";"th?k`DGR#EB,5GA\'BlC9:\']l";"t53d4?hmC+U-?JSF<tlpO","ta?D+;";"tYMX[FaeRA>&S@","t/N(/![8=%N@3E";"t9c#V";"tX\\TP?k\\/N";"tbF/;JeLpFf4i%^Fo<S";"t.\'";"t5f,)$","tu+h2o[c?^<WeC\\_n5A;O","th()h$\'![";"t!k0,-`XSGa","tKL(\"","t,h^Fa!uGU";"tB[R\"BJ9_";"ts_n&3(kZ(!-0U";"tItVu<2BrjJcBCb#l`f9HVgO`*&P@","ts5&J?9FnNPea:\"1fdT6eM;JHpYk$B)2V_$U","tVZdCDFr","to:q(G";"t?u#!utr[KDm&S!Tr>","tt/oj<<fJ9B\"\\2FJegY";"tg<iP<&k3-$","tad1rP3jD";"tgZrH\"JV>DE]jd4k,<";"tg?$Z4Lu";"tmOR2=J\\tlK9@","tALkn!!5>m>kC";"tAV;2JZm8:c3Y","t._?cN4=s-%P$=@)Wpp2";"tA<mDV","t.Ne_76!","t-G\'N","tN^K5XMR.>";"t(@N0T0rKG[","tH^_lf>A4Zt6\"","t3_U>Hu@+","t^XGKdaQ,h","t/L8>2.3","t^.sMd:1,iLLqL/5M6\\!`rW`c";"th-lmc2*M","tEUMu";"tNnHQ#ZFE`Iao`;:\":+";"tF?N]9";"tT:m%p","tNlHr","t[Fo@l=j4Kc-i`\"[++3","t/C&ej@Y:%<$kG9&=X";"t;OJ>\\f2T>T","tX\"Ei","tW=p<sq+$f","t<)IPh_)V";"tBQ4R";"t4nbQt","t3Y";"tDN%N@@9n_QD@r=";"tku!\\-\"$UoiuIN/+.LW[";"th7O=u5_Q6@#O.";"t=f^Ent[,\"k3rV3Ern","tN0Msh3JN","tuL4:b","tG\":q7f$\'GH&7I";"tq9RM;*31(o2FV";"t\"1Ne^N0/CLre\'[,a32";"tgP/qn8hTO+9U","tTT3`<=[";"t;N>_.?W]V<","tmS+LC)85.dQ\\AX.N\'";"tpnP_";"t]e\'P,r^GcLO\\b.k","tX[bG;\"Y","t,H69\'Tnb";"tT9%.","tS+ft#2DpWOFf/$#3U";"tRg)N:<]n7Ga-Si","ts8/.BQJ]6_\\7QgDV+";"tM1)BbP^pW%aE]P\'c)";"tnpuas?GPdhoM\'+3<-u9SdgDpnCT<","t70o/5Fpb\\^(jVS","t<qIG","tHa*1E&-EVI";"tLmmEW";"tI\'*8","t$O,$X","tpq","t;WY1cuQLh@5?d";"t[`O(m","t_8G_^";"tM/\"nYMj-","t.hD#XFY<g(^qe","t[Gi[t>ihQD\\60\'C4jh=`/r","t+[4s,\"3jU\'bi)`l<^0";"tBmVN.73*.C","tH(,\"";"t>>\'7DmWQ.,VT","tMd\'sS1i-\"*EcAY","t<uOjGA32M9VPG","t05;&;jh9@=K7.N\\6:HZ2";"t@*MDg";"te-A,+E(Fd]\'jP;67TVY","tSqtgEV\'l@g","tGdY,gd^#f(";"tG5[1>\"ZT";"tX.1h$ffe","tte:qoJ`bfS\\@%>","t=1R,V","tnd4h","tW54GG**Oa;b?","tm5:&.@:pMR";"tNKbB9","t.E9IeEkg/^Ligl$","teD/g2<?D[\"?ub(7c/E";"t%Iibs%cn!YPX9pl";"tBZ37:DK3";"t>UURK2F[r5%q","t9^6S1";"t\\!\"C=","tc8U#nPSL[HaYf4Jm>5","t?Hq#q%1\'JoN:4n33d:";"tnVAj9(^b\"QLQGD7m&AVYld\\[28=C$_g:\'!=?k9a*","t9r-Ruaq";"tZZ&,WJL]";"t1BYdDW\'2q?bQV5\\6V","tMa6W7biuaf%4cNc#P>5.";"t#Jl)A#+[C8","t^X11`S=Y.\"SP5M","t+m$V0;4f8g*8F.0#8/";"t]&agGCB6GEeEX<HX1";"t,BLjlgjO\"","t)4f\"S!](";"tVH++5FA^HT";"t2NDg","t)S6A]7,?Na>ndS_Y8pc*","tm4!\'b;pS1(c(526;.";"th>iVZ1J*%)3jsP";"tKbr()";"t.VE*","tM`+&Zgc8#=";"tF.,faBIDC0";"t&uOL=<K<","tb#h.","t@5j*iD\\p","tApjt(a*Fm(4S_KP7;h_=du";"t5hqJZBi632EOB","tEV!hg^CN=sk8O";"tCXr]oZ+frbMO9Cl";"t)u","t`ef)H","tA*m$.)4Yp!3Y","t#CB<S^>SI";"t9cbE1O4(QH;50k+","t]q8a1LZ;";"tCSE\"`E\'F";"tp#\'fKq%]$/","t(sH>KC7i","t9;7R6\\$J)A3:Zo\\o=RhW","tX`>+cHY";"t#T)j15C-f","t0UW\"M$YN","tsL!K\\9XCL#H&%MC:`\\^kIsFHuG<\'V4ZTF","tmY@>X";"tI-k^@E[","tfi1f+4\'MTT";"t^V![@^.JN";"tC.e>-G:_`Gk<5-l1Zm";"tCMt\'RZ]p!\'E!$Et","taoTo=7aUW?";"t5(gOC-88K8mR=&8n(M(fP;7","t<WW9e.g&","tj>j?qa\'4","tnu\",\'2RI&","tg:Z8","t_i4@ToV";"tZ2n5!Z2n45a=N9\\t^l\\/m&B0jaoW","tf6*07NY_5YRO","tQ%.+M*G]8\\","tc>%/1A<dO","tE<@Q","tY+75","t#RBjoMeH","trf(p,^PBHq","tM3uPt%BsEc#CYHs#+a";"t`M6b";"tRd6l$S)FNL","t\"H)>o\"k7Q*0T)`E_\\hE/","t%C","tW$n8l)3FPYfrB9qW9W)OKN";"t<cLQ","t<GeSGJ>*+a-ISd","t%Rdd_Znrf$5>ir";"tdb=q5","t%Bk\"%RitFjmtk/o]m";"tm9the\\=R","t<ASo";"t2>@#";"tbbrK@","tL>d`$uk<","tD5baD1l4","tr3/VH4GTqm2S,A1*WJ\'Efb","t!*t17","tYO4f8%C(H\'P.","t#ktj.r@<!\'rmEG>";"t\"m=E@Lu","t?\\>d13A!","tQn7Bh=q4Ht<>X2OPru";"tIn";"tVeG)b";"tFm_\",@Z_<a","t/CG\'hdmXG+e8M/in*J","t9f5:4Y@rK/0q]";"tIP+(","tL#h\'2E*$3s%C";"tatm?g";"tT%RZpjr9uI","t)H\'hg6M(";"taB[#;QW2=D=PaK5","t\'coBs^Ql","tP1l\\nHC.";"tVIIb","t03ls";"t_C5\\Rh[";"to4R3uT%m:B22E*2";"t4)$,Vg`X","t>+*O]!_btk";"tnHel)-+p2pB^$","thHb+";"t@?-_\'XY1e+6!";"tZqI!6M]`p*A=8";"tCKuPG:^0];lu1V0","t;HjN^c^sn2Ke3H1";"t[\'";"t/,pgf&B$h_";"tt`I";"t:nXE\'+U","t+Rs-N1L9";"t\\4o^U]D","tmZa%@dWgW\\%d]738<8YVSU";"tt*HR_","tl<\"\"nl>\"";"tJkb.5O^^PH";"t+[RsRH@","t`AMV;Lu";"t(HQ&","t#+h;a;:(<bPJ%/7?UV";"t!qbdt!#[3>&Hu";"tEn3lgp>lsGJ6.","tZ)d#5c1(5qt.","t>eSCsJ_Pl-kq","t+h,V/=)?!:=)O-Fcu";"tf&2C2B()@Z","t0>PkIbBuuX_.";"t6U@pT^2q`.","t:HCKj878*8=*YH7";"t8\'Nh8","t3r5<L#o7C$C[l!,mSR","t6d(Ye","t]qLVfgLjY","t5nP0S#\"";"t\":oi$cl`R\'Qs;[(","t*uEa","tP[;rQ#<A$B)#+\"Pae)";"tmJLa@CS/j$;J(f*Cs:";"tg<4@tQPtK\"7qp?9M0N66:5R(-mjX";"tek\'P+)-JB&#P!Ce","tpnLT";"t\"Xc^ft:<ReC\"R@s#\"";"t%J@JU`;b6<HbZO4M?^";"tuDRV=";"t)8OA";"tG-<Lln55Dc.G1(","tb7fOp(\\Et;!u";"t_W7H#tafFjhX";"tG)>fLV2M!F","tsXAX5e[$!W7>i.J&eG*","t/jfjG>qBkGb1N";"tr2!i^317AF=WK36)tE","te$bRo","tm&ND=QFk:3MO2*O\"3&";"tE+3Grt>*)#sMZ","tS@B1MEA.pjdIR","tm>h[_c*2","t=R[[n#eYV73#t52","t&[?<NFU*L";"t%KiQj?+\\T/bie*HC\'","t.SMQ";"t))[-]9f?;A\'hFaD";"t$ZI4.-06]%";"t*?97\"I@8GCAWKm\"E[";"tXOac^?N\\j\\MK%FRY?";"t`&pE5<J@a?ICS=:";"tuM@i97r\'h\"u#c]<Jbc1","trmA3eQRO74Q#";"t>g-.#M3dTKaY:%cIb","tC;\"W*3Oi(StM,mO";"t%1IHO","t+@\'(\\mSbC_:=>=-BAOtVX:ME(*94,h3r>?]<b1!MoU7YK70$\\E/to!N","t[!8!(";"torY#10On3<5W","tOT8LPThe51#\"","tQ_u`S!g\'F:","t?UGJ","tsu3^\'bd$?l_UZci[:WaqgC";"t[I\"A","t+I5jG";"t;Np+";"t\\LahM","tEq&*gmc";"t$dBC0","ttndMbbl$1p","tBcD3R<NZ","tN]<>k3954@QF5sH";"tQ@`]>k\'k","tmT>A","tmi@&","t]U=B","tBVPT";"tjH%G=H$BC","tVGS-gEbV<+AX";"t5X@l(-RD1J7+;";"tP65/(akWo","th;Ea2nM#-cJHpfM*oj7-N1";"t<W&p_&>";"tF?XT";"t0uDch*Ks^F0Q";"thQtG\\\"]4Q&?!";"t6#^>=RH$m7en","t8\'Z]fs\'`@QRXM9;","t_Z>p","tK<U4","t684j","tmX@iVAX";"tDTZBkZ%I";"taE\\%]?@e-&)ltN<","tq\"/mQ\\EqL\\GpYO\"0qsLD#lW.p[:u";"tSJE/^9:$:ah$<HUBaNk[","td9m!9HqcLub0:n:";"t\"@O89P8c%S%ZA070^K>Q`42s)6so";"thcHq";"t","t9n48k@I.";"tC#VcoQbrU-CQW&O16","tEAr2H","t9@","t-6=ak@*!";"tacH^P","t0s-#";"t)ttf)";"tbDlj";"t]UjP[@32dpGJ";"tL&.Dm","t%BOX`ZTM)Zmf3CF","tWc<Lc>EJ","tG*pr";"tFMFJs-eF","tjQlaj","tEVRo";"tloEq","tJuHK[IM4a^","tH@";"t*RJaaE]d","t!DS2,:l@";"t?Wjpi)#^;4rUDmH","te8M:==F([MPJ`g@3U","t>>\\TX*>4<)5\'CURWIDqUMgi7XdQ4";"tV$:&)";"tb+/:<]m","t$O4e/u`=0mLeR)WAi#lAlr-U3Q8g";"t8i?\\@7.$u";"tIg;t","t]UPiF","tmsb70";"toUJX,sq8,M(fQsP\'lQT","tPMXu!m&2(OaY=\'@","tVu","t3f4)T5/1";"tOhXXj";"t?Ym`oZRFQ=Q,RiKZN";"tkXN@f5UZIY7G*","t.3<@0]O!C";"tC29=`l!u60","t?qWM*MrHuL=G$sOc)","t(V\'8@up6jEHY";"t!/=OCdSFHiS,s";"t\'b;)8XM^Mb)cZ\')","tCuQUN";"tdb66M3&J@i";"tR6>;fO^WQ]";"tSZ>-;+^)r36Dj","t,eoWH","tpCPuI";"t;Z\'n^n9t:5TQFf#R#";"tLV7?Une7Q&PDCZ(.\'7Qh";"tspm,tJV=i=/u4";"t6Bh\'YdBQ33";"t*I$+j";"t&^CJ;.[?W388*Ti9\\VI_";"tQB%&*6\'d)h7hOAr=lFMmP^cdp27NU";"tr@LFn","tZ49S_Cb/Nfmf2[*<\"0";"t<cO],lJbB4OA>6KZI^9\\=XJl;T>;9r4pLI\'","t33%]&t#OU5PhX+=t#\"","t\'e?//qXT","t@$?m","tB>s_==X","ts5-KiTXPsaVp<XnN%+b3AZp#[Qm.kR>6oO.BPsT8%L9)@MGc2dFH5:TDa0MDY]Qi0h3P3F6WX\\j3&D?/";"t/2V>6&+^n","tQaf&AC3$KWFG=a";"t4Vpo-(RCH51>?P","to<V\\G65E8(nQI","t_K6da","t++3)#(Ec\'Rq=-M*";"t6\'5,6";"tS%^i","td\\a$iPOjJ5_>H<t2&_@BPN&ij\"*+9uHN\'^s)a*WDNpg(nfPr*S^e","t3bi/PA[","tQF*lF","tbNe!.nT*[","tW8Q?_t2<5b","tnOpUo";"tm8%>qS70","t%32IhZTPOJ%Qp6+c3>";"tdgZQM\"oQBp","tI.Ab";"tAN","t5@2O[AmI_/+.+:>","tXj,ZJ#mQ","tNj#srmJp]+CSNgq%q","tCuB;V()O*(AfD@QCfK*r;\'--kPpV","tJP_)%RB:Tng.ET:";"t\\*>k&AW?";"tZ<=3$-R:k0,W","t+3g*R`r?8YHo$:,&I^Pu8:m","tDU5WKGnt","t9\";S";"tqK%.>","t!MKU8NXc.j";"tt*L&CQs8l9ZF4V=;.";"tmkXammM^4\\KfHo/","t=(YN4LF!7T82r","th?e3Z;;(";"tGJXLdVsSH";"t0$)AVSSqJm=5QbO*UWE@";"t3*82BCnkV9?_5E7";"t;qZsVsZ;Vk=;Oq<8Oan!!ZnB[LsjKX^PiXJ","t\"%jdS:;9,","tqu$7HPu55.%_Fl%$k>L6Wc";"t`TkE=dCdZ5\'VI/feR`u","tt!a`&?Th8K\"\'IF&tj%","tNj#=tZR*@^%UBZV";"t!mKXLkh^m@rYZV","t9ib#k>r-+h,QD/UjjonUS5./O.,=J92\"KLmJF!qIC)*4aW^e2up\"uGu8JLSSgEkQMVOLrhj\'5?/(8X#Y","t>NJDhdN@TTMY21jTWL","t.85#X6S])t?D=suh[","t(kot*qABk9DT?","tk[G/g#V";"tjEJ-lt.";"tpVS$KMA;)RD0R\"i/!21";"tNVVN`Cjj]F?kOKb36","t)7stYOWsAO";"tj,P7\"Clbfpd8Eg^fQVeW";"t46N>g6\"XRlqpP2";"tF1lFQot\\";"tDQ2T+_@iE_o_1K%O9k@E0)\\,PQS%";"tFI+pAtc\'","t\"L;6BnlW","ta3>bmc`WcB","tOID\\4I.7=V<MLB";"t`Cr@_&k`[S^U";"tqrjJCHe","t/)FQ[\')uI$","tZ6HTg\\$BLV*$p:cTAr";"tfR+<FIn","tMYGnG";"t*6O*";"t*.RnnX*5<H\'!9BN";"tMEq7qWY\"+L\"i3L?/\\_]i@oHMo)<\\9T+mf";"tl?b\\>su7","taG)f\"1B#/_pW";"t/JOr","t]0P!+","t2@";"tXo\"F,hd\"","t7VIG!Ktj[!uu";"t3!ft^9UC","t<29?RO\\9?6[1[*AC!TLGduDkTPe5<PN)uMn0?\'dEYUEV_?brVY9Y";"t<r%d_;Y]cgRO+mm";"tRWjH@!neTnN.N&61t/g0,Of+Urf)!5R@9>@";"tW?aac;`))+a@8";"t^p3sao]Wr";"t9U8#;2DFG";"tnY;+F5/_?W","t8Cgtd","t*WmXEkq","tN`bEQl$?";"tL(+MaT9TaK9U";"t`,kG8]5RUq]a!";"t=u#?_=)+";"tg->_","t67hr\\";"t_,iR%a_^AF","tPMt39QWt(/c#fV;=He","t<F3/0a+bJ";"t#_r\')A:qWpl##";"tX0ess<25Tj","tB4q=","t-cJjI4O=NK+@ur#o7Tr[DOiLS#dA","tb?$7","t9s<Cs";"t3X/Mrc-1I3?RpoXN0I","tOOi$A?B\\0-DBe(M\"G55G","t?I[FrmsIk\'=)6D";"t\'9n[/F6`<ZIF]8qZN";"t?@j=B2(dU\"!@UrcXR5=_";"t87o);\\\\l(9","tm&2*j<4?gm<F[*o;.","tYW7toZs]&";"tZS2C@aj2JNm\"o@W";"tBdh9#<Yq>d%@oLt)5)1R,q","tZD\\]","tMQ&IJmMhuoc1_K9rb";"tb;2$YHp=";"t)gNb","t9loSXpW","tZ\\h/","t)*]c)aI4qR)QjTC;.","t9@80e";"tg-=GekZ2c!";"t&@3-";"t`/*^`&b*ngaq","t\"HLYC";"tP:ibO?oE?htA1Oq)T","t`o_OiK4]?";"t)p4H","t&n/d*Kp2";"tJP6\\m";"t]i8_s";"tJX8fY6((";"t0&bDu","t3\\aGuo&)","t%.!im!+";"tKXS.T+_;s>+:Sl(A@N?\\.pW<I>o<d,;1&X&k--rVf>";"t]8gU`r^lW5m=lBNAR:idG[","tBm";"t!)s/?Eu+","t!_@.,YFH*RIb","t&^iF";"tq>+fM:Q\"","tZ2n5!Z2n45a=N9\\t^d","tmlmO","t<>7K=.cPL*R)1^d(Q","t8D9Li(4HGL4F+>JM%H4q11)GDbN)","t75;\"-r>oFL\\.";"tL6=S1AAkfD\"@";"t74+\\1,XFSNO[4c@akT9^","tY$f?+";"tbACELAY-[=1CV","tguQtG8>WIZ7XYE\"[SYWOa<";"tT(tF";"tuC6q","t/D$a&Lh!2,jdRM_@hD";"tp+,o","tME*P`A,-t","tt``";"tI-t])\".V";"tC!)#Q";"tTT","tLP>0=";"t)XS]lNBGL","ts9i\'";"t_dqPAC\'";"t#Dm.\\F)_.RAg:","tO,M7/`n","t4A2;AhA`-;";"tQM%.\'N!\\J?J,Hs\\\\.";"tBCDH";"t;[Q@GZPjUBNpAa=","tfF!PcsHT`$2ZJGON[$V;!U#C*Z+\'";"t3[(bK)tNb2a9bS@<O";"tG*%\'R.%#LM#aV)@mWAco!cP^[Vnh#-\"aMh3o!";"t=PO3lX-ou5P`9g+#\"";"tq:71e9*YAs","t9da+(nfQqpIEB[O#+Cpqsq";"tsIUAhGt@--jGVg_5b):o\'5iA(FB7g9)fJ","tEtTs","t>S";"tS?jAR?&c]\'","tc@o%2p?*","t)a/T$rY9GMZG\\)C)gr";"t!FU\'\\";"tcT","t\"A<;(NX3L\'N]F8P";"taU+ZY;M4QbZPjnl<*","t_%a)";"tYrg0QEP9>sB,#","tgo+JM:trT","tN&NM[WtT","tCc";"th1EAcWiM1";"tgimGZ/OA[`";"t=C=f4)*SfVm]70:","t=G$q&VkeB[";"t<f?=JkmEjt";"t(Ts7i1q1";"tu[4/*";"t.!K2*,++*b:?3","t\">&\\)e3M","t%Tpcu2U","t2FZ%f\"p[UD+4ad+LT";"tOG!ojs=Za?","t984r";"t+hH^oc*%nIPlLTL+[S";"t2H1;";"tT*<B";"t$LjX";"tZHORP)a0<[#e#OO+6";"t9eLiB","tV5a@-","tO2W1","tk$@m:=8Y)00j$c>D1MV-T:rN","tZN";"t`[isnR*ZU!bg8F\'";"tr=i3,cr4pO<S&P;";"tLk@p8=OB","tc7Tqt#pIYG","tom1t";"t-4:?*?VO/;TpM=SOuA*GZYM(krTr","t]t598C^IVM";"tT&(A","t:=70F\'T","trsaOYSs@8","tC1@AW","tgBut","tc\'aH$+`C<_rml\"`PV@";"tA,a<0";"t.;-uu36";"t&SX\"","tef7U","tA2D+","t.K,m,kel3`","t<pi+d7icJW*\\UrseOBn","t+[s(l)\'T7JP;U%nZ[";"tTn+7hWC92";"tYX!MRa[f";"t%Y;L";"t<F)b";"t&)&P";"t]Puu;2,EREk()2";"t<9ZufKUcILX)&]L
+local Players = game:GetService("Players")
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+local Debris = game:GetService("Debris")
+local StarterGui = game:GetService("StarterGui")
+local CoreGui = game:GetService("CoreGui")
+
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+-- Crear ScreenGui principal
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "VentanaRosaUI"
+screenGui.ResetOnSpawn = false
+screenGui.IgnoreGuiInset = true
+screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+screenGui.Parent = playerGui
+
+-- Función confiable para arrastrar elementos de UI usando RenderStepped
+local function hacerArrastrable(targetGui, dragHandle, onClickCallback)
+	local presionado = false
+	local seMovio = false
+	local posInicioMouse = Vector2.zero
+	local posInicioGui = targetGui.Position
+
+	local function iniciarArrastre()
+		presionado = true
+		seMovio = false
+		posInicioMouse = UserInputService:GetMouseLocation()
+		posInicioGui = targetGui.Position
+	end
+
+	local function terminarArrastre()
+		if not presionado then return end
+		presionado = false
+		if not seMovio and onClickCallback then
+			onClickCallback()
+		end
+	end
+
+	if dragHandle:IsA("GuiButton") then
+		dragHandle.MouseButton1Down:Connect(iniciarArrastre)
+		dragHandle.MouseButton1Up:Connect(terminarArrastre)
+	end
+
+	dragHandle.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			iniciarArrastre()
+		end
+	end)
+
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			terminarArrastre()
+		end
+	end)
+
+	RunService.RenderStepped:Connect(function()
+		if presionado then
+			local posActualMouse = UserInputService:GetMouseLocation()
+			local delta = posActualMouse - posInicioMouse
+			if delta.Magnitude > 4 then
+				seMovio = true
+			end
+			targetGui.Position = UDim2.new(
+				posInicioGui.X.Scale,
+				posInicioGui.X.Offset + delta.X,
+				posInicioGui.Y.Scale,
+				posInicioGui.Y.Offset + delta.Y
+			)
+		end
+	end)
+end
+
+-- Botón cuadrado pequeño con bordes redondeados, imagen ID 106368664164608 y arrastrable
+local ID_IMAGEN_BOTON = "rbxassetid://106368664164608"
+
+local toggleButton = Instance.new("ImageButton")
+toggleButton.Name = "BotonAbrir"
+toggleButton.Size = UDim2.new(0, 68, 0, 68)
+toggleButton.Position = UDim2.new(0, 20, 0.5, -34)
+toggleButton.BackgroundColor3 = Color3.fromRGB(255, 182, 193)
+toggleButton.Image = ID_IMAGEN_BOTON
+toggleButton.ScaleType = Enum.ScaleType.Crop
+toggleButton.Active = true
+toggleButton.ZIndex = 10
+toggleButton.Parent = screenGui
+
+local toggleCorner = Instance.new("UICorner")
+toggleCorner.CornerRadius = UDim.new(0, 12)
+toggleCorner.Parent = toggleButton
+
+-- Texto de respaldo si el ID de imagen no carga
+local fallbackLabel = Instance.new("TextLabel")
+fallbackLabel.Name = "TextoRespaldo"
+fallbackLabel.Size = UDim2.new(1, -6, 1, -6)
+fallbackLabel.Position = UDim2.new(0, 3, 0, 3)
+fallbackLabel.BackgroundTransparency = 1
+fallbackLabel.TextColor3 = Color3.fromRGB(60, 30, 40)
+fallbackLabel.Font = Enum.Font.GothamBold
+fallbackLabel.TextSize = 13
+fallbackLabel.Text = "Abrir"
+fallbackLabel.TextWrapped = true
+fallbackLabel.ZIndex = 11
+fallbackLabel.Visible = false
+fallbackLabel.Parent = toggleButton
+
+task.delay(2, function()
+	if toggleButton and toggleButton.Parent then
+		if not toggleButton.IsLoaded or toggleButton.ImageContent.SourceType == Enum.AssetSourceType.None then
+			fallbackLabel.Visible = true
+		end
+	end
+end)
+
+-- Ventana principal (Rosa Pastel) - Tamaño 435x320
+local ANCHO_VENTANA = 435
+local ALTO_VENTANA = 320
+local ALTO_BARRA = 38
+
+local mainFrame = Instance.new("Frame")
+mainFrame.Name = "VentanaPrincipal"
+mainFrame.Size = UDim2.new(0, ANCHO_VENTANA, 0, ALTO_VENTANA)
+mainFrame.Position = UDim2.new(0.5, -ANCHO_VENTANA / 2, 0.58, -ALTO_VENTANA / 2)
+mainFrame.BackgroundColor3 = Color3.fromRGB(255, 209, 220)
+mainFrame.ClipsDescendants = true
+mainFrame.Visible = false
+mainFrame.Active = true
+mainFrame.ZIndex = 5
+mainFrame.Parent = screenGui
+
+local mainCorner = Instance.new("UICorner")
+mainCorner.CornerRadius = UDim.new(0, 22)
+mainCorner.Parent = mainFrame
+
+-- Barra superior (arrastrable)
+local topBar = Instance.new("TextButton")
+topBar.Name = "BarraSuperior"
+topBar.Size = UDim2.new(1, 0, 0, ALTO_BARRA)
+topBar.BackgroundTransparency = 1
+topBar.Text = ""
+topBar.AutoButtonColor = false
+topBar.Active = true
+topBar.ZIndex = 6
+topBar.Parent = mainFrame
+
+hacerArrastrable(mainFrame, topBar, nil)
+
+-- Texto "SAND" arriba a la izquierda
+local sandLabel = Instance.new("TextLabel")
+sandLabel.Name = "TextoSAND"
+sandLabel.Size = UDim2.new(0, 120, 1, 0)
+sandLabel.Position = UDim2.new(0, 16, 0, 0)
+sandLabel.BackgroundTransparency = 1
+sandLabel.TextColor3 = Color3.fromRGB(60, 30, 40)
+sandLabel.Font = Enum.Font.GothamBlack
+sandLabel.TextSize = 22
+sandLabel.Text = "SAND"
+sandLabel.TextXAlignment = Enum.TextXAlignment.Left
+sandLabel.TextYAlignment = Enum.TextYAlignment.Center
+sandLabel.ZIndex = 7
+sandLabel.Parent = topBar
+
+-- Contenedor de los 3 puntos a la derecha
+local dotsHolder = Instance.new("Frame")
+dotsHolder.Name = "Puntos"
+dotsHolder.Size = UDim2.new(0, 84, 0, 24)
+dotsHolder.Position = UDim2.new(1, -94, 0.5, -12)
+dotsHolder.BackgroundTransparency = 1
+dotsHolder.ZIndex = 7
+dotsHolder.Parent = topBar
+
+local layout = Instance.new("UIListLayout")
+layout.FillDirection = Enum.FillDirection.Horizontal
+layout.HorizontalAlignment = Enum.HorizontalAlignment.Right
+layout.VerticalAlignment = Enum.VerticalAlignment.Center
+layout.Padding = UDim.new(0, 9)
+layout.Parent = dotsHolder
+
+local function crearPunto(nombre, color)
+	local dot = Instance.new("TextButton")
+	dot.Name = nombre
+	dot.Size = UDim2.new(0, 18, 0, 18)
+	dot.BackgroundColor3 = color
+	dot.Text = ""
+	dot.AutoButtonColor = true
+	dot.Active = true
+	dot.ZIndex = 8
+	dot.Parent = dotsHolder
+
+	local corner = Instance.new("UICorner")
+	corner.CornerRadius = UDim.new(1, 0)
+	corner.Parent = dot
+
+	return dot
+end
+
+local greenDot = crearPunto("PuntoVerde", Color3.fromRGB(119, 221, 119))
+local yellowDot = crearPunto("PuntoAmarillo", Color3.fromRGB(253, 253, 150))
+local redDot = crearPunto("PuntoRojo", Color3.fromRGB(255, 105, 97))
+
+-- Área de contenido
+local contentFrame = Instance.new("Frame")
+contentFrame.Name = "Contenido"
+contentFrame.Size = UDim2.new(1, 0, 1, -ALTO_BARRA)
+contentFrame.Position = UDim2.new(0, 0, 0, ALTO_BARRA)
+contentFrame.BackgroundTransparency = 1
+contentFrame.ZIndex = 6
+contentFrame.Parent = mainFrame
+
+-- Barra buscadora blanca redondeada ("Search script")
+local searchBox = Instance.new("TextBox")
+searchBox.Name = "BarraBuscadora"
+searchBox.Size = UDim2.new(0, 255, 0, 34)
+searchBox.Position = UDim2.new(0, 14, 0, 4)
+searchBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+searchBox.TextColor3 = Color3.fromRGB(50, 30, 35)
+searchBox.PlaceholderColor3 = Color3.fromRGB(150, 130, 135)
+searchBox.PlaceholderText = "Search script"
+searchBox.Text = ""
+searchBox.ClearTextOnFocus = false
+searchBox.Font = Enum.Font.Gotham
+searchBox.TextSize = 14
+searchBox.TextXAlignment = Enum.TextXAlignment.Left
+searchBox.ZIndex = 7
+searchBox.Parent = contentFrame
+
+local searchCorner = Instance.new("UICorner")
+searchCorner.CornerRadius = UDim.new(1, 0)
+searchCorner.Parent = searchBox
+
+local searchPadding = Instance.new("UIPadding")
+searchPadding.PaddingLeft = UDim.new(0, 14)
+searchPadding.PaddingRight = UDim.new(0, 14)
+searchPadding.Parent = searchBox
+
+-- Contenedor global de resultados de búsqueda (visible desde cualquier apartado al buscar)
+local resultadosBusquedaFrame = Instance.new("ScrollingFrame")
+resultadosBusquedaFrame.Name = "ResultadosBusqueda"
+resultadosBusquedaFrame.Size = UDim2.new(0, 255, 0, 174)
+resultadosBusquedaFrame.Position = UDim2.new(0, 14, 0, 44)
+resultadosBusquedaFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+resultadosBusquedaFrame.BorderSizePixel = 0
+resultadosBusquedaFrame.ScrollBarThickness = 4
+resultadosBusquedaFrame.CanvasSize = UDim2.new(0, 0, 0, 100)
+resultadosBusquedaFrame.Visible = false
+resultadosBusquedaFrame.ZIndex = 9
+resultadosBusquedaFrame.Parent = contentFrame
+
+local resCorner = Instance.new("UICorner")
+resCorner.CornerRadius = UDim.new(0, 14)
+resCorner.Parent = resultadosBusquedaFrame
+
+local resListLayout = Instance.new("UIListLayout")
+resListLayout.FillDirection = Enum.FillDirection.Vertical
+resListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+resListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+resListLayout.Padding = UDim.new(0, 7)
+resListLayout.Parent = resultadosBusquedaFrame
+
+local resPadding = Instance.new("UIPadding")
+resPadding.PaddingTop = UDim.new(0, 8)
+resPadding.PaddingBottom = UDim.new(0, 8)
+resPadding.Parent = resultadosBusquedaFrame
+
+local opcionesBuscables = {}
+
+local function registrarOpcionBuscable(objeto, nombre, ordenOriginal, padreOriginal)
+	table.insert(opcionesBuscables, {
+		Objeto = objeto,
+		Nombre = string.lower(nombre),
+		OrdenOriginal = ordenOriginal,
+		PadreOriginal = padreOriginal
+	})
+end
+----------------------------------------------------------------
+-- CONTENEDOR DEL APARTADO 🛠️ (HERRAMIENTAS)
+----------------------------------------------------------------
+local herramientasFrame = Instance.new("ScrollingFrame")
+herramientasFrame.Name = "ContenidoHerramientas"
+herramientasFrame.Size = UDim2.new(0, 255, 0, 174)
+herramientasFrame.Position = UDim2.new(0, 14, 0, 44)
+herramientasFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+herramientasFrame.BorderSizePixel = 0
+herramientasFrame.ScrollBarThickness = 4
+herramientasFrame.CanvasSize = UDim2.new(0, 0, 0, 420)
+herramientasFrame.Visible = false
+herramientasFrame.ZIndex = 7
+herramientasFrame.Parent = contentFrame
+
+local herramientasCorner = Instance.new("UICorner")
+herramientasCorner.CornerRadius = UDim.new(0, 14)
+herramientasCorner.Parent = herramientasFrame
+
+local herramientasListLayout = Instance.new("UIListLayout")
+herramientasListLayout.FillDirection = Enum.FillDirection.Vertical
+herramientasListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+herramientasListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+herramientasListLayout.Padding = UDim.new(0, 7)
+herramientasListLayout.Parent = herramientasFrame
+
+local herramientasPadding = Instance.new("UIPadding")
+herramientasPadding.PaddingTop = UDim.new(0, 8)
+herramientasPadding.PaddingBottom = UDim.new(0, 8)
+herramientasPadding.Parent = herramientasFrame
+
+local function crearBotonHerramienta(texto, orden, callback)
+	local btn = Instance.new("TextButton")
+	btn.Name = texto
+	btn.LayoutOrder = orden
+	btn.Size = UDim2.new(1, -18, 0, 36)
+	btn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+	btn.TextColor3 = Color3.fromRGB(60, 30, 40)
+	btn.Font = Enum.Font.GothamBold
+	btn.TextSize = 13
+	btn.Text = texto
+	btn.AutoButtonColor = true
+	btn.ZIndex = 8
+	btn.Parent = herramientasFrame
+
+	local btnCorner = Instance.new("UICorner")
+	btnCorner.CornerRadius = UDim.new(0, 10)
+	btnCorner.Parent = btn
+
+	btn.MouseButton1Click:Connect(function()
+		if callback then
+			callback()
+		end
+	end)
+
+	registrarOpcionBuscable(btn, texto, orden, herramientasFrame)
+	return btn
+end
+
+-- Opción 1: Christmas sleigh
+local christmasSleighCargado = false
+crearBotonHerramienta("Christmas sleigh", 1, function()
+	if christmasSleighCargado then return end
+	christmasSleighCargado = true
+
+	local camera = workspace.CurrentCamera
+	local backpack = player:WaitForChild("Backpack")
+
+	local gearId = 99119261
+	local animId = "rbxassetid://855828754"
+
+	local success, objects = pcall(function()
+		return game:GetObjects("rbxassetid://" .. gearId)
+	end)
+
+	if success and objects and #objects > 0 then
+		local tool = objects[1]
+
+		for _, v in ipairs(tool:GetDescendants()) do
+			if v:IsA("Script") or v:IsA("LocalScript") or v:IsA("ModuleScript") then
+				v:Destroy()
+			end
+		end
+
+		tool.TextureId = "rbxassetid://99167204"
+
+		local function setupHandle(t)
+			local handle = t:FindFirstChild("Handle")
+			if handle then
+				handle.Transparency = 0
+				local mesh = handle:FindFirstChildOfClass("SpecialMesh")
+				if not mesh then
+					mesh = Instance.new("SpecialMesh")
+					mesh.Parent = handle
+				end
+				mesh.MeshType = Enum.MeshType.FileMesh
+				mesh.MeshId = "rbxassetid://99167224"
+				mesh.TextureId = "rbxassetid://99167239"
+				mesh.Scale = Vector3.new(2.2, 2.2, 2.2)
+				mesh.VertexColor = Vector3.new(1, 1, 1)
+			end
+		end
+
+		setupHandle(tool)
+		tool.Parent = backpack
+
+		local GRIP_DOC = CFrame.new(0, -1, 0) * CFrame.Angles(math.rad(90), math.rad(90), 0)
+		local GRIP_NGANG = CFrame.new(-2.2, -1.2, 0) * CFrame.Angles(math.rad(90), 0, 0)
+
+		tool.Grip = GRIP_DOC
+
+		local equipped = false
+		local isFlying = false
+		local FLY_SPEED = 70
+
+		local bodyVel, bodyGyro
+		local lastTrailPos = nil
+		local currentAnimTrack = nil
+
+		local SledColors = {
+			Color3.fromRGB(255, 0, 0),
+			Color3.fromRGB(255, 50, 50),
+			Color3.fromRGB(0, 255, 0),
+			Color3.fromRGB(50, 255, 50),
+			Color3.fromRGB(255, 0, 0)
+		}
+
+		local function createTrail(fromPos, toPos)
+			local dist = (toPos - fromPos).Magnitude
+			if dist < 1 then return end
+
+			local mid = fromPos:Lerp(toPos, 0.5)
+			local lookCF = CFrame.lookAt(mid, toPos)
+
+			local model = Instance.new("Model")
+			model.Name = "SledTrail"
+
+			local partWidth = 0.65
+			local height = 0.5
+
+			for i, color in ipairs(SledColors) do
+				local p = Instance.new("Part")
+				p.Size = Vector3.new(partWidth, height, dist + 2)
+				p.Anchored = true
+				p.CanCollide = false
+				p.Material = Enum.Material.Neon
+				p.Color = color
+				p.Transparency = 0.05
+				p.CastShadow = false
+
+				local offsetX = (i - 3) * partWidth
+				p.CFrame = lookCF * CFrame.new(offsetX, -2, 0)
+
+				local light = Instance.new("PointLight")
+				light.Color = color
+				light.Brightness = 10.0
+				light.Range = 15
+				light.Parent = p
+
+				p.Parent = model
+			end
+
+			model.Parent = workspace
+			Debris:AddItem(model, 1.5)
+		end
+
+		local function cleanupMovers()
+			if bodyVel then bodyVel:Destroy() bodyVel = nil end
+			if bodyGyro then bodyGyro:Destroy() bodyGyro = nil end
+		end
+
+		local function stopAnimation()
+			if currentAnimTrack then
+				currentAnimTrack:Stop()
+				currentAnimTrack:Destroy()
+				currentAnimTrack = nil
+			end
+		end
+
+		local function stopFlying()
+			isFlying = false
+			tool.Grip = GRIP_DOC
+			lastTrailPos = nil
+			cleanupMovers()
+			stopAnimation()
+
+			setupHandle(tool)
+
+			local char = player.Character
+			if char then
+				local humanoid = char:FindFirstChild("Humanoid")
+				if humanoid then
+					humanoid.PlatformStand = false
+					humanoid.AutoRotate = true
+				end
+			end
+		end
+
+		local function startAnimation(humanoid)
+			stopAnimation()
+			local animator = humanoid:FindFirstChildOfClass("Animator") or humanoid:WaitForChild("Animator", 2)
+			if animator then
+				local animObj = Instance.new("Animation")
+				animObj.AnimationId = animId
+				currentAnimTrack = animator:LoadAnimation(animObj)
+				currentAnimTrack.Priority = Enum.AnimationPriority.Action
+				currentAnimTrack:Play()
+			end
+		end
+
+		local function startFlying()
+			local char = player.Character
+			if not char then return end
+			local hrp = char:FindFirstChild("HumanoidRootPart")
+			local humanoid = char:FindFirstChild("Humanoid")
+			if not hrp or not humanoid then return end
+
+			isFlying = true
+			tool.Grip = GRIP_NGANG
+			lastTrailPos = hrp.Position
+
+			setupHandle(tool)
+
+			humanoid.PlatformStand = true
+			humanoid.AutoRotate = false
+
+			cleanupMovers()
+			startAnimation(humanoid)
+
+			bodyVel = Instance.new("BodyVelocity")
+			bodyVel.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+			bodyVel.Velocity = Vector3.zero
+			bodyVel.Parent = hrp
+
+			bodyGyro = Instance.new("BodyGyro")
+			bodyGyro.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+			bodyGyro.P = 12000
+			bodyGyro.CFrame = hrp.CFrame
+			bodyGyro.Parent = hrp
+
+			hrp.AssemblyLinearVelocity = Vector3.new(0, 25, 0)
+		end
+
+		tool.Activated:Connect(function()
+			if not equipped then return end
+			if isFlying then
+				stopFlying()
+			else
+				startFlying()
+			end
+		end)
+
+		tool.Equipped:Connect(function()
+			equipped = true
+			tool.Grip = GRIP_DOC
+			setupHandle(tool)
+		end)
+
+		tool.Unequipped:Connect(function()
+			equipped = false
+			stopFlying()
+		end)
+
+		local function onCharacterAdded(char)
+			stopFlying()
+			local humanoid = char:WaitForChild("Humanoid", 5)
+			if humanoid then
+				humanoid.Died:Connect(stopFlying)
+			end
+		end
+
+		if player.Character then
+			onCharacterAdded(player.Character)
+		end
+		player.CharacterAdded:Connect(onCharacterAdded)
+
+		local trailCooldown = 0
+		RunService.RenderStepped:Connect(function(dt)
+			if not (equipped and isFlying and player.Character) then return end
+
+			local hrp = player.Character:FindFirstChild("HumanoidRootPart")
+			local humanoid = player.Character:FindFirstChild("Humanoid")
+			if not hrp or not bodyVel or not bodyGyro then return end
+
+			camera = workspace.CurrentCamera
+			local camCF = camera.CFrame
+			bodyGyro.CFrame = camCF
+
+			local moveDir = Vector3.zero
+
+			if humanoid.MoveDirection.Magnitude > 0.05 then
+				local localMove = camCF:VectorToObjectSpace(humanoid.MoveDirection)
+				moveDir = Vector3.new(localMove.X, 0, localMove.Z)
+			end
+
+			if UserInputService:IsKeyDown(Enum.KeyCode.Space) then
+				moveDir = moveDir + Vector3.new(0, 1, 0)
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) then
+				moveDir = moveDir + Vector3.new(0, -1, 0)
+			end
+
+			if humanoid.MoveDirection.Magnitude <= 0.05 then
+				if UserInputService:IsKeyDown(Enum.KeyCode.W) then moveDir = moveDir + Vector3.new(0, 0, -1) end
+				if UserInputService:IsKeyDown(Enum.KeyCode.S) then moveDir = moveDir + Vector3.new(0, 0, 1) end
+				if UserInputService:IsKeyDown(Enum.KeyCode.A) then moveDir = moveDir + Vector3.new(-1, 0, 0) end
+				if UserInputService:IsKeyDown(Enum.KeyCode.D) then moveDir = moveDir + Vector3.new(1, 0, 0) end
+			end
+
+			if moveDir.Magnitude > 0 then
+				moveDir = moveDir.Unit
+				local flyVector = camCF.RightVector * moveDir.X
+					+ Vector3.new(0, 1, 0) * moveDir.Y
+					+ camCF.LookVector * -moveDir.Z
+				bodyVel.Velocity = flyVector * FLY_SPEED
+			else
+				bodyVel.Velocity = Vector3.zero
+			end
+
+			trailCooldown = trailCooldown - dt
+			if trailCooldown <= 0 then
+				trailCooldown = 0.05
+
+				local currentPos = hrp.Position
+				if lastTrailPos then
+					local dist = (currentPos - lastTrailPos).Magnitude
+					if dist > 1.5 then
+						createTrail(lastTrailPos, currentPos)
+						lastTrailPos = currentPos
+					end
+				else
+					lastTrailPos = currentPos
+				end
+			end
+		end)
+
+		print("✅ Trenó centralizado!")
+	else
+		christmasSleighCargado = false
+		warn("Erro ao carregar o Trenó!")
+	end
+end)
+-- Opción 2: Pink Water Cannon
+local pinkCannonCargado = false
+crearBotonHerramienta("Pink Water Cannon", 2, function()
+	if pinkCannonCargado then return end
+	pinkCannonCargado = true
+
+	local Camera = workspace.CurrentCamera
+	local Mouse = player:GetMouse()
+
+	local GEAR_ID = "1760404984"
+	local COR_ROSA_CLARO = Color3.fromRGB(255, 182, 193)
+	local COR_ROXO = Color3.fromRGB(160, 32, 240)
+	local SOM_TIRO_ID = "6603571443"
+
+	local function notify(title, text)
+		pcall(function()
+			StarterGui:SetCore("SendNotification", {Title = title, Text = text, Duration = 4})
+		end)
+	end
+
+	local originalWaterColor = workspace.Terrain.WaterColor
+	local originalWaterTransparency = workspace.Terrain.WaterTransparency
+	local activePuddles = 0
+
+	local function createPinkWaterExplosion(point)
+		local scale = 8 + (4 * math.random(1, 3))
+		local terrain = workspace.Terrain
+
+		activePuddles = activePuddles + 1
+		terrain.WaterColor = COR_ROSA_CLARO
+		terrain.WaterTransparency = 0.1
+		terrain:FillBall(point, scale, Enum.Material.Water)
+
+		local splash = Instance.new("Part")
+		splash.Anchored = true
+		splash.CanCollide = false
+		splash.Transparency = 1
+		splash.Position = point
+		splash.Parent = workspace
+
+		local particles = Instance.new("ParticleEmitter", splash)
+		particles.Texture = "rbxassetid://241650934"
+		particles.Color = ColorSequence.new(COR_ROSA_CLARO)
+		particles.Size = NumberSequence.new(2)
+		particles.Transparency = NumberSequence.new(0.2)
+		particles.Lifetime = NumberRange.new(0.5, 1)
+		particles.Speed = NumberRange.new(20, 40)
+		particles.SpreadAngle = Vector2.new(180, 180)
+		particles.Rate = 0
+		particles:Emit(150)
+
+		Debris:AddItem(splash, 1.5)
+
+		task.delay(7, function()
+			terrain:FillBall(point, scale, Enum.Material.Air)
+			activePuddles = activePuddles - 1
+			if activePuddles <= 0 then
+				activePuddles = 0
+				terrain.WaterColor = originalWaterColor
+				terrain.WaterTransparency = originalWaterTransparency
+			end
+		end)
+	end
+
+	local JUMP_POWER = 100
+	local BOOST_FRAMES = 3
+
+	local function isInWater()
+		local char = player.Character
+		local hum = char and char:FindFirstChild("Humanoid")
+		if not hum then return false end
+		return hum:GetState() == Enum.HumanoidStateType.Swimming or hum:GetState() == Enum.HumanoidStateType.GettingUp
+	end
+
+	UserInputService.JumpRequest:Connect(function()
+		if not isInWater() then return end
+		local char = player.Character
+		local root = char and char:FindFirstChild("HumanoidRootPart")
+		local hum = char and char:FindFirstChild("Humanoid")
+		if not root or not hum then return end
+
+		hum:ChangeState(Enum.HumanoidStateType.Jumping)
+		root.AssemblyLinearVelocity = Vector3.new(root.AssemblyLinearVelocity.X, JUMP_POWER, root.AssemblyLinearVelocity.Z)
+
+		task.spawn(function()
+			for i = 1, BOOST_FRAMES do
+				if not root or not root.Parent then break end
+				if root.AssemblyLinearVelocity.Y < JUMP_POWER * 0.7 then
+					root.AssemblyLinearVelocity = Vector3.new(root.AssemblyLinearVelocity.X, math.max(root.AssemblyLinearVelocity.Y, JUMP_POWER * 0.85), root.AssemblyLinearVelocity.Z)
+				end
+				RunService.Heartbeat:Wait()
+			end
+		end)
+	end)
+
+	local function GiveTool()
+		local backpack = player:WaitForChild("Backpack")
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+
+		for _, item in pairs(backpack:GetChildren()) do
+			if item.Name == "Magic Water Gun" then item:Destroy() end
+		end
+		for _, item in pairs(character:GetChildren()) do
+			if item.Name == "Magic Water Gun" then item:Destroy() end
+		end
+
+		local tool = nil
+		local success, objects = pcall(function() return game:GetObjects("rbxassetid://" .. GEAR_ID) end)
+		if success and objects and objects[1] then
+			tool = objects[1]
+			if not tool:IsA("Tool") then tool = tool:FindFirstChildWhichIsA("Tool") end
+		end
+
+		if not tool then
+			tool = Instance.new("Tool")
+			tool.RequiresHandle = true
+			tool.CanBeDropped = false
+			tool.TextureId = "rbxassetid://1743849071"
+			tool.Grip = CFrame.new(0, -1.25, 0.75)
+
+			local handle = Instance.new("Part")
+			handle.Name = "Handle"
+			handle.Size = Vector3.new(1.93676, 4.34484, 8.43017)
+			handle.Material = Enum.Material.Plastic
+			handle.Anchored = false
+			handle.CanCollide = false
+			handle.Massless = false
+			handle.Parent = tool
+
+			local mesh = Instance.new("SpecialMesh")
+			mesh.MeshId = "rbxassetid://1743845180"
+			mesh.TextureId = "rbxassetid://1743846252"
+			mesh.Parent = handle
+		end
+
+		tool.Name = "Magic Water Gun"
+
+		for _, child in ipairs(tool:GetDescendants()) do
+			if child:IsA("Script") or child:IsA("LocalScript") then child:Destroy() end
+		end
+
+		local handle = tool:FindFirstChild("Handle") or tool:FindFirstChildWhichIsA("BasePart")
+		if not handle then return end
+
+		handle.Size = handle.Size * 0.8
+		local mesh = handle:FindFirstChildOfClass("SpecialMesh") or handle:FindFirstChildOfClass("Mesh")
+		if mesh then
+			mesh.Scale = mesh.Scale * 0.8
+		end
+
+		local barrelAttachment = Instance.new("Attachment")
+		barrelAttachment.Name = "BarrelAttachment"
+		barrelAttachment.Position = Vector3.new(0, 0, -(handle.Size.Z / 2))
+		barrelAttachment.Parent = handle
+
+		local soundShot = Instance.new("Sound")
+		soundShot.Name = "Gunshot"
+		soundShot.SoundId = "rbxassetid://" .. SOM_TIRO_ID
+		soundShot.Volume = 0.7
+		soundShot.Parent = handle
+
+		local AttackAble = true
+
+		tool.Activated:Connect(function()
+			if not AttackAble then return end
+			AttackAble = false
+			soundShot:Play()
+
+			local targetPos = Mouse.Hit.Position
+			if not targetPos then AttackAble = true return end
+
+			Camera = workspace.CurrentCamera
+			local camPos = Camera.CFrame.Position
+			local direction = (targetPos - camPos).Unit * 500
+
+			local rayParams = RaycastParams.new()
+			rayParams.FilterDescendantsInstances = {character, tool}
+			rayParams.FilterType = Enum.RaycastFilterType.Exclude
+
+			local rayResult = workspace:Raycast(camPos, direction, rayParams)
+			local hitPos = rayResult and rayResult.Position or targetPos
+			local shootOrigin = barrelAttachment.WorldPosition
+
+			local beamAttachment0 = Instance.new("Attachment", handle)
+			local beamAttachment1 = Instance.new("Attachment", workspace)
+			beamAttachment1.WorldPosition = shootOrigin
+
+			local beamVisual = Instance.new("Beam")
+			beamVisual.Attachment0 = beamAttachment0
+			beamVisual.Attachment1 = beamAttachment1
+			beamVisual.Color = ColorSequence.new(COR_ROXO)
+			beamVisual.LightEmission = 1
+			beamVisual.Width0 = 0.3
+			beamVisual.Width1 = 0.3
+			beamVisual.FaceCamera = true
+			beamVisual.Parent = handle
+
+			TweenService:Create(beamAttachment1, TweenInfo.new(0.1), {WorldPosition = hitPos}):Play()
+
+			task.delay(0.1, function()
+				createPinkWaterExplosion(hitPos)
+				beamAttachment1:Destroy()
+				beamVisual:Destroy()
+			end)
+
+			task.wait(0.4)
+			AttackAble = true
+		end)
+
+		tool.Parent = backpack
+		humanoid:EquipTool(tool)
+	end
+
+	GiveTool()
+
+	player.CharacterAdded:Connect(function()
+		task.wait(1.5)
+		GiveTool()
+	end)
+
+	notify("Pink Water Cannon", "Cargado correctamente (Pulo 100)")
+	print("✅ Pulo atualizado para 100!")
+end)
+
+-- Opción 3: carpet
+crearBotonHerramienta("carpet", 3, function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Open-Source-227632"))()
+end)
+
+-- Opción 4: coils
+crearBotonHerramienta("coils", 4, function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Script-em-ServerScriptService-Cl*ic-Speed-Coil-+-Gra-230330"))()
+end)
+
+-- Opción 5: bomb devy
+crearBotonHerramienta("bomb devy", 5, function()
+	loadstring(game:HttpGet("https://pastefy.app/IHNfoa6j/raw"))()
+end)
+
+-- Opción 6: gear
+crearBotonHerramienta("gear", 6, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/antonioffxslegend-collab/Gears/refs/heads/main/script.lua", true))()
+end)
+-- Opción 7: starborn
+local starbornCargado = false
+crearBotonHerramienta("starborn", 7, function()
+	if starbornCargado then return end
+	starbornCargado = true
+
+	local StarStyle = Font.new("rbxasset://fonts/families/FredokaOne.json")
+
+	local function applyFont(v)
+		if v:IsA("TextLabel")
+			or v:IsA("TextButton")
+			or v:IsA("TextBox") then
+			v.FontFace = StarStyle
+			v.TextStrokeTransparency = 0.3
+			v.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		end
+	end
+
+	for _, v in pairs(player.PlayerGui:GetDescendants()) do
+		applyFont(v)
+	end
+
+	player.PlayerGui.DescendantAdded:Connect(function(v)
+		task.wait()
+		applyFont(v)
+	end)
+
+	print("⭐ Starborn style enabled")
+end)
+
+-- Opción 8: Recolor gun
+crearBotonHerramienta("Recolor gun", 8, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Levinotsavy/Kk/main/script.lua"))()
+end)
+
+-- Opción 9: Recolor bomb
+local recolorBombCargado = false
+crearBotonHerramienta("Recolor bomb", 9, function()
+	if recolorBombCargado then return end
+	recolorBombCargado = true
+
+	local localPlayer = Players.LocalPlayer
+
+	local bombIds = {
+		"rbxassetid://72634649711269",
+		"rbxassetid://101785080415896",
+		"rbxassetid://87195137432081",
+		"rbxassetid://75764270519412",
+		"rbxassetid://133744095064808",
+		"rbxassetid://72795881681356"
+	}
+
+	local currentTexture = bombIds[1]
+	local selectedButton = nil
+
+	local function modifyBomb(obj)
+		if not obj then return end
+		local name = obj.Name:lower()
+
+		if not (name:find("bomb") or name:find("prank")) then return end
+
+		for _, part in ipairs(obj:GetDescendants()) do
+			if part:IsA("MeshPart") then
+				part.TextureID = currentTexture
+			elseif part:IsA("BasePart") then
+				for _, sub in ipairs(part:GetChildren()) do
+					if sub:IsA("Decal") or sub:IsA("Texture") then
+						sub.Texture = currentTexture
+					elseif sub:IsA("SpecialMesh") then
+						sub.TextureId = currentTexture
+					end
+				end
+			end
+		end
+		if obj:IsA("MeshPart") then
+			obj.TextureID = currentTexture
+		end
+	end
+
+	local function onCharacterAdded(char)
+		char.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") then
+				task.spawn(function()
+					task.wait(0.05)
+					modifyBomb(child)
+				end)
+			end
+		end)
+	end
+
+	if localPlayer.Character then
+		onCharacterAdded(localPlayer.Character)
+	end
+	localPlayer.CharacterAdded:Connect(onCharacterAdded)
+
+	if localPlayer:FindFirstChild("Backpack") then
+		localPlayer.Backpack.ChildAdded:Connect(function(child)
+			if child:IsA("Tool") then
+				task.spawn(function()
+					task.wait(0.05)
+					modifyBomb(child)
+				end)
+			end
+		end)
+	end
+
+	local function makeDraggable(guiObject, dragHandle)
+		dragHandle = dragHandle or guiObject
+		local dragging = false
+		local dragStart, startPos
+
+		dragHandle.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1
+				or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = guiObject.Position
+
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+
+		dragHandle.InputChanged:Connect(function(input)
+			if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement
+				or input.UserInputType == Enum.UserInputType.Touch) then
+				local delta = input.Position - dragStart
+				guiObject.Position = UDim2.new(
+					startPos.X.Scale,
+					startPos.X.Offset + delta.X,
+					startPos.Y.Scale,
+					startPos.Y.Offset + delta.Y
+				)
+			end
+		end)
+	end
+
+	pcall(function()
+		CoreGui:FindFirstChild("GoldBombGui"):Destroy()
+	end)
+
+	local bombGui = Instance.new("ScreenGui")
+	bombGui.Name = "GoldBombGui"
+	bombGui.Parent = CoreGui
+
+	local toggleBombBtn = Instance.new("TextButton")
+	toggleBombBtn.Size = UDim2.new(0, 130, 0, 40)
+	toggleBombBtn.Position = UDim2.new(0, 20, 0, 120)
+	toggleBombBtn.BackgroundColor3 = Color3.fromRGB(0, 120, 255)
+	toggleBombBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+	toggleBombBtn.TextSize = 14
+	toggleBombBtn.Font = Enum.Font.SourceSansBold
+	toggleBombBtn.Text = "قائمة Gold Bomb 💣"
+	toggleBombBtn.Parent = bombGui
+	toggleBombBtn.Active = true
+
+	local c1 = Instance.new("UICorner")
+	c1.CornerRadius = UDim.new(0, 8)
+	c1.Parent = toggleBombBtn
+
+	local bombMainFrame = Instance.new("Frame")
+	bombMainFrame.Size = UDim2.new(0, 280, 0, 340)
+	bombMainFrame.Position = UDim2.new(0, 20, 0, 170)
+	bombMainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+	bombMainFrame.BorderSizePixel = 0
+	bombMainFrame.Visible = false
+	bombMainFrame.Parent = bombGui
+	bombMainFrame.Active = true
+
+	local c2 = Instance.new("UICorner")
+	c2.CornerRadius = UDim.new(0, 10)
+	c2.Parent = bombMainFrame
+
+	local titleLabel = Instance.new("TextLabel")
+	titleLabel.Size = UDim2.new(1, 0, 0, 40)
+	titleLabel.BackgroundTransparency = 1
+	titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	titleLabel.TextSize = 13
+	titleLabel.Font = Enum.Font.SourceSansBold
+	titleLabel.Text = "اختر صورة قنبلة Gold Prank Bomb"
+	titleLabel.Parent = bombMainFrame
+
+	local closeBtn = Instance.new("TextButton")
+	closeBtn.Size = UDim2.new(0, 30, 0, 30)
+	closeBtn.Position = UDim2.new(1, -35, 0, 5)
+	closeBtn.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+	closeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+	closeBtn.TextSize = 14
+	closeBtn.Font = Enum.Font.SourceSansBold
+	closeBtn.Text = "X"
+	closeBtn.Parent = bombMainFrame
+
+	local c3 = Instance.new("UICorner")
+	c3.CornerRadius = UDim.new(0, 6)
+	c3.Parent = closeBtn
+
+	closeBtn.MouseButton1Click:Connect(function()
+		bombMainFrame.Visible = false
+	end)
+
+	toggleBombBtn.MouseButton1Click:Connect(function()
+		bombMainFrame.Visible = not bombMainFrame.Visible
+	end)
+
+	makeDraggable(toggleBombBtn)
+	makeDraggable(bombMainFrame, titleLabel)
+
+	for i, idAsset in ipairs(bombIds) do
+		local btn = Instance.new("TextButton")
+		btn.Size = UDim2.new(0.9, 0, 0, 35)
+		btn.Position = UDim2.new(0.05, 0, 0, 45 + (i * 42))
+		btn.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+		btn.TextColor3 = Color3.fromRGB(255, 255, 255)
+		btn.TextSize = 12
+		btn.Font = Enum.Font.SourceSansBold
+		btn.Text = "صورة ID " .. i
+		btn.Parent = bombMainFrame
+
+		local c = Instance.new("UICorner")
+		c.CornerRadius = UDim.new(0, 6)
+		c.Parent = btn
+
+		btn.MouseButton1Click:Connect(function()
+			currentTexture = idAsset
+
+			if selectedButton then
+				selectedButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+			end
+			selectedButton = btn
+			btn.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+
+			if localPlayer.Character then
+				for _, item in ipairs(localPlayer.Character:GetChildren()) do
+					if item:IsA("Tool") then modifyBomb(item) end
+				end
+			end
+
+			print("تم تغيير وتثبيت الصورة: " .. idAsset)
+		end)
+	end
+
+	print("تم تفعيل السكريبت المحدث بنجاح!")
+end)
+----------------------------------------------------------------
+-- CONTENEDOR DEL APARTADO 👁️ (VISUAL)
+----------------------------------------------------------------
+local visualFrame = Instance.new("ScrollingFrame")
+visualFrame.Name = "ContenidoVisual"
+visualFrame.Size = UDim2.new(0, 255, 0, 174)
+visualFrame.Position = UDim2.new(0, 14, 0, 44)
+visualFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+visualFrame.BorderSizePixel = 0
+visualFrame.ScrollBarThickness = 4
+visualFrame.CanvasSize = UDim2.new(0, 0, 0, 400)
+visualFrame.Visible = false
+visualFrame.ZIndex = 7
+visualFrame.Parent = contentFrame
+
+local visualCorner = Instance.new("UICorner")
+visualCorner.CornerRadius = UDim.new(0, 14)
+visualCorner.Parent = visualFrame
+
+local visualListLayout = Instance.new("UIListLayout")
+visualListLayout.FillDirection = Enum.FillDirection.Vertical
+visualListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+visualListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+visualListLayout.Padding = UDim.new(0, 7)
+visualListLayout.Parent = visualFrame
+
+local visualPadding = Instance.new("UIPadding")
+visualPadding.PaddingTop = UDim.new(0, 8)
+visualPadding.PaddingBottom = UDim.new(0, 8)
+visualPadding.Parent = visualFrame
+
+local function crearBotonVisual(texto, orden, callback)
+	local btn = Instance.new("TextButton")
+	btn.Name = texto
+	btn.LayoutOrder = orden
+	btn.Size = UDim2.new(1, -18, 0, 36)
+	btn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+	btn.TextColor3 = Color3.fromRGB(60, 30, 40)
+	btn.Font = Enum.Font.GothamBold
+	btn.TextSize = 13
+	btn.Text = texto
+	btn.AutoButtonColor = true
+	btn.ZIndex = 8
+	btn.Parent = visualFrame
+
+	local btnCorner = Instance.new("UICorner")
+	btnCorner.CornerRadius = UDim.new(0, 10)
+	btnCorner.Parent = btn
+
+	btn.MouseButton1Click:Connect(function()
+		if callback then
+			callback()
+		end
+	end)
+
+	registrarOpcionBuscable(btn, texto, orden, visualFrame)
+	return btn
+end
+
+crearBotonVisual("límites UGS", 1, function()
+	loadstring(game:HttpGet("https://api.lyraez.lol/loader"))()
+end)
+
+crearBotonVisual("korblox", 2, function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Korblox-R15-231745"))()
+end)
+
+crearBotonVisual("Headless", 3, function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-headless-fe-real-2026-234172"))()
+end)
+
+crearBotonVisual("Quality 2023", 4, function()
+	loadstring(game:HttpGet("https://pastefy.app/kJZQdgzD/raw"))()
+end)
+
+local cursoresCargado = false
+crearBotonVisual("cursores", 5, function()
+	if cursoresCargado then return end
+	cursoresCargado = true
+
+	local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"))()
+
+	local HttpService = game:GetService("HttpService")
+
+	--// SAVE FILE
+	local SaveFile = "CustomShiftLock_Cursors.json"
+
+	local SavedCustomCursors = {}
+
+	if isfile and isfile(SaveFile) then
+		local Success, Data = pcall(function()
+			return HttpService:JSONDecode(readfile(SaveFile))
+		end)
+
+		if Success and type(Data) == "table" then
+			SavedCustomCursors = Data
+		end
+	end
+
+	local function SaveCustomCursors()
+		if writefile then
+			writefile(SaveFile, HttpService:JSONEncode(SavedCustomCursors))
+		end
+	end
+
+	local Window = WindUI:CreateWindow({
+		Title = "Custom ShiftLock",
+		Icon = "mouse-pointer",
+		Author = "pan9ic",
+		Folder = "WindUI",
+		Size = UDim2.fromOffset(500, 350),
+		Transparent = true,
+		Theme = "Dark",
+	})
+
+	local MainTab = Window:Tab({
+		Title = "Main",
+		Icon = "star"
+	})
+
+	local CustomTab = Window:Tab({
+		Title = "Custom",
+		Icon = "plus"
+	})
+
+	local SettingsTab = Window:Tab({
+		Title = "Settings",
+		Icon = "settings"
+	})
+
+	local Enabled = false
+	local SpinEnabled = false
+
+	local SpinSpeed = 5
+	local SpinDirection = "Right"
+
+	local CursorWidth = 50
+	local CursorHeight = 50
+
+	local Rotation = 0
+
+	local SelectedCursor = "rbxassetid://131843855435385"
+
+	local DefaultImages = {
+		"rbxasset://textures/MouseLockedCursor.png",
+		"rbxasset://textures/MouseLockedCursor@2x.png"
+	}
+
+	local ShiftlockObjects = {}
+
+	--// CURSORS
+	local CursorTable = {
+		["White"] = "rbxassetid://131843855435385",
+		["Purple"] = "rbxassetid://105227484929270",
+		["Dark Red"] = "rbxassetid://70807381747714",
+		["Black"] = "rbxassetid://134411152875782",
+		["Pink"] = "rbxassetid://101446374921049",
+		["Blue"] = "rbxassetid://94640444703376",
+		["Green"] = "rbxassetid://112063814299010",
+		["Teal"] = "rbxassetid://105472303240225",
+		["Hot Pink"] = "rbxassetid://120423063723029",
+		["Red"] = "rbxassetid://93953005352303",
+		["Blue star"] = "rbxassetid://11716557686",
+		["Mocha"] = "rbxassetid://123066282804999",
+		["Cinnamoroll"] = "rbxassetid://130820173728340",
+	}
+
+	--// LOAD SAVED CUSTOM CURSORS
+	for Name, Id in pairs(SavedCustomCursors) do
+		CursorTable[Name] = Id
+	end
+
+	local function GetCursorNames()
+		local Result = {}
+
+		for Name in pairs(CursorTable) do
+			table.insert(Result, Name)
+		end
+
+		table.sort(Result)
+
+		return Result
+	end
+
+	local function ScanShiftLock()
+		ShiftlockObjects = {}
+
+		for _, v in pairs(game:GetDescendants()) do
+			if v:IsA("ImageLabel") or v:IsA("ImageButton") then
+				if table.find(DefaultImages, v.Image)
+					or string.find(string.lower(v.Name), "shift")
+					or string.find(string.lower(v.Name), "lock") then
+					table.insert(ShiftlockObjects, v)
+				end
+			end
+		end
+	end
+
+	local function ApplySize(v)
+		v.Size = UDim2.new(
+			0,
+			math.clamp(CursorWidth, 1, 100),
+			0,
+			math.clamp(CursorHeight, 1, 100)
+		)
+
+		v.ImageTransparency = 0
+		v.BackgroundTransparency = 1
+		v.ScaleType = Enum.ScaleType.Fit
+	end
+
+	local function UpdateShiftLock()
+		for _, v in pairs(ShiftlockObjects) do
+			if v and v.Parent then
+				if Enabled then
+					v.Image = SelectedCursor
+					ApplySize(v)
+				else
+					v.Image = "rbxasset://textures/MouseLockedCursor.png"
+					v.Rotation = 0
+					v.Size = UDim2.new(0, 32, 0, 32)
+				end
+			end
+		end
+	end
+
+	RunService.RenderStepped:Connect(function()
+		if SpinEnabled and Enabled then
+			if SpinDirection == "Right" then
+				Rotation += SpinSpeed
+			else
+				Rotation -= SpinSpeed
+			end
+
+			for _, v in pairs(ShiftlockObjects) do
+				if v and v.Parent then
+					v.Rotation = Rotation
+					ApplySize(v)
+				end
+			end
+		end
+	end)
+
+	game.DescendantAdded:Connect(function(v)
+		task.wait(1)
+
+		if v:IsA("ImageLabel") or v:IsA("ImageButton") then
+			if table.find(DefaultImages, v.Image)
+				or string.find(string.lower(v.Name), "shift")
+				or string.find(string.lower(v.Name), "lock") then
+				table.insert(ShiftlockObjects, v)
+
+				if Enabled then
+					v.Image = SelectedCursor
+					ApplySize(v)
+				end
+			end
+		end
+	end)
+
+	ScanShiftLock()
+
+	--// TOGGLE
+	MainTab:Toggle({
+		Title = "Turn Custom ShiftLock",
+		Default = false,
+		Callback = function(Value)
+			Enabled = Value
+			UpdateShiftLock()
+		end
+	})
+
+	--// DROPDOWN
+	MainTab:Dropdown({
+		Title = "Choose Cursor",
+		Values = GetCursorNames(),
+		Callback = function(Value)
+			if CursorTable[Value] then
+				SelectedCursor = CursorTable[Value]
+				UpdateShiftLock()
+			end
+		end
+	})
+
+	--// CUSTOM TAB
+	local CustomName = ""
+	local CustomId = ""
+
+	CustomTab:Input({
+		Title = "Cursor Name",
+		Placeholder = "Example: My Cursor",
+		Callback = function(Value)
+			CustomName = Value
+		end
+	})
+
+	CustomTab:Input({
+		Title = "Cursor Asset ID",
+		Placeholder = "Example: 123456789",
+		Callback = function(Value)
+			CustomId = Value
+		end
+	})
+
+	CustomTab:Button({
+		Title = "Add Custom Cursor",
+		Callback = function()
+			if CustomName ~= "" and CustomId ~= "" then
+				local Asset = "rbxassetid://" .. tostring(CustomId)
+
+				CursorTable[CustomName] = Asset
+				SavedCustomCursors[CustomName] = Asset
+
+				SaveCustomCursors()
+
+				Window:Notify({
+					Title = "Saved",
+					Content = "Cursor added successfully!",
+					Duration = 3
+				})
+			else
+				Window:Notify({
+					Title = "Error",
+					Content = "Enter name and asset id",
+					Duration = 3
+				})
+			end
+		end
+	})
+
+	CustomTab:Paragraph({
+		Title = "Info",
+		Desc = "Custom cursors save after rejoin/restart"
+	})
+
+	--// SETTINGS
+	SettingsTab:Toggle({
+		Title = "Spin ShiftLock",
+		Default = false,
+		Callback = function(Value)
+			SpinEnabled = Value
+		end
+	})
+
+	SettingsTab:Slider({
+		Title = "Spin Speed",
+		Value = {
+			Min = 0.1,
+			Max = 500,
+			Default = 5,
+		},
+		Callback = function(Value)
+			SpinSpeed = Value
+		end
+	})
+
+	SettingsTab:Dropdown({
+		Title = "Spin Direction",
+		Values = {
+			"Left",
+			"Right"
+		},
+		Callback = function(Value)
+			SpinDirection = Value
+		end
+	})
+
+	SettingsTab:Slider({
+		Title = "Width",
+		Value = {
+			Min = 1,
+			Max = 100,
+			Default = 50,
+		},
+		Callback = function(Value)
+			CursorWidth = Value
+			UpdateShiftLock()
+		end
+	})
+
+	SettingsTab:Slider({
+		Title = "Height",
+		Value = {
+			Min = 1,
+			Max = 100,
+			Default = 50,
+		},
+		Callback = function(Value)
+			CursorHeight = Value
+			UpdateShiftLock()
+		end
+	})
+end)
+
+crearBotonVisual("kay-key:kay2027", 6, function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/kaywxzstumblr/334ff80c087bf16b05e9485a13c8ce96/raw/d02ea328497c72dc896d56b4a90036cf1822be06/gistfile1.txt", true))()
+end)
+
+crearBotonVisual("sky", 7, function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xzXmDPP1"))()
+end)
+
+crearBotonVisual("shaders", 8, function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Simple-Shaders-68015"))()
+end)
+
+crearBotonVisual("nevegation bar", 9, function()
+	pcall(function()
+		CoreGui:FindFirstChild("LiquidGlassBar"):Destroy()
+	end)
+
+	local gui = Instance.new("ScreenGui")
+	gui.Name = "LiquidGlassBar"
+	gui.ResetOnSpawn = false
+	gui.IgnoreGuiInset = true
+	gui.Parent = CoreGui
+
+	local bar = Instance.new("Frame")
+	bar.Name = "GlassLine"
+	bar.Size = UDim2.new(0, 230, 0, 3)
+	bar.Position = UDim2.new(0.5, -115, 1, -7)
+	bar.BackgroundColor3 = Color3.fromRGB(245, 248, 255)
+	bar.BackgroundTransparency = 0.38
+	bar.BorderSizePixel = 0
+	bar.Parent = gui
+
+	local corner = Instance.new("UICorner")
+	corner.CornerRadius = UDim.new(1, 0)
+	corner.Parent = bar
+
+	local stroke = Instance.new("UIStroke")
+	stroke.Color = Color3.fromRGB(255, 255, 255)
+	stroke.Thickness = 0.6
+	stroke.Transparency = 0.2
+	stroke.Parent = bar
+
+	local gradient = Instance.new("UIGradient")
+	gradient.Rotation = 90
+	gradient.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(190, 210, 240))
+	})
+	gradient.Parent = bar
+end)
+----------------------------------------------------------------
+-- CONTENEDOR DEL APARTADO 🏃 (MOVIMIENTO)
+----------------------------------------------------------------
+local movimientoFrame = Instance.new("ScrollingFrame")
+movimientoFrame.Name = "ContenidoMovimiento"
+movimientoFrame.Size = UDim2.new(0, 255, 0, 174)
+movimientoFrame.Position = UDim2.new(0, 14, 0, 44)
+movimientoFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+movimientoFrame.BorderSizePixel = 0
+movimientoFrame.ScrollBarThickness = 4
+movimientoFrame.CanvasSize = UDim2.new(0, 0, 0, 295)
+movimientoFrame.Visible = false
+movimientoFrame.ZIndex = 7
+movimientoFrame.Parent = contentFrame
+
+local movCorner = Instance.new("UICorner")
+movCorner.CornerRadius = UDim.new(0, 14)
+movCorner.Parent = movimientoFrame
+
+local movListLayout = Instance.new("UIListLayout")
+movListLayout.FillDirection = Enum.FillDirection.Vertical
+movListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+movListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+movListLayout.Padding = UDim.new(0, 6)
+movListLayout.Parent = movimientoFrame
+
+local movPadding = Instance.new("UIPadding")
+movPadding.PaddingTop = UDim.new(0, 8)
+movPadding.PaddingBottom = UDim.new(0, 8)
+movPadding.Parent = movimientoFrame
+
+local function crearSlider(titulo, minVal, maxVal, valorInicial, orden, onChange)
+	local holder = Instance.new("Frame")
+	holder.Name = titulo
+	holder.LayoutOrder = orden
+	holder.Size = UDim2.new(1, -18, 0, 48)
+	holder.BackgroundColor3 = Color3.fromRGB(255, 214, 224)
+	holder.ZIndex = 8
+	holder.Parent = movimientoFrame
+
+	local holderCorner = Instance.new("UICorner")
+	holderCorner.CornerRadius = UDim.new(0, 10)
+	holderCorner.Parent = holder
+
+	local label = Instance.new("TextLabel")
+	label.Size = UDim2.new(1, -16, 0, 16)
+	label.Position = UDim2.new(0, 8, 0, 4)
+	label.BackgroundTransparency = 1
+	label.TextColor3 = Color3.fromRGB(60, 30, 40)
+	label.Font = Enum.Font.GothamBold
+	label.TextSize = 13
+	label.Text = titulo .. ": " .. tostring(valorInicial)
+	label.TextXAlignment = Enum.TextXAlignment.Left
+	label.ZIndex = 8
+	label.Parent = holder
+
+	local track = Instance.new("TextButton")
+	track.Size = UDim2.new(1, -16, 0, 10)
+	track.Position = UDim2.new(0, 8, 0, 26)
+	track.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	track.Text = ""
+	track.AutoButtonColor = false
+	track.ZIndex = 8
+	track.Parent = holder
+
+	local trackCorner = Instance.new("UICorner")
+	trackCorner.CornerRadius = UDim.new(1, 0)
+	trackCorner.Parent = track
+
+	local fill = Instance.new("Frame")
+	fill.Size = UDim2.new(0, 0, 1, 0)
+	fill.BackgroundColor3 = Color3.fromRGB(255, 150, 175)
+	fill.BorderSizePixel = 0
+	fill.ZIndex = 9
+	fill.Parent = track
+
+	local fillCorner = Instance.new("UICorner")
+	fillCorner.CornerRadius = UDim.new(1, 0)
+	fillCorner.Parent = fill
+
+	local knob = Instance.new("TextButton")
+	knob.Name = "PuntoDeslizable"
+	knob.Size = UDim2.new(0, 20, 0, 20)
+	knob.Position = UDim2.new(0, 0, 0.5, -10)
+	knob.BackgroundColor3 = Color3.fromRGB(255, 105, 145)
+	knob.Text = ""
+	knob.AutoButtonColor = false
+	knob.ZIndex = 10
+	knob.Parent = track
+
+	local knobCorner = Instance.new("UICorner")
+	knobCorner.CornerRadius = UDim.new(1, 0)
+	knobCorner.Parent = knob
+
+	local arrastrandoSlider = false
+	local valorActual = valorInicial
+
+	local function aplicarValor(nuevoValor)
+		nuevoValor = math.clamp(math.floor(nuevoValor + 0.5), minVal, maxVal)
+		valorActual = nuevoValor
+		local alfa = (nuevoValor - minVal) / (maxVal - minVal)
+
+		local anchoTrack = math.max(track.AbsoluteSize.X, 1)
+		local posX = math.clamp(alfa * anchoTrack, 0, anchoTrack)
+
+		fill.Size = UDim2.new(0, posX, 1, 0)
+		knob.Position = UDim2.new(0, posX - (knob.AbsoluteSize.X / 2), 0.5, -10)
+		label.Text = titulo .. ": " .. tostring(nuevoValor)
+
+		if onChange then
+			onChange(nuevoValor)
+		end
+	end
+
+	local function actualizarDesdeMouse()
+		local mouseX = UserInputService:GetMouseLocation().X
+		local inicioX = track.AbsolutePosition.X
+		local anchoTrack = math.max(track.AbsoluteSize.X, 1)
+		local alfa = math.clamp((mouseX - inicioX) / anchoTrack, 0, 1)
+		aplicarValor(minVal + alfa * (maxVal - minVal))
+	end
+
+	track.MouseButton1Down:Connect(function()
+		arrastrandoSlider = true
+		actualizarDesdeMouse()
+	end)
+
+	knob.MouseButton1Down:Connect(function()
+		arrastrandoSlider = true
+		actualizarDesdeMouse()
+	end)
+
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			arrastrandoSlider = false
+		end
+	end)
+
+	RunService.RenderStepped:Connect(function()
+		if arrastrandoSlider then
+			actualizarDesdeMouse()
+		end
+	end)
+
+	task.defer(function()
+		aplicarValor(valorInicial)
+	end)
+
+	registrarOpcionBuscable(holder, titulo, orden, movimientoFrame)
+
+	return function()
+		return valorActual
+	end
+end
+
+local obtenerVelocidad = crearSlider("Velocidad", 16, 120, 16, 1, function(val)
+	local char = player.Character
+	local hum = char and char:FindFirstChildOfClass("Humanoid")
+	if hum then
+		hum.WalkSpeed = val
+	end
+end)
+
+local obtenerSalto = crearSlider("Salto", 50, 250, 50, 2, function(val)
+	local char = player.Character
+	local hum = char and char:FindFirstChildOfClass("Humanoid")
+	if hum then
+		if hum.UseJumpPower then
+			hum.JumpPower = val
+		else
+			hum.JumpHeight = val / 7.2
+		end
+	end
+end)
+
+local glitchSection = Instance.new("Frame")
+glitchSection.Name = "SeccionSpeedGlitch"
+glitchSection.LayoutOrder = 3
+glitchSection.Size = UDim2.new(1, -18, 0, 54)
+glitchSection.BackgroundColor3 = Color3.fromRGB(255, 214, 224)
+glitchSection.ZIndex = 8
+glitchSection.Parent = movimientoFrame
+
+local glitchSectionCorner = Instance.new("UICorner")
+glitchSectionCorner.CornerRadius = UDim.new(0, 10)
+glitchSectionCorner.Parent = glitchSection
+
+local glitchTitle = Instance.new("TextLabel")
+glitchTitle.Size = UDim2.new(1, -12, 0, 15)
+glitchTitle.Position = UDim2.new(0, 6, 0, 2)
+glitchTitle.BackgroundTransparency = 1
+glitchTitle.TextColor3 = Color3.fromRGB(90, 40, 55)
+glitchTitle.Font = Enum.Font.GothamBold
+glitchTitle.TextSize = 11
+glitchTitle.Text = "Extra"
+glitchTitle.TextXAlignment = Enum.TextXAlignment.Left
+glitchTitle.ZIndex = 9
+glitchTitle.Parent = glitchSection
+
+local speedGlitchBtn = Instance.new("TextButton")
+speedGlitchBtn.Name = "SpeedGlitch"
+speedGlitchBtn.Size = UDim2.new(1, -12, 0, 31)
+speedGlitchBtn.Position = UDim2.new(0, 6, 0, 19)
+speedGlitchBtn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+speedGlitchBtn.TextColor3 = Color3.fromRGB(60, 30, 40)
+speedGlitchBtn.Font = Enum.Font.GothamBold
+speedGlitchBtn.TextSize = 13
+speedGlitchBtn.Text = "Speed Glitch: OFF"
+speedGlitchBtn.AutoButtonColor = true
+speedGlitchBtn.ZIndex = 9
+speedGlitchBtn.Parent = glitchSection
+
+local sgCorner = Instance.new("UICorner")
+sgCorner.CornerRadius = UDim.new(0, 8)
+sgCorner.Parent = speedGlitchBtn
+
+registrarOpcionBuscable(glitchSection, "speed glitch", 3, movimientoFrame)
+
+local function crearBotonMovimiento(texto, orden, callback)
+	local btn = Instance.new("TextButton")
+	btn.Name = texto
+	btn.LayoutOrder = orden
+	btn.Size = UDim2.new(1, -18, 0, 34)
+	btn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+	btn.TextColor3 = Color3.fromRGB(60, 30, 40)
+	btn.Font = Enum.Font.GothamBold
+	btn.TextSize = 13
+	btn.Text = texto
+	btn.AutoButtonColor = true
+	btn.ZIndex = 8
+	btn.Parent = movimientoFrame
+
+	local btnCorner = Instance.new("UICorner")
+	btnCorner.CornerRadius = UDim.new(0, 10)
+	btnCorner.Parent = btn
+
+	btn.MouseButton1Click:Connect(function()
+		if callback then
+			callback()
+		end
+	end)
+
+	registrarOpcionBuscable(btn, texto, orden, movimientoFrame)
+	return btn
+end
+
+crearBotonMovimiento("antifling", 4, function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-anti-fling-235338"))()
+end)
+
+crearBotonMovimiento("editor animation", 5, function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-GAE-SIMPLIFIED-27193"))()
+end)
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+local root = character:WaitForChild("HumanoidRootPart")
+local camera = workspace.CurrentCamera
+
+local baseWalkSpeed = humanoid.WalkSpeed
+local speedBoost = 25
+local sistemaAtivo = false
+local boostForce = 135
+
+local boost = 16
+local sensitivity = 0.06
+local minSwipe = 1.2
+local lastTouch = nil
+
+local BASE_SPEED = 25
+local MAX_SPEED = 41
+local CAM_THRESHOLD = 0.02
+local BOOST_PULSE = 16
+local MAX_JUMPS = 3
+local BACK_THRESHOLD = 0.45
+
+local boostActive = false
+local boostDir = nil
+local boostSpeed = BASE_SPEED
+local lastCam = {camera.CFrame:ToOrientation()}
+local jumpsUsed = 0
+local noAir = false
+
+local function actualizarBotonSpeedGlitch()
+	if sistemaAtivo then
+		speedGlitchBtn.Text = "Speed Glitch: ON"
+		speedGlitchBtn.BackgroundColor3 = Color3.fromRGB(255, 165, 185)
+	else
+		speedGlitchBtn.Text = "Speed Glitch: OFF"
+		speedGlitchBtn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+	end
+end
+
+speedGlitchBtn.MouseButton1Click:Connect(function()
+	sistemaAtivo = not sistemaAtivo
+	actualizarBotonSpeedGlitch()
+
+	if sistemaAtivo then
+		if humanoid then
+			baseWalkSpeed = humanoid.WalkSpeed
+		end
+	else
+		if humanoid then
+			humanoid.WalkSpeed = baseWalkSpeed
+		end
+		boostActive = false
+		boostSpeed = BASE_SPEED
+		jumpsUsed = 0
+		noAir = false
+	end
+end)
+
+local function conectarHumanoidSpeedGlitch(hum, hrp)
+	hum.StateChanged:Connect(function(_, state)
+		if not sistemaAtivo then return end
+
+		if state == Enum.HumanoidStateType.Jumping then
+			hum.WalkSpeed = baseWalkSpeed + speedBoost
+			noAir = true
+		elseif state == Enum.HumanoidStateType.Freefall then
+			noAir = true
+		elseif state == Enum.HumanoidStateType.Landed then
+			noAir = false
+			boostActive = false
+			boostSpeed = BASE_SPEED
+			jumpsUsed = 0
+			hum.WalkSpeed = baseWalkSpeed
+		end
+	end)
+
+	hum.Jumping:Connect(function()
+		if not sistemaAtivo then return end
+
+		if hrp and hrp.CFrame.UpVector.Y < 0.7 then
+			hrp.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+			hrp.AssemblyLinearVelocity += Vector3.new(0, boostForce, 0)
+		end
+	end)
+end
+
+conectarHumanoidSpeedGlitch(humanoid, root)
+
+local function addVelocity(dir)
+	if not root then return end
+	dir = Vector3.new(dir.X, 0, dir.Z)
+	root.AssemblyLinearVelocity += dir * boost
+end
+
+local touchMovedConn = UserInputService.TouchMoved:Connect(function(input, gp)
+	if gp or not sistemaAtivo then return end
+	if not humanoid or not camera then return end
+
+	if not lastTouch then
+		lastTouch = input.Position
+		return
+	end
+
+	local deltaX = input.Position.X - lastTouch.X
+	lastTouch = input.Position
+
+	if math.abs(deltaX) < minSwipe then return end
+	if humanoid.MoveDirection.Magnitude < 0.1 then return end
+
+	local dir = -camera.CFrame.RightVector * deltaX * sensitivity
+	addVelocity(dir)
+end)
+
+local touchEndedConn = UserInputService.TouchEnded:Connect(function()
+	lastTouch = nil
+end)
+
+local heartbeatConn = RunService.Heartbeat:Connect(function()
+	if not sistemaAtivo or not noAir then return end
+	if not humanoid or not root then return end
+	camera = workspace.CurrentCamera
+	if not camera then return end
+
+	local moveDir = humanoid.MoveDirection
+	if moveDir.Magnitude == 0 then return end
+
+	local look = root.CFrame.LookVector
+	if moveDir:Dot(-look) < BACK_THRESHOLD then return end
+	if jumpsUsed >= MAX_JUMPS then return end
+
+	local pitch, yaw = camera.CFrame:ToOrientation()
+	local lp, ly = unpack(lastCam)
+	local delta = math.abs(yaw - ly) + math.abs(pitch - lp)
+
+	if delta > CAM_THRESHOLD then
+		if not boostActive then
+			boostDir = Vector3.new(-look.X, 0, -look.Z).Unit
+			boostActive = true
+			boostSpeed = BASE_SPEED
+			jumpsUsed += 1
+		end
+
+		boostSpeed = math.clamp(boostSpeed + BOOST_PULSE, BASE_SPEED, MAX_SPEED)
+	end
+
+	lastCam = {pitch, yaw}
+end)
+
+player.CharacterAdded:Connect(function(char)
+	character = char
+	humanoid = char:WaitForChild("Humanoid")
+	root = char:WaitForChild("HumanoidRootPart")
+	camera = workspace.CurrentCamera
+
+	local vel = obtenerVelocidad()
+	local sal = obtenerSalto()
+	if vel > 16 then
+		humanoid.WalkSpeed = vel
+	end
+	if sal > 50 then
+		if humanoid.UseJumpPower then
+			humanoid.JumpPower = sal
+		else
+			humanoid.JumpHeight = sal / 7.2
+		end
+	end
+
+	baseWalkSpeed = humanoid.WalkSpeed
+	boostActive = false
+	boostSpeed = BASE_SPEED
+	jumpsUsed = 0
+	noAir = false
+
+	conectarHumanoidSpeedGlitch(humanoid, root)
+end)
+
+-- Filtrado global con la barra buscadora ("Search script") en cualquier apartado
+local function actualizarBusquedaGlobal()
+	local query = string.lower((string.gsub(searchBox.Text, "^%s*(.-)%s*$", "%1")))
+	local hayBusqueda = (query ~= "")
+
+	resultadosBusquedaFrame.Visible = hayBusqueda
+
+	if not hayBusqueda then
+		for _, entry in ipairs(opcionesBuscables) do
+			entry.Objeto.Parent = entry.PadreOriginal
+			entry.Objeto.LayoutOrder = entry.OrdenOriginal
+			entry.Objeto.Visible = true
+		end
+		return
+	end
+
+	local ordenResultado = 0
+	local altoTotalResultados = 16
+
+	for _, entry in ipairs(opcionesBuscables) do
+		local coincide = (string.find(entry.Nombre, query, 1, true) ~= nil)
+		if coincide then
+			ordenResultado += 1
+			entry.Objeto.Parent = resultadosBusquedaFrame
+			entry.Objeto.LayoutOrder = ordenResultado
+			entry.Objeto.Visible = true
+			altoTotalResultados += (entry.Objeto.AbsoluteSize.Y > 0 and entry.Objeto.AbsoluteSize.Y or 36) + 7
+		else
+			entry.Objeto.Parent = entry.PadreOriginal
+			entry.Objeto.LayoutOrder = entry.OrdenOriginal
+			entry.Objeto.Visible = false
+		end
+	end
+
+	resultadosBusquedaFrame.CanvasSize = UDim2.new(0, 0, 0, math.max(altoTotalResultados, 174))
+end
+
+searchBox:GetPropertyChangedSignal("Text"):Connect(actualizarBusquedaGlobal)
+
+-- Barra redonda más larga en la parte de abajo para los 3 apartados más grandes: 🛠️, 👁️, 🏃
+local ANCHO_BARRA_APARTADOS = 305
+local bottomBar = Instance.new("Frame")
+bottomBar.Name = "BarraApartados"
+bottomBar.Size = UDim2.new(0, ANCHO_BARRA_APARTADOS, 0, 46)
+bottomBar.Position = UDim2.new(0.5, -ANCHO_BARRA_APARTADOS / 2, 1, -54)
+bottomBar.BackgroundColor3 = Color3.fromRGB(255, 232, 238)
+bottomBar.ZIndex = 7
+bottomBar.Parent = contentFrame
+
+local bottomBarCorner = Instance.new("UICorner")
+bottomBarCorner.CornerRadius = UDim.new(1, 0)
+bottomBarCorner.Parent = bottomBar
+
+local tabsLayout = Instance.new("UIListLayout")
+tabsLayout.FillDirection = Enum.FillDirection.Horizontal
+tabsLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+tabsLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+tabsLayout.Padding = UDim.new(0, 20)
+tabsLayout.Parent = bottomBar
+
+local apartados = {
+	{Nombre = "ApartadoHerramientas", Icono = "🛠️"},
+	{Nombre = "ApartadoVisual", Icono = "👁️"},
+	{Nombre = "ApartadoMovimiento", Icono = "🏃"}
+}
+
+local botonesApartados = {}
+
+local function seleccionarApartado(nombreSeleccionado)
+	herramientasFrame.Visible = (nombreSeleccionado == "ApartadoHerramientas")
+	visualFrame.Visible = (nombreSeleccionado == "ApartadoVisual")
+	movimientoFrame.Visible = (nombreSeleccionado == "ApartadoMovimiento")
+
+	for _, entry in ipairs(botonesApartados) do
+		local esActivo = (entry.Nombre == nombreSeleccionado)
+		entry.Boton.BackgroundColor3 = esActivo
+			and Color3.fromRGB(255, 182, 193)
+			or Color3.fromRGB(255, 245, 248)
+	end
+end
+
+for _, tab in ipairs(apartados) do
+	local tabBtn = Instance.new("TextButton")
+	tabBtn.Name = tab.Nombre
+	tabBtn.Size = UDim2.new(0, 72, 0, 36)
+	tabBtn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+	tabBtn.TextColor3 = Color3.fromRGB(60, 30, 40)
+	tabBtn.Font = Enum.Font.GothamBold
+	tabBtn.TextSize = 20
+	tabBtn.Text = tab.Icono
+	tabBtn.AutoButtonColor = true
+	tabBtn.ZIndex = 8
+	tabBtn.Parent = bottomBar
+
+	local tabCorner = Instance.new("UICorner")
+	tabCorner.CornerRadius = UDim.new(1, 0)
+	tabCorner.Parent = tabBtn
+
+	tabBtn.MouseButton1Click:Connect(function()
+		seleccionarApartado(tab.Nombre)
+	end)
+
+	table.insert(botonesApartados, {Nombre = tab.Nombre, Boton = tabBtn})
+end
+
+seleccionarApartado("ApartadoHerramientas")
+
+-- Bloque en la esquina superior derecha: Avatar grande redondo arriba y cuadrito redondeado con el nombre abajo
+local profileCornerBox = Instance.new("Frame")
+profileCornerBox.Name = "PerfilEsquinaDerecha"
+profileCornerBox.Size = UDim2.new(0, 136, 0, 140)
+profileCornerBox.Position = UDim2.new(1, -146, 0, 4)
+profileCornerBox.BackgroundTransparency = 1
+profileCornerBox.ZIndex = 7
+profileCornerBox.Parent = contentFrame
+
+local avatarImage = Instance.new("ImageLabel")
+avatarImage.Name = "AvatarJugador"
+avatarImage.Size = UDim2.new(0, 96, 0, 96)
+avatarImage.Position = UDim2.new(0.5, -48, 0, 4)
+avatarImage.BackgroundColor3 = Color3.fromRGB(255, 235, 240)
+avatarImage.ZIndex = 8
+avatarImage.Parent = profileCornerBox
+
+local avatarCorner = Instance.new("UICorner")
+avatarCorner.CornerRadius = UDim.new(1, 0)
+avatarCorner.Parent = avatarImage
+
+local userId = player.UserId
+local thumbType = Enum.ThumbnailType.HeadShot
+local thumbSize = Enum.ThumbnailSize.Size150x150
+local content = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+avatarImage.Image = content
+
+local nameBox = Instance.new("Frame")
+nameBox.Name = "CuadroNombre"
+nameBox.Size = UDim2.new(1, -8, 0, 26)
+nameBox.Position = UDim2.new(0, 4, 0, 106)
+nameBox.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+nameBox.ZIndex = 8
+nameBox.Parent = profileCornerBox
+
+local nameBoxCorner = Instance.new("UICorner")
+nameBoxCorner.CornerRadius = UDim.new(0, 10)
+nameBoxCorner.Parent = nameBox
+
+local nameLabel = Instance.new("TextLabel")
+nameLabel.Name = "NombreJugador"
+nameLabel.Size = UDim2.new(1, -8, 1, -4)
+nameLabel.Position = UDim2.new(0, 4, 0, 2)
+nameLabel.BackgroundTransparency = 1
+nameLabel.TextColor3 = Color3.fromRGB(60, 30, 40)
+nameLabel.Font = Enum.Font.GothamBold
+nameLabel.TextSize = 14
+nameLabel.Text = player.Name
+nameLabel.TextXAlignment = Enum.TextXAlignment.Center
+nameLabel.TextScaled = true
+nameLabel.ZIndex = 9
+nameLabel.Parent = nameBox
+
+-- Botón principal arrastrable: abre la ventana y oculta el botón
+hacerArrastrable(toggleButton, toggleButton, function()
+	mainFrame.Size = UDim2.new(0, ANCHO_VENTANA, 0, ALTO_VENTANA)
+	contentFrame.Visible = true
+	mainFrame.Visible = true
+	toggleButton.Visible = false
+end)
+
+-- Amarillo: minimiza la ventana y muestra de nuevo el botón
+yellowDot.MouseButton1Click:Connect(function()
+	mainFrame.Visible = false
+	toggleButton.Visible = true
+end)
+
+-- Rojo: cerrar completamente el script, desconectar eventos y destruir la UI
+redDot.MouseButton1Click:Connect(function()
+	sistemaAtivo = false
+	if touchMovedConn then touchMovedConn:Disconnect() end
+	if touchEndedConn then touchEndedConn:Disconnect() end
+	if heartbeatConn then heartbeatConn:Disconnect() end
+	screenGui:Destroy()
+	script:Destroy()
+end)
+
+-- Verde: intencionalmente sin función
+greenDot.MouseButton1Click:Connect(function()
+	-- No hace nada
+end)
