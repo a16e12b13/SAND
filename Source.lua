@@ -211,13 +211,14 @@ keyStatus.TextWrapped = true
 keyStatus.ZIndex = 22
 keyStatus.Parent = keyFrame
 
--- Botón cuadrado pequeño con bordes redondeados, imagen ID 106368664164608 y arrastrable (oculto hasta validar la key)
-local ID_IMAGEN_BOTON = "rbxassetid://106368664164608"
+-- Botón pequeño con esquinas más redondeadas, margen morada, sin texto, imagen ID 10377013641188 y arrastrable (oculto hasta validar la key)
+local ID_IMAGEN_BOTON = "rbxassetid://10377013641188"
+local LADO_BOTON_ABRIR = 52
 
 local toggleButton = Instance.new("ImageButton")
 toggleButton.Name = "BotonAbrir"
-toggleButton.Size = UDim2.new(0, 68, 0, 68)
-toggleButton.Position = UDim2.new(0, 20, 0.5, -34)
+toggleButton.Size = UDim2.new(0, LADO_BOTON_ABRIR, 0, LADO_BOTON_ABRIR)
+toggleButton.Position = UDim2.new(0, 20, 0.5, -LADO_BOTON_ABRIR / 2)
 toggleButton.BackgroundColor3 = Color3.fromRGB(255, 182, 193)
 toggleButton.BackgroundTransparency = 0.2
 toggleButton.Image = ID_IMAGEN_BOTON
@@ -228,31 +229,16 @@ toggleButton.ZIndex = 10
 toggleButton.Parent = screenGui
 
 local toggleCorner = Instance.new("UICorner")
-toggleCorner.CornerRadius = UDim.new(0, 12)
+toggleCorner.CornerRadius = UDim.new(0, 18)
 toggleCorner.Parent = toggleButton
 
--- Texto de respaldo si el ID de imagen no carga
-local fallbackLabel = Instance.new("TextLabel")
-fallbackLabel.Name = "TextoRespaldo"
-fallbackLabel.Size = UDim2.new(1, -6, 1, -6)
-fallbackLabel.Position = UDim2.new(0, 3, 0, 3)
-fallbackLabel.BackgroundTransparency = 1
-fallbackLabel.TextColor3 = Color3.fromRGB(60, 30, 40)
-fallbackLabel.Font = Enum.Font.GothamBold
-fallbackLabel.TextSize = 13
-fallbackLabel.Text = "Abrir"
-fallbackLabel.TextWrapped = true
-fallbackLabel.ZIndex = 11
-fallbackLabel.Visible = false
-fallbackLabel.Parent = toggleButton
-
-task.delay(2, function()
-	if toggleButton and toggleButton.Parent then
-		if not toggleButton.IsLoaded or toggleButton.ImageContent.SourceType == Enum.AssetSourceType.None then
-			fallbackLabel.Visible = true
-		end
-	end
-end)
+local toggleStroke = Instance.new("UIStroke")
+toggleStroke.Name = "MargenMorada"
+toggleStroke.Color = Color3.fromRGB(155, 80, 225)
+toggleStroke.Thickness = 2.2
+toggleStroke.Transparency = 0.08
+toggleStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+toggleStroke.Parent = toggleButton
 
 -- Ventana principal (Rosa Pastel transparentosa) - Tamaño 435x320
 local ANCHO_VENTANA = 435
@@ -424,6 +410,7 @@ local function registrarOpcionBuscable(objeto, nombre, ordenOriginal, padreOrigi
 		PadreOriginal = padreOriginal
 	})
 end
+
 ----------------------------------------------------------------
 -- CONTENEDOR DEL APARTADO 🛠️ (HERRAMIENTAS)
 ----------------------------------------------------------------
@@ -685,7 +672,7 @@ crearBotonHerramienta("Christmas sleigh", 1, function()
 		end)
 
 		tool.Unequipped:Connect(function()
-			equipped = false
+								equipped = false
 			stopFlying()
 		end)
 
@@ -768,6 +755,7 @@ crearBotonHerramienta("Christmas sleigh", 1, function()
 		warn("Erro ao carregar o Trenó!")
 	end
 end)
+
 -- Opción 2: Pink Water Cannon
 local pinkCannonCargado = false
 crearBotonHerramienta("Pink Water Cannon", 2, function()
@@ -1012,6 +1000,7 @@ end)
 crearBotonHerramienta("gear", 6, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/antonioffxslegend-collab/Gears/refs/heads/main/script.lua", true))()
 end)
+
 -- Opción 7: starborn
 local starbornCargado = false
 crearBotonHerramienta("starborn", 7, function()
@@ -1019,8 +1008,7 @@ crearBotonHerramienta("starborn", 7, function()
 	starbornCargado = true
 
 	local StarStyle = Font.new("rbxasset://fonts/families/FredokaOne.json")
-
-	local function applyFont(v)
+			local function applyFont(v)
 		if v:IsA("TextLabel")
 			or v:IsA("TextButton")
 			or v:IsA("TextBox") then
@@ -1258,6 +1246,7 @@ crearBotonHerramienta("Recolor bomb", 9, function()
 
 	print("تم تفعيل السكريبت المحدث بنجاح!")
 end)
+
 ----------------------------------------------------------------
 -- CONTENEDOR DEL APARTADO 👁️ (VISUAL)
 ----------------------------------------------------------------
@@ -1356,7 +1345,7 @@ crearBotonVisual("cursores", 5, function()
 
 		if Success and type(Data) == "table" then
 			SavedCustomCursors = Data
-		end
+						end
 	end
 
 	local function SaveCustomCursors()
@@ -1693,7 +1682,7 @@ crearBotonVisual("nevegation bar", 9, function()
 	local stroke = Instance.new("UIStroke")
 	stroke.Color = Color3.fromRGB(255, 255, 255)
 	stroke.Thickness = 0.6
-	stroke.Transparency = 0.2
+			stroke.Transparency = 0.2
 	stroke.Parent = bar
 
 	local gradient = Instance.new("UIGradient")
@@ -1704,6 +1693,7 @@ crearBotonVisual("nevegation bar", 9, function()
 	})
 	gradient.Parent = bar
 end)
+
 ----------------------------------------------------------------
 -- CONTENEDOR DEL APARTADO 🏃 (MOVIMIENTO)
 ----------------------------------------------------------------
@@ -1963,6 +1953,7 @@ end)
 crearBotonMovimiento("editor animation", 5, function()
 	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-GAE-SIMPLIFIED-27193"))()
 end)
+
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 local root = character:WaitForChild("HumanoidRootPart")
@@ -2027,8 +2018,8 @@ local function conectarHumanoidSpeedGlitch(hum, hrp)
 
 		if state == Enum.HumanoidStateType.Jumping then
 			hum.WalkSpeed = baseWalkSpeed + speedBoost
-			noAir = true
-		elseif state == Enum.HumanoidStateType.Freefall then
+			noAir = true 
+						elseif state == Enum.HumanoidStateType.Freefall then
 			noAir = true
 		elseif state == Enum.HumanoidStateType.Landed then
 			noAir = false
