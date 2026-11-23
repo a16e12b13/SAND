@@ -106,7 +106,6 @@ local function hacerArrastrable(targetGui, dragHandle, onClickCallback)
 		end
 	end)
 end
-
 -- Ventana de Key: cuadrada (310x310), bordes redondeados y rosa pastel transparentosa
 local LADO_KEY = 310
 local keyFrame = Instance.new("Frame")
@@ -335,8 +334,6 @@ end
 local greenDot = crearPunto("PuntoVerde", Color3.fromRGB(119, 221, 119))
 local yellowDot = crearPunto("PuntoAmarillo", Color3.fromRGB(253, 253, 150))
 local redDot = crearPunto("PuntoRojo", Color3.fromRGB(255, 105, 97))
-
--- Área de contenido
 local contentFrame = Instance.new("Frame")
 contentFrame.Name = "Contenido"
 contentFrame.Size = UDim2.new(1, 0, 1, -ALTO_BARRA)
@@ -424,7 +421,7 @@ herramientasFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
 herramientasFrame.BackgroundTransparency = 0.32
 herramientasFrame.BorderSizePixel = 0
 herramientasFrame.ScrollBarThickness = 4
-herramientasFrame.CanvasSize = UDim2.new(0, 0, 0, 420)
+herramientasFrame.CanvasSize = UDim2.new(0, 0, 0, 475)
 herramientasFrame.Visible = false
 herramientasFrame.ZIndex = 7
 herramientasFrame.Parent = contentFrame
@@ -445,16 +442,16 @@ herramientasPadding.PaddingTop = UDim.new(0, 8)
 herramientasPadding.PaddingBottom = UDim.new(0, 8)
 herramientasPadding.Parent = herramientasFrame
 
-local function crearBotonHerramienta(texto, orden, callback)
+local function crearBotonHerramienta(texto, orden, callback, altoPersonalizado, tamanoTexto, fuentePersonalizada)
 	local btn = Instance.new("TextButton")
 	btn.Name = texto
 	btn.LayoutOrder = orden
-	btn.Size = UDim2.new(1, -18, 0, 36)
+	btn.Size = UDim2.new(1, -18, 0, altoPersonalizado or 36)
 	btn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
 	btn.BackgroundTransparency = 0.22
 	btn.TextColor3 = Color3.fromRGB(60, 30, 40)
-	btn.Font = Enum.Font.GothamBold
-	btn.TextSize = 13
+	btn.Font = fuentePersonalizada or Enum.Font.GothamBold
+	btn.TextSize = tamanoTexto or 13
 	btn.Text = texto
 	btn.AutoButtonColor = true
 	btn.ZIndex = 8
@@ -473,6 +470,11 @@ local function crearBotonHerramienta(texto, orden, callback)
 	registrarOpcionBuscable(btn, texto, orden, herramientasFrame)
 	return btn
 end
+
+-- Opción: teleport of fino (botón más grande)
+crearBotonHerramienta("teleport of fino", 0, function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/8Wx2cGrz"))()
+end, 46, 15, Enum.Font.GothamBlack)
 
 -- Opción 1: Christmas sleigh
 local christmasSleighCargado = false
@@ -674,7 +676,7 @@ crearBotonHerramienta("Christmas sleigh", 1, function()
 		end)
 
 		tool.Unequipped:Connect(function()
-								equipped = false
+			equipped = false
 			stopFlying()
 		end)
 
@@ -757,7 +759,6 @@ crearBotonHerramienta("Christmas sleigh", 1, function()
 		warn("Erro ao carregar o Trenó!")
 	end
 end)
-
 -- Opción 2: Pink Water Cannon
 local pinkCannonCargado = false
 crearBotonHerramienta("Pink Water Cannon", 2, function()
@@ -1010,7 +1011,8 @@ crearBotonHerramienta("starborn", 7, function()
 	starbornCargado = true
 
 	local StarStyle = Font.new("rbxasset://fonts/families/FredokaOne.json")
-			local function applyFont(v)
+
+	local function applyFont(v)
 		if v:IsA("TextLabel")
 			or v:IsA("TextButton")
 			or v:IsA("TextBox") then
@@ -1248,7 +1250,6 @@ crearBotonHerramienta("Recolor bomb", 9, function()
 
 	print("تم تفعيل السكريبت المحدث بنجاح!")
 end)
-
 ----------------------------------------------------------------
 -- CONTENEDOR DEL APARTADO 👁️ (VISUAL)
 ----------------------------------------------------------------
@@ -1347,7 +1348,7 @@ crearBotonVisual("cursores", 5, function()
 
 		if Success and type(Data) == "table" then
 			SavedCustomCursors = Data
-						end
+		end
 	end
 
 	local function SaveCustomCursors()
@@ -1684,7 +1685,7 @@ crearBotonVisual("nevegation bar", 9, function()
 	local stroke = Instance.new("UIStroke")
 	stroke.Color = Color3.fromRGB(255, 255, 255)
 	stroke.Thickness = 0.6
-			stroke.Transparency = 0.2
+	stroke.Transparency = 0.2
 	stroke.Parent = bar
 
 	local gradient = Instance.new("UIGradient")
@@ -1695,7 +1696,6 @@ crearBotonVisual("nevegation bar", 9, function()
 	})
 	gradient.Parent = bar
 end)
-
 ----------------------------------------------------------------
 -- CONTENEDOR DEL APARTADO 🏃 (MOVIMIENTO)
 ----------------------------------------------------------------
@@ -2020,8 +2020,8 @@ local function conectarHumanoidSpeedGlitch(hum, hrp)
 
 		if state == Enum.HumanoidStateType.Jumping then
 			hum.WalkSpeed = baseWalkSpeed + speedBoost
-			noAir = true 
-						elseif state == Enum.HumanoidStateType.Freefall then
+			noAir = true
+		elseif state == Enum.HumanoidStateType.Freefall then
 			noAir = true
 		elseif state == Enum.HumanoidStateType.Landed then
 			noAir = false
@@ -2131,7 +2131,6 @@ player.CharacterAdded:Connect(function(char)
 
 	conectarHumanoidSpeedGlitch(humanoid, root)
 end)
-
 -- Filtrado global con la barra buscadora ("Search script") en cualquier apartado
 local function actualizarBusquedaGlobal()
 	local query = string.lower((string.gsub(searchBox.Text, "^%s*(.-)%s*$", "%1")))
