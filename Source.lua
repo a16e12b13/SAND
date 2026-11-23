@@ -9,6 +9,38 @@ local CoreGui = game:GetService("CoreGui")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
+local KEY_CORRECTA = "sand2027"
+
+-- Lista blanca de usuarios autorizados (comparación insensible a mayúsculas/minúsculas)
+local LISTA_BLANCA = {
+	["a92e08b"] = true,
+	["xjave249"] = true,
+	["cotercitoponytown"] = true,
+	["james12337936"] = true
+}
+
+local function estaEnListaBlanca(plr)
+	if not plr then return false end
+	local nombre = string.lower(tostring(plr.Name or ""))
+	local display = string.lower(tostring(plr.DisplayName or ""))
+	return LISTA_BLANCA[nombre] == true or LISTA_BLANCA[display] == true
+end
+
+if not estaEnListaBlanca(player) then
+	pcall(function()
+		StarterGui:SetCore("SendNotification", {
+			Title = "SAND",
+			Text = "No estás en la lista blanca para usar este script.",
+			Duration = 5
+		})
+	end)
+	warn("Acceso denegado: el usuario " .. tostring(player.Name) .. " no está en la lista blanca.")
+	if script then
+		script:Destroy()
+	end
+	return
+end
+
 -- Crear ScreenGui principal
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "VentanaRosaUI"
@@ -73,7 +105,113 @@ local function hacerArrastrable(targetGui, dragHandle, onClickCallback)
 	end)
 end
 
--- Botón cuadrado pequeño con bordes redondeados, imagen ID 106368664164608 y arrastrable
+-- Ventana de Key: cuadrada (310x310), bordes redondeados y rosa pastel transparentosa
+local LADO_KEY = 310
+local keyFrame = Instance.new("Frame")
+keyFrame.Name = "VentanaKey"
+keyFrame.Size = UDim2.new(0, LADO_KEY, 0, LADO_KEY)
+keyFrame.Position = UDim2.new(0.5, -LADO_KEY / 2, 0.5, -LADO_KEY / 2)
+keyFrame.BackgroundColor3 = Color3.fromRGB(255, 209, 220)
+keyFrame.BackgroundTransparency = 0.28
+keyFrame.BorderSizePixel = 0
+keyFrame.Active = true
+keyFrame.ZIndex = 20
+keyFrame.Parent = screenGui
+
+local keyCorner = Instance.new("UICorner")
+keyCorner.CornerRadius = UDim.new(0, 22)
+keyCorner.Parent = keyFrame
+
+local keyStroke = Instance.new("UIStroke")
+keyStroke.Color = Color3.fromRGB(255, 240, 245)
+keyStroke.Thickness = 1.4
+keyStroke.Transparency = 0.35
+keyStroke.Parent = keyFrame
+
+local keyDragBar = Instance.new("TextButton")
+keyDragBar.Name = "BarraKey"
+keyDragBar.Size = UDim2.new(1, 0, 0, 44)
+keyDragBar.BackgroundTransparency = 1
+keyDragBar.Text = ""
+keyDragBar.AutoButtonColor = false
+keyDragBar.ZIndex = 21
+keyDragBar.Parent = keyFrame
+
+hacerArrastrable(keyFrame, keyDragBar, nil)
+
+local keyTitle = Instance.new("TextLabel")
+keyTitle.Size = UDim2.new(1, -24, 0, 30)
+keyTitle.Position = UDim2.new(0, 12, 0, 14)
+keyTitle.BackgroundTransparency = 1
+keyTitle.TextColor3 = Color3.fromRGB(60, 30, 40)
+keyTitle.Font = Enum.Font.GothamBlack
+keyTitle.TextSize = 22
+keyTitle.Text = "SAND KEY"
+keyTitle.ZIndex = 22
+keyTitle.Parent = keyFrame
+
+local keySubtitle = Instance.new("TextLabel")
+keySubtitle.Size = UDim2.new(1, -30, 0, 24)
+keySubtitle.Position = UDim2.new(0, 15, 0, 50)
+keySubtitle.BackgroundTransparency = 1
+keySubtitle.TextColor3 = Color3.fromRGB(80, 40, 55)
+keySubtitle.Font = Enum.Font.GothamBold
+keySubtitle.TextSize = 13
+keySubtitle.Text = "Ingresa la key para desbloquear"
+keySubtitle.ZIndex = 22
+keySubtitle.Parent = keyFrame
+
+local keyInput = Instance.new("TextBox")
+keyInput.Name = "InputKey"
+keyInput.Size = UDim2.new(1, -44, 0, 44)
+keyInput.Position = UDim2.new(0, 22, 0, 96)
+keyInput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+keyInput.BackgroundTransparency = 0.2
+keyInput.TextColor3 = Color3.fromRGB(50, 30, 35)
+keyInput.PlaceholderColor3 = Color3.fromRGB(150, 120, 130)
+keyInput.PlaceholderText = "Escribe la key aquí..."
+keyInput.Text = ""
+keyInput.ClearTextOnFocus = false
+keyInput.Font = Enum.Font.GothamBold
+keyInput.TextSize = 15
+keyInput.ZIndex = 22
+keyInput.Parent = keyFrame
+
+local keyInputCorner = Instance.new("UICorner")
+keyInputCorner.CornerRadius = UDim.new(0, 12)
+keyInputCorner.Parent = keyInput
+
+local verifyBtn = Instance.new("TextButton")
+verifyBtn.Name = "BotonVerificarKey"
+verifyBtn.Size = UDim2.new(1, -44, 0, 44)
+verifyBtn.Position = UDim2.new(0, 22, 0, 156)
+verifyBtn.BackgroundColor3 = Color3.fromRGB(255, 165, 185)
+verifyBtn.BackgroundTransparency = 0.15
+verifyBtn.TextColor3 = Color3.fromRGB(50, 20, 30)
+verifyBtn.Font = Enum.Font.GothamBlack
+verifyBtn.TextSize = 15
+verifyBtn.Text = "Verificar Key"
+verifyBtn.AutoButtonColor = true
+verifyBtn.ZIndex = 22
+verifyBtn.Parent = keyFrame
+
+local verifyCorner = Instance.new("UICorner")
+verifyCorner.CornerRadius = UDim.new(0, 12)
+verifyCorner.Parent = verifyBtn
+
+local keyStatus = Instance.new("TextLabel")
+keyStatus.Size = UDim2.new(1, -30, 0, 28)
+keyStatus.Position = UDim2.new(0, 15, 0, 214)
+keyStatus.BackgroundTransparency = 1
+keyStatus.TextColor3 = Color3.fromRGB(160, 30, 50)
+keyStatus.Font = Enum.Font.GothamBold
+keyStatus.TextSize = 13
+keyStatus.Text = ""
+keyStatus.TextWrapped = true
+keyStatus.ZIndex = 22
+keyStatus.Parent = keyFrame
+
+-- Botón cuadrado pequeño con bordes redondeados, imagen ID 106368664164608 y arrastrable (oculto hasta validar la key)
 local ID_IMAGEN_BOTON = "rbxassetid://106368664164608"
 
 local toggleButton = Instance.new("ImageButton")
@@ -81,9 +219,11 @@ toggleButton.Name = "BotonAbrir"
 toggleButton.Size = UDim2.new(0, 68, 0, 68)
 toggleButton.Position = UDim2.new(0, 20, 0.5, -34)
 toggleButton.BackgroundColor3 = Color3.fromRGB(255, 182, 193)
+toggleButton.BackgroundTransparency = 0.2
 toggleButton.Image = ID_IMAGEN_BOTON
 toggleButton.ScaleType = Enum.ScaleType.Crop
 toggleButton.Active = true
+toggleButton.Visible = false
 toggleButton.ZIndex = 10
 toggleButton.Parent = screenGui
 
@@ -114,7 +254,7 @@ task.delay(2, function()
 	end
 end)
 
--- Ventana principal (Rosa Pastel) - Tamaño 435x320
+-- Ventana principal (Rosa Pastel transparentosa) - Tamaño 435x320
 local ANCHO_VENTANA = 435
 local ALTO_VENTANA = 320
 local ALTO_BARRA = 38
@@ -124,6 +264,8 @@ mainFrame.Name = "VentanaPrincipal"
 mainFrame.Size = UDim2.new(0, ANCHO_VENTANA, 0, ALTO_VENTANA)
 mainFrame.Position = UDim2.new(0.5, -ANCHO_VENTANA / 2, 0.58, -ALTO_VENTANA / 2)
 mainFrame.BackgroundColor3 = Color3.fromRGB(255, 209, 220)
+mainFrame.BackgroundTransparency = 0.28
+mainFrame.BorderSizePixel = 0
 mainFrame.ClipsDescendants = true
 mainFrame.Visible = false
 mainFrame.Active = true
@@ -133,6 +275,12 @@ mainFrame.Parent = screenGui
 local mainCorner = Instance.new("UICorner")
 mainCorner.CornerRadius = UDim.new(0, 22)
 mainCorner.Parent = mainFrame
+
+local mainStroke = Instance.new("UIStroke")
+mainStroke.Color = Color3.fromRGB(255, 240, 245)
+mainStroke.Thickness = 1.4
+mainStroke.Transparency = 0.35
+mainStroke.Parent = mainFrame
 
 -- Barra superior (arrastrable)
 local topBar = Instance.new("TextButton")
@@ -215,6 +363,7 @@ searchBox.Name = "BarraBuscadora"
 searchBox.Size = UDim2.new(0, 255, 0, 34)
 searchBox.Position = UDim2.new(0, 14, 0, 4)
 searchBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+searchBox.BackgroundTransparency = 0.2
 searchBox.TextColor3 = Color3.fromRGB(50, 30, 35)
 searchBox.PlaceholderColor3 = Color3.fromRGB(150, 130, 135)
 searchBox.PlaceholderText = "Search script"
@@ -241,6 +390,7 @@ resultadosBusquedaFrame.Name = "ResultadosBusqueda"
 resultadosBusquedaFrame.Size = UDim2.new(0, 255, 0, 174)
 resultadosBusquedaFrame.Position = UDim2.new(0, 14, 0, 44)
 resultadosBusquedaFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+resultadosBusquedaFrame.BackgroundTransparency = 0.32
 resultadosBusquedaFrame.BorderSizePixel = 0
 resultadosBusquedaFrame.ScrollBarThickness = 4
 resultadosBusquedaFrame.CanvasSize = UDim2.new(0, 0, 0, 100)
@@ -282,6 +432,7 @@ herramientasFrame.Name = "ContenidoHerramientas"
 herramientasFrame.Size = UDim2.new(0, 255, 0, 174)
 herramientasFrame.Position = UDim2.new(0, 14, 0, 44)
 herramientasFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+herramientasFrame.BackgroundTransparency = 0.32
 herramientasFrame.BorderSizePixel = 0
 herramientasFrame.ScrollBarThickness = 4
 herramientasFrame.CanvasSize = UDim2.new(0, 0, 0, 420)
@@ -311,6 +462,7 @@ local function crearBotonHerramienta(texto, orden, callback)
 	btn.LayoutOrder = orden
 	btn.Size = UDim2.new(1, -18, 0, 36)
 	btn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+	btn.BackgroundTransparency = 0.22
 	btn.TextColor3 = Color3.fromRGB(60, 30, 40)
 	btn.Font = Enum.Font.GothamBold
 	btn.TextSize = 13
@@ -1114,6 +1266,7 @@ visualFrame.Name = "ContenidoVisual"
 visualFrame.Size = UDim2.new(0, 255, 0, 174)
 visualFrame.Position = UDim2.new(0, 14, 0, 44)
 visualFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+visualFrame.BackgroundTransparency = 0.32
 visualFrame.BorderSizePixel = 0
 visualFrame.ScrollBarThickness = 4
 visualFrame.CanvasSize = UDim2.new(0, 0, 0, 400)
@@ -1143,6 +1296,7 @@ local function crearBotonVisual(texto, orden, callback)
 	btn.LayoutOrder = orden
 	btn.Size = UDim2.new(1, -18, 0, 36)
 	btn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+	btn.BackgroundTransparency = 0.22
 	btn.TextColor3 = Color3.fromRGB(60, 30, 40)
 	btn.Font = Enum.Font.GothamBold
 	btn.TextSize = 13
@@ -1558,6 +1712,7 @@ movimientoFrame.Name = "ContenidoMovimiento"
 movimientoFrame.Size = UDim2.new(0, 255, 0, 174)
 movimientoFrame.Position = UDim2.new(0, 14, 0, 44)
 movimientoFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+movimientoFrame.BackgroundTransparency = 0.32
 movimientoFrame.BorderSizePixel = 0
 movimientoFrame.ScrollBarThickness = 4
 movimientoFrame.CanvasSize = UDim2.new(0, 0, 0, 295)
@@ -1587,6 +1742,7 @@ local function crearSlider(titulo, minVal, maxVal, valorInicial, orden, onChange
 	holder.LayoutOrder = orden
 	holder.Size = UDim2.new(1, -18, 0, 48)
 	holder.BackgroundColor3 = Color3.fromRGB(255, 214, 224)
+	holder.BackgroundTransparency = 0.25
 	holder.ZIndex = 8
 	holder.Parent = movimientoFrame
 
@@ -1610,6 +1766,7 @@ local function crearSlider(titulo, minVal, maxVal, valorInicial, orden, onChange
 	track.Size = UDim2.new(1, -16, 0, 10)
 	track.Position = UDim2.new(0, 8, 0, 26)
 	track.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	track.BackgroundTransparency = 0.15
 	track.Text = ""
 	track.AutoButtonColor = false
 	track.ZIndex = 8
@@ -1730,6 +1887,7 @@ glitchSection.Name = "SeccionSpeedGlitch"
 glitchSection.LayoutOrder = 3
 glitchSection.Size = UDim2.new(1, -18, 0, 54)
 glitchSection.BackgroundColor3 = Color3.fromRGB(255, 214, 224)
+glitchSection.BackgroundTransparency = 0.25
 glitchSection.ZIndex = 8
 glitchSection.Parent = movimientoFrame
 
@@ -1754,6 +1912,7 @@ speedGlitchBtn.Name = "SpeedGlitch"
 speedGlitchBtn.Size = UDim2.new(1, -12, 0, 31)
 speedGlitchBtn.Position = UDim2.new(0, 6, 0, 19)
 speedGlitchBtn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+speedGlitchBtn.BackgroundTransparency = 0.22
 speedGlitchBtn.TextColor3 = Color3.fromRGB(60, 30, 40)
 speedGlitchBtn.Font = Enum.Font.GothamBold
 speedGlitchBtn.TextSize = 13
@@ -1774,6 +1933,7 @@ local function crearBotonMovimiento(texto, orden, callback)
 	btn.LayoutOrder = orden
 	btn.Size = UDim2.new(1, -18, 0, 34)
 	btn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+	btn.BackgroundTransparency = 0.22
 	btn.TextColor3 = Color3.fromRGB(60, 30, 40)
 	btn.Font = Enum.Font.GothamBold
 	btn.TextSize = 13
@@ -2025,6 +2185,7 @@ bottomBar.Name = "BarraApartados"
 bottomBar.Size = UDim2.new(0, ANCHO_BARRA_APARTADOS, 0, 46)
 bottomBar.Position = UDim2.new(0.5, -ANCHO_BARRA_APARTADOS / 2, 1, -54)
 bottomBar.BackgroundColor3 = Color3.fromRGB(255, 232, 238)
+bottomBar.BackgroundTransparency = 0.25
 bottomBar.ZIndex = 7
 bottomBar.Parent = contentFrame
 
@@ -2065,6 +2226,7 @@ for _, tab in ipairs(apartados) do
 	tabBtn.Name = tab.Nombre
 	tabBtn.Size = UDim2.new(0, 72, 0, 36)
 	tabBtn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
+	tabBtn.BackgroundTransparency = 0.2
 	tabBtn.TextColor3 = Color3.fromRGB(60, 30, 40)
 	tabBtn.Font = Enum.Font.GothamBold
 	tabBtn.TextSize = 20
@@ -2100,6 +2262,7 @@ avatarImage.Name = "AvatarJugador"
 avatarImage.Size = UDim2.new(0, 96, 0, 96)
 avatarImage.Position = UDim2.new(0.5, -48, 0, 4)
 avatarImage.BackgroundColor3 = Color3.fromRGB(255, 235, 240)
+avatarImage.BackgroundTransparency = 0.25
 avatarImage.ZIndex = 8
 avatarImage.Parent = profileCornerBox
 
@@ -2118,6 +2281,7 @@ nameBox.Name = "CuadroNombre"
 nameBox.Size = UDim2.new(1, -8, 0, 26)
 nameBox.Position = UDim2.new(0, 4, 0, 106)
 nameBox.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
+nameBox.BackgroundTransparency = 0.25
 nameBox.ZIndex = 8
 nameBox.Parent = profileCornerBox
 
@@ -2138,6 +2302,34 @@ nameLabel.TextXAlignment = Enum.TextXAlignment.Center
 nameLabel.TextScaled = true
 nameLabel.ZIndex = 9
 nameLabel.Parent = nameBox
+
+-- Validar la key "sand2027"
+local function validarKey()
+	local ingresada = string.gsub(keyInput.Text, "^%s*(.-)%s*$", "%1")
+	if ingresada == KEY_CORRECTA then
+		keyStatus.TextColor3 = Color3.fromRGB(25, 120, 55)
+		keyStatus.Text = "¡Key correcta! Abriendo SAND..."
+		task.delay(0.35, function()
+			if keyFrame then
+				keyFrame:Destroy()
+			end
+			mainFrame.Size = UDim2.new(0, ANCHO_VENTANA, 0, ALTO_VENTANA)
+			contentFrame.Visible = true
+			mainFrame.Visible = true
+			toggleButton.Visible = false
+		end)
+	else
+		keyStatus.TextColor3 = Color3.fromRGB(160, 30, 50)
+		keyStatus.Text = "Key incorrecta. Intenta de nuevo."
+	end
+end
+
+verifyBtn.MouseButton1Click:Connect(validarKey)
+keyInput.FocusLost:Connect(function(enterPressed)
+	if enterPressed then
+		validarKey()
+	end
+end)
 
 -- Botón principal arrastrable: abre la ventana y oculta el botón
 hacerArrastrable(toggleButton, toggleButton, function()
