@@ -18,6 +18,7 @@ local LISTA_BLANCA = {
 	["cotercitoponytown"] = true,
 	["james12337936"] = true,
 	["sk9fin"] = true,
+	["Elohim816"] = true,
 }
 
 local function estaEnListaBlanca(plr)
