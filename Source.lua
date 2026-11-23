@@ -17,8 +17,8 @@ local LISTA_BLANCA = {
 	["xjave249"] = true,
 	["cotercitoponytown"] = true,
 	["james12337936"] = true,
-	["sk9fin"] = true,
 	["Elohim816"] = true,
+	["sk9fin"] = true,
 }
 
 local function estaEnListaBlanca(plr)
@@ -85,7 +85,7 @@ local function hacerArrastrable(targetGui, dragHandle, onClickCallback)
 	end)
 
 	UserInputService.InputEnded:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType.Touch then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			terminarArrastre()
 		end
 	end)
@@ -421,7 +421,7 @@ herramientasFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
 herramientasFrame.BackgroundTransparency = 0.32
 herramientasFrame.BorderSizePixel = 0
 herramientasFrame.ScrollBarThickness = 4
-herramientasFrame.CanvasSize = UDim2.new(0, 0, 0, 460)
+herramientasFrame.CanvasSize = UDim2.new(0, 0, 0, 505)
 herramientasFrame.Visible = false
 herramientasFrame.ZIndex = 7
 herramientasFrame.Parent = contentFrame
@@ -1249,6 +1249,11 @@ crearBotonHerramienta("Recolor bomb", 9, function()
 	end
 
 	print("تم تفعيل السكريبت المحدث بنجاح!")
+end)
+
+-- Opción 10: clone
+crearBotonHerramienta("clone", 10, function()
+	loadstring(game:HttpGet("https://pastefy.app/TNHLBFcj/raw", true))()
 end)
 ----------------------------------------------------------------
 -- CONTENEDOR DEL APARTADO 👁️ (VISUAL)
