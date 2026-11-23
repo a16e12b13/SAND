@@ -85,7 +85,7 @@ local function hacerArrastrable(targetGui, dragHandle, onClickCallback)
 	end)
 
 	UserInputService.InputEnded:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType.Touch then
 			terminarArrastre()
 		end
 	end)
@@ -212,9 +212,9 @@ keyStatus.TextWrapped = true
 keyStatus.ZIndex = 22
 keyStatus.Parent = keyFrame
 
--- Botón pequeño con esquinas más redondeadas, margen morada, sin texto, imagen ID 10377013641188 y arrastrable (oculto hasta validar la key)
+-- Botón para abrir/cerrar ventana un poco más grande, esquinas redondeadas, margen morada e imagen ID 10377013641188
 local ID_IMAGEN_BOTON = "rbxassetid://10377013641188"
-local LADO_BOTON_ABRIR = 52
+local LADO_BOTON_ABRIR = 64
 
 local toggleButton = Instance.new("ImageButton")
 toggleButton.Name = "BotonAbrir"
@@ -230,13 +230,13 @@ toggleButton.ZIndex = 10
 toggleButton.Parent = screenGui
 
 local toggleCorner = Instance.new("UICorner")
-toggleCorner.CornerRadius = UDim.new(0, 18)
+toggleCorner.CornerRadius = UDim.new(0, 22)
 toggleCorner.Parent = toggleButton
 
 local toggleStroke = Instance.new("UIStroke")
 toggleStroke.Name = "MargenMorada"
 toggleStroke.Color = Color3.fromRGB(155, 80, 225)
-toggleStroke.Thickness = 2.2
+toggleStroke.Thickness = 2.4
 toggleStroke.Transparency = 0.08
 toggleStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 toggleStroke.Parent = toggleButton
@@ -300,8 +300,8 @@ sandLabel.Parent = topBar
 -- Contenedor de los 3 puntos a la derecha
 local dotsHolder = Instance.new("Frame")
 dotsHolder.Name = "Puntos"
-dotsHolder.Size = UDim2.new(0, 84, 0, 24)
-dotsHolder.Position = UDim2.new(1, -94, 0.5, -12)
+dotsHolder.Size = UDim2.new(0, 92, 0, 26)
+dotsHolder.Position = UDim2.new(1, -102, 0.5, -13)
 dotsHolder.BackgroundTransparency = 1
 dotsHolder.ZIndex = 7
 dotsHolder.Parent = topBar
@@ -316,7 +316,7 @@ layout.Parent = dotsHolder
 local function crearPunto(nombre, color)
 	local dot = Instance.new("TextButton")
 	dot.Name = nombre
-	dot.Size = UDim2.new(0, 18, 0, 18)
+	dot.Size = UDim2.new(0, 21, 0, 21)
 	dot.BackgroundColor3 = color
 	dot.Text = ""
 	dot.AutoButtonColor = true
@@ -421,7 +421,7 @@ herramientasFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
 herramientasFrame.BackgroundTransparency = 0.32
 herramientasFrame.BorderSizePixel = 0
 herramientasFrame.ScrollBarThickness = 4
-herramientasFrame.CanvasSize = UDim2.new(0, 0, 0, 475)
+herramientasFrame.CanvasSize = UDim2.new(0, 0, 0, 460)
 herramientasFrame.Visible = false
 herramientasFrame.ZIndex = 7
 herramientasFrame.Parent = contentFrame
@@ -442,16 +442,16 @@ herramientasPadding.PaddingTop = UDim.new(0, 8)
 herramientasPadding.PaddingBottom = UDim.new(0, 8)
 herramientasPadding.Parent = herramientasFrame
 
-local function crearBotonHerramienta(texto, orden, callback, altoPersonalizado, tamanoTexto, fuentePersonalizada)
+local function crearBotonHerramienta(texto, orden, callback)
 	local btn = Instance.new("TextButton")
 	btn.Name = texto
 	btn.LayoutOrder = orden
-	btn.Size = UDim2.new(1, -18, 0, altoPersonalizado or 36)
+	btn.Size = UDim2.new(1, -18, 0, 36)
 	btn.BackgroundColor3 = Color3.fromRGB(255, 245, 248)
 	btn.BackgroundTransparency = 0.22
 	btn.TextColor3 = Color3.fromRGB(60, 30, 40)
-	btn.Font = fuentePersonalizada or Enum.Font.GothamBold
-	btn.TextSize = tamanoTexto or 13
+	btn.Font = Enum.Font.GothamBold
+	btn.TextSize = 13
 	btn.Text = texto
 	btn.AutoButtonColor = true
 	btn.ZIndex = 8
@@ -471,10 +471,10 @@ local function crearBotonHerramienta(texto, orden, callback, altoPersonalizado, 
 	return btn
 end
 
--- Opción: teleport of fino (botón más grande)
+-- Opción: teleport of fino (mismo tamaño que las demás opciones)
 crearBotonHerramienta("teleport of fino", 0, function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/8Wx2cGrz"))()
-end, 46, 15, Enum.Font.GothamBlack)
+end)
 
 -- Opción 1: Christmas sleigh
 local christmasSleighCargado = false
