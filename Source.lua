@@ -210,14 +210,15 @@ keyStatus.TextWrapped = true
 keyStatus.ZIndex = 22
 keyStatus.Parent = keyFrame
 
--- Botón para abrir/cerrar ventana un poco más grande, esquinas redondeadas, margen morada e imagen ID 10377013641188
+-- Botón para abrir/cerrar ventana en la esquina inferior derecha
 local ID_IMAGEN_BOTON = "rbxassetid://10377013641188"
 local LADO_BOTON_ABRIR = 64
+local POSICION_BOTON_ESQUINA = UDim2.new(1, -LADO_BOTON_ABRIR - 20, 1, -LADO_BOTON_ABRIR - 20)
 
 local toggleButton = Instance.new("ImageButton")
 toggleButton.Name = "BotonAbrir"
 toggleButton.Size = UDim2.new(0, LADO_BOTON_ABRIR, 0, LADO_BOTON_ABRIR)
-toggleButton.Position = UDim2.new(0, 20, 0.5, -LADO_BOTON_ABRIR / 2)
+toggleButton.Position = POSICION_BOTON_ESQUINA
 toggleButton.BackgroundColor3 = Color3.fromRGB(255, 182, 193)
 toggleButton.BackgroundTransparency = 0.2
 toggleButton.Image = ID_IMAGEN_BOTON
@@ -2530,6 +2531,7 @@ local function validarKey()
 			mainFrame.Size = UDim2.new(0, ANCHO_VENTANA, 0, ALTO_VENTANA)
 			contentFrame.Visible = true
 			mainFrame.Visible = true
+			toggleButton.Position = POSICION_BOTON_ESQUINA
 			toggleButton.Visible = false
 		end)
 	else
@@ -2553,9 +2555,10 @@ hacerArrastrable(toggleButton, toggleButton, function()
 	toggleButton.Visible = false
 end)
 
--- Amarillo: minimiza la ventana y muestra de nuevo el botón
+-- Amarillo: minimiza la ventana y muestra de nuevo el botón en la esquina inferior derecha
 yellowDot.MouseButton1Click:Connect(function()
 	mainFrame.Visible = false
+	toggleButton.Position = POSICION_BOTON_ESQUINA
 	toggleButton.Visible = true
 end)
 
