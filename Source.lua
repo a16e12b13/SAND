@@ -16,9 +16,7 @@ local LISTA_BLANCA = {
 	["a92e08b"] = true,
 	["xjave249"] = true,
 	["cotercitoponytown"] = true,
-	["james12337936"] = true,
-	["Elohim816"] = true,
-	["sk9fin"] = true,
+	["james12337936"] = true
 }
 
 local function estaEnListaBlanca(plr)
@@ -1266,7 +1264,7 @@ visualFrame.BackgroundColor3 = Color3.fromRGB(255, 226, 233)
 visualFrame.BackgroundTransparency = 0.32
 visualFrame.BorderSizePixel = 0
 visualFrame.ScrollBarThickness = 4
-visualFrame.CanvasSize = UDim2.new(0, 0, 0, 400)
+visualFrame.CanvasSize = UDim2.new(0, 0, 0, 445)
 visualFrame.Visible = false
 visualFrame.ZIndex = 7
 visualFrame.Parent = contentFrame
@@ -1700,6 +1698,225 @@ crearBotonVisual("nevegation bar", 9, function()
 		ColorSequenceKeypoint.new(1, Color3.fromRGB(190, 210, 240))
 	})
 	gradient.Parent = bar
+end)
+
+local jumpRecolorCargado = false
+crearBotonVisual("Jump recolor", 10, function()
+	if jumpRecolorCargado then return end
+	jumpRecolorCargado = true
+
+	local UIS = UserInputService
+	local PlayerGui = playerGui
+
+	local old = PlayerGui:FindFirstChild("JumpColorGUI")
+	if old then old:Destroy() end
+
+	local gui = Instance.new("ScreenGui")
+	gui.Name = "JumpColorGUI"
+	gui.ResetOnSpawn = false
+	gui.Parent = PlayerGui
+
+	local main = Instance.new("Frame")
+	main.Size = UDim2.new(0, 210, 0, 260)
+	main.Position = UDim2.new(0.5, -105, 0.5, -130)
+	main.BackgroundColor3 = Color3.fromRGB(105, 175, 255)
+	main.BackgroundTransparency = 0.03
+	main.BorderSizePixel = 0
+	main.Active = true
+	main.Parent = gui
+
+	Instance.new("UICorner", main).CornerRadius = UDim.new(0, 12)
+
+	local stroke = Instance.new("UIStroke", main)
+	stroke.Color = Color3.fromRGB(220, 240, 255)
+	stroke.Thickness = 2
+
+	-- TÍTULO
+	local title = Instance.new("TextLabel")
+	title.Size = UDim2.new(1, -65, 0, 35)
+	title.Position = UDim2.new(0, 8, 0, 0)
+	title.BackgroundTransparency = 1
+	title.Text = "JUMP COLOR 💙"
+	title.TextColor3 = Color3.new(1, 1, 1)
+	title.TextSize = 15
+	title.Font = Enum.Font.GothamBold
+	title.Parent = main
+
+	-- CERRAR
+	local close = Instance.new("TextButton")
+	close.Size = UDim2.new(0, 25, 0, 25)
+	close.Position = UDim2.new(1, -30, 0, 5)
+	close.BackgroundColor3 = Color3.fromRGB(255, 65, 90)
+	close.Text = "X"
+	close.TextColor3 = Color3.new(1, 1, 1)
+	close.Font = Enum.Font.GothamBold
+	close.TextSize = 13
+	close.Parent = main
+	Instance.new("UICorner", close).CornerRadius = UDim.new(0, 7)
+
+	-- MINIMIZAR
+	local mini = Instance.new("TextButton")
+	mini.Size = UDim2.new(0, 25, 0, 25)
+	mini.Position = UDim2.new(1, -60, 0, 5)
+	mini.BackgroundColor3 = Color3.fromRGB(50, 110, 210)
+	mini.Text = "-"
+	mini.TextColor3 = Color3.new(1, 1, 1)
+	mini.Font = Enum.Font.GothamBold
+	mini.TextSize = 17
+	mini.Parent = main
+	Instance.new("UICorner", mini).CornerRadius = UDim.new(0, 7)
+
+	-- COLORES
+	local scroll = Instance.new("ScrollingFrame")
+	scroll.Position = UDim2.new(0, 8, 0, 40)
+	scroll.Size = UDim2.new(1, -16, 1, -48)
+	scroll.BackgroundTransparency = 1
+	scroll.BorderSizePixel = 0
+	scroll.ScrollBarThickness = 3
+	scroll.ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255)
+	scroll.CanvasSize = UDim2.new(0, 0, 0, 0)
+	scroll.Parent = main
+
+	local layout = Instance.new("UIGridLayout")
+	layout.CellSize = UDim2.new(0, 85, 0, 34)
+	layout.CellPadding = UDim2.new(0, 5, 0, 5)
+	layout.Parent = scroll
+
+	local colors = {
+		{"ROJO", Color3.fromRGB(255, 0, 0)},
+		{"AZUL", Color3.fromRGB(0, 60, 255)},
+		{"VERDE", Color3.fromRGB(0, 255, 30)},
+		{"ROSA", Color3.fromRGB(255, 0, 150)},
+		{"MORADO", Color3.fromRGB(150, 0, 255)},
+		{"AMARILLO", Color3.fromRGB(255, 240, 0)},
+		{"NARANJA", Color3.fromRGB(255, 100, 0)},
+		{"CELESTE", Color3.fromRGB(0, 200, 255)},
+		{"BLANCO", Color3.fromRGB(255, 255, 255)},
+		{"NEGRO", Color3.fromRGB(10, 10, 10)},
+		{"DORADO", Color3.fromRGB(255, 180, 0)},
+		{"TURQUESA", Color3.fromRGB(0, 255, 200)},
+		{"LILA", Color3.fromRGB(190, 100, 255)},
+		{"CORAL", Color3.fromRGB(255, 70, 70)},
+		{"GRIS", Color3.fromRGB(100, 100, 100)},
+		{"MENTA", Color3.fromRGB(80, 255, 160)},
+		{"VIOLETA", Color3.fromRGB(100, 0, 200)},
+		{"FUCSIA", Color3.fromRGB(255, 0, 220)},
+		{"AZUL PASTEL", Color3.fromRGB(100, 170, 255)},
+		{"ROSA PASTEL", Color3.fromRGB(255, 140, 200)},
+		{"VERDE PASTEL", Color3.fromRGB(130, 255, 130)},
+		{"CAFÉ", Color3.fromRGB(120, 55, 20)},
+		{"RESTAURAR", nil}
+	}
+
+	local function getJumpButton()
+		local touch = PlayerGui:FindFirstChild("TouchGui")
+		if not touch then return nil end
+
+		local frame = touch:FindFirstChild("TouchControlFrame", true)
+		if not frame then return nil end
+
+		return frame:FindFirstChild("JumpButton", true)
+	end
+
+	local originalColor
+
+	for _, item in ipairs(colors) do
+		local name, color = item[1], item[2]
+
+		local button = Instance.new("TextButton")
+		button.Size = UDim2.new(0, 85, 0, 34)
+		button.Text = name
+		button.TextSize = 10
+		button.Font = Enum.Font.GothamBold
+		button.TextColor3 = name == "BLANCO" and
+			Color3.fromRGB(20, 20, 20) or Color3.new(1, 1, 1)
+
+		button.BackgroundColor3 = color or Color3.fromRGB(70, 90, 120)
+		button.BorderSizePixel = 0
+		button.Parent = scroll
+
+		Instance.new("UICorner", button).CornerRadius = UDim.new(0, 7)
+
+		button.MouseButton1Click:Connect(function()
+			local jump = getJumpButton()
+
+			if jump then
+				if not originalColor then
+					originalColor = jump.ImageColor3
+				end
+
+				if name == "RESTAURAR" then
+					jump.ImageColor3 = originalColor
+				else
+					jump.ImageColor3 = color
+				end
+			end
+		end)
+	end
+
+	local function updateCanvas()
+		scroll.CanvasSize = UDim2.new(0, 0, 0, layout.AbsoluteContentSize.Y + 5)
+	end
+
+	layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(updateCanvas)
+	updateCanvas()
+
+	-- MINIMIZAR
+	local minimized = false
+
+	mini.MouseButton1Click:Connect(function()
+		minimized = not minimized
+		scroll.Visible = not minimized
+		main.Size = minimized and
+			UDim2.new(0, 210, 0, 40) or
+			UDim2.new(0, 210, 0, 260)
+	end)
+
+	-- CERRAR
+	close.MouseButton1Click:Connect(function()
+		gui:Destroy()
+		jumpRecolorCargado = false
+	end)
+
+	-- VENTANA MOVIBLE
+	local dragging = false
+	local dragStart
+	local startPos
+
+	main.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1
+		or input.UserInputType == Enum.UserInputType.Touch then
+			if input.Position.Y <= main.AbsolutePosition.Y + 38 then
+				dragging = true
+				dragStart = input.Position
+				startPos = main.Position
+			end
+		end
+	end)
+
+	UIS.InputChanged:Connect(function(input)
+		if dragging and (
+			input.UserInputType == Enum.UserInputType.MouseMovement
+			or input.UserInputType == Enum.UserInputType.Touch
+		) then
+			local delta = input.Position - dragStart
+			main.Position = UDim2.new(
+				startPos.X.Scale,
+				startPos.X.Offset + delta.X,
+				startPos.Y.Scale,
+				startPos.Y.Offset + delta.Y
+			)
+		end
+	end)
+
+	UIS.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1
+		or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = false
+		end
+	end)
+
+	print("JUMP COLOR GUI cargado 💙")
 end)
 ----------------------------------------------------------------
 -- CONTENEDOR DEL APARTADO 🏃 (MOVIMIENTO)
