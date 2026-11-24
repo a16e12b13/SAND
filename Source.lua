@@ -9,7 +9,7 @@ local CoreGui = game:GetService("CoreGui")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
-local KEY_CORRECTA = "sand2027"
+local KEY_CORRECTA = "SAND2027"
 
 -- Lista blanca de usuarios autorizados (comparación insensible a mayúsculas/minúsculas)
 local LISTA_BLANCA = {
@@ -210,35 +210,59 @@ keyStatus.TextWrapped = true
 keyStatus.ZIndex = 22
 keyStatus.Parent = keyFrame
 
--- Botón en la esquina superior derecha, un poco más abajo de la esquina
-local ID_IMAGEN_BOTON = "rbxassetid://10377013641188"
-local LADO_BOTON_ABRIR = 64
+-- Botón gris fijo en esquina superior derecha (un poco más abajo), con ★ arriba y "creator" abajo adentro
+local LADO_BOTON_ABRIR = 68
 local POSICION_BOTON_ESQUINA = UDim2.new(1, -LADO_BOTON_ABRIR - 16, 0, 52)
 
-local toggleButton = Instance.new("ImageButton")
+local toggleButton = Instance.new("TextButton")
 toggleButton.Name = "BotonAbrir"
 toggleButton.Size = UDim2.new(0, LADO_BOTON_ABRIR, 0, LADO_BOTON_ABRIR)
 toggleButton.Position = POSICION_BOTON_ESQUINA
-toggleButton.BackgroundColor3 = Color3.fromRGB(255, 182, 193)
-toggleButton.BackgroundTransparency = 0.2
-toggleButton.Image = ID_IMAGEN_BOTON
-toggleButton.ScaleType = Enum.ScaleType.Crop
+toggleButton.BackgroundColor3 = Color3.fromRGB(135, 135, 145)
+toggleButton.BackgroundTransparency = 0.12
+toggleButton.Text = ""
+toggleButton.AutoButtonColor = true
 toggleButton.Active = true
 toggleButton.Visible = false
 toggleButton.ZIndex = 10
 toggleButton.Parent = screenGui
 
 local toggleCorner = Instance.new("UICorner")
-toggleCorner.CornerRadius = UDim.new(0, 22)
+toggleCorner.CornerRadius = UDim.new(0, 18)
 toggleCorner.Parent = toggleButton
 
 local toggleStroke = Instance.new("UIStroke")
-toggleStroke.Name = "MargenMorada"
-toggleStroke.Color = Color3.fromRGB(155, 80, 225)
-toggleStroke.Thickness = 2.4
-toggleStroke.Transparency = 0.08
+toggleStroke.Name = "MargenGris"
+toggleStroke.Color = Color3.fromRGB(215, 215, 225)
+toggleStroke.Thickness = 1.6
+toggleStroke.Transparency = 0.2
 toggleStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 toggleStroke.Parent = toggleButton
+
+local starLabel = Instance.new("TextLabel")
+starLabel.Name = "Estrella"
+starLabel.Size = UDim2.new(1, 0, 0.56, 0)
+starLabel.Position = UDim2.new(0, 0, 0.04, 0)
+starLabel.BackgroundTransparency = 1
+starLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+starLabel.Font = Enum.Font.GothamBlack
+starLabel.TextSize = 24
+starLabel.Text = "★"
+starLabel.ZIndex = 11
+starLabel.Parent = toggleButton
+
+local creatorLabel = Instance.new("TextLabel")
+creatorLabel.Name = "TextoCreator"
+creatorLabel.Size = UDim2.new(1, -6, 0.36, 0)
+creatorLabel.Position = UDim2.new(0, 3, 0.56, 0)
+creatorLabel.BackgroundTransparency = 1
+creatorLabel.TextColor3 = Color3.fromRGB(245, 245, 250)
+creatorLabel.Font = Enum.Font.GothamBold
+creatorLabel.TextSize = 11
+creatorLabel.Text = "creator"
+creatorLabel.TextScaled = true
+creatorLabel.ZIndex = 11
+creatorLabel.Parent = toggleButton
 
 -- Ventana principal (Rosa Pastel transparentosa) - Tamaño 435x320
 local ANCHO_VENTANA = 435
@@ -2518,7 +2542,7 @@ nameLabel.TextScaled = true
 nameLabel.ZIndex = 9
 nameLabel.Parent = nameBox
 
--- Validar la key "sand2027"
+-- Validar la key "SAND2027"
 local function validarKey()
 	local ingresada = string.gsub(keyInput.Text, "^%s*(.-)%s*$", "%1")
 	if ingresada == KEY_CORRECTA then
@@ -2547,15 +2571,15 @@ keyInput.FocusLost:Connect(function(enterPressed)
 	end
 end)
 
--- Botón principal arrastrable: abre la ventana y oculta el botón
-hacerArrastrable(toggleButton, toggleButton, function()
+-- Botón fijo: abre la ventana y oculta el botón
+toggleButton.MouseButton1Click:Connect(function()
 	mainFrame.Size = UDim2.new(0, ANCHO_VENTANA, 0, ALTO_VENTANA)
 	contentFrame.Visible = true
 	mainFrame.Visible = true
 	toggleButton.Visible = false
 end)
 
--- Amarillo: minimiza la ventana y muestra de nuevo el botón en la esquina superior derecha (un poco abajo)
+-- Amarillo: minimiza la ventana y muestra de nuevo el botón gris fijo en su esquina
 yellowDot.MouseButton1Click:Connect(function()
 	mainFrame.Visible = false
 	toggleButton.Position = POSICION_BOTON_ESQUINA
