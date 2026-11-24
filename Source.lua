@@ -210,10 +210,10 @@ keyStatus.TextWrapped = true
 keyStatus.ZIndex = 22
 keyStatus.Parent = keyFrame
 
--- Botón para abrir/cerrar ventana en la esquina inferior derecha
+-- Botón en la esquina superior derecha, un poco más abajo de la esquina
 local ID_IMAGEN_BOTON = "rbxassetid://10377013641188"
 local LADO_BOTON_ABRIR = 64
-local POSICION_BOTON_ESQUINA = UDim2.new(1, -LADO_BOTON_ABRIR - 20, 1, -LADO_BOTON_ABRIR - 20)
+local POSICION_BOTON_ESQUINA = UDim2.new(1, -LADO_BOTON_ABRIR - 16, 0, 52)
 
 local toggleButton = Instance.new("ImageButton")
 toggleButton.Name = "BotonAbrir"
@@ -2555,7 +2555,7 @@ hacerArrastrable(toggleButton, toggleButton, function()
 	toggleButton.Visible = false
 end)
 
--- Amarillo: minimiza la ventana y muestra de nuevo el botón en la esquina inferior derecha
+-- Amarillo: minimiza la ventana y muestra de nuevo el botón en la esquina superior derecha (un poco abajo)
 yellowDot.MouseButton1Click:Connect(function()
 	mainFrame.Visible = false
 	toggleButton.Position = POSICION_BOTON_ESQUINA
